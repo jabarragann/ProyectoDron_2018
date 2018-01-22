@@ -5,7 +5,7 @@ DEVICE          = xc6slx4-2tqg144
 BGFLAGS         = -g TdoPin:PULLNONE -g DonePin:PULLUP \
                   -g CRC:enable -g StartUpClk:CCLK
 
-XILINXCADROOT   = /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin/ise
+XILINXCADROOT   = /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/ise
 SIMGEN_OPTIONS  = -p $(FPGA_ARCH) -lang $(LANGUAGE)
 IVERILOG        = iverilog
 
