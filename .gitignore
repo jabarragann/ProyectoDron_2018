@@ -3,6 +3,9 @@
 /MCU/creator/build/
 ./MCU/creator/build/
 
+/FPGA/creator_core/build/
+./FPGA/creator_core/build/
+
 # Compiled source #
 ###################
 *.com
