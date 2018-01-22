@@ -21,7 +21,7 @@ module system
 #(
   parameter   bootram_file     = "rtl/wb_bram/image.ram",
   parameter   everloop_file    = "rtl/wb_everloop/image.ram",
-  parameter   GPIO_WIDTH       = 16
+  parameter   GPIO_WIDTH       = 14
 
 )(
   input  clk_50,
@@ -54,6 +54,12 @@ module system
   input  mcu_nrd,
   input  [10:0] mcu_addr, //TODO(andres.calderon): parameterize
   inout  [7:0]  mcu_sram_data, //TODO(andres.calderon): parameterize
+
+  /*Serial Communication Pins*/
+  input  SAM_TX,	       
+  output SAM_RX,
+  output laptop_RX,
+  input  laptop_TX,
  
   /* IR */
   input  TX_PI,
@@ -75,6 +81,10 @@ module system
   /* Debug */
   output  debug_led
 );
+
+//Connect SAM MCU Uart Pins to external pins
+assign laptop_RX = SAM_TX;
+assign SAM_RX = laptop_TX;
 
 //Set up IR
 assign TX_IR = TX_PI;

@@ -20,6 +20,14 @@ NET sck TNM_NET = sck_grp;
 ##### Clock Period Constraints #####
 TIMESPEC TS_PER_SCK = PERIOD "sck_grp" 20.0 ns HIGH 50%;
 
+######################
+###Serial PIN SAM3S###
+######################
+
+NET "SAM_TX" LOC = "P2" | IOSTANDARD = LVCMOS33;
+NET "SAM_RX" LOC = "P5" | IOSTANDARD = LVCMOS33;
+NET "laptop_RX" LOC="P79" | IOSTANDARD = LVCMOS33;
+NET "laptop_TX" LOC="P78" | IOSTANDARD = LVCMOS33;
 
 #######################
 # Pin LOC Constraints #
@@ -109,8 +117,8 @@ NET "mcu_ncs"   LOC = "P8" | IOSTANDARD = LVCMOS33;
 #    EXP-CONN         #
 #######################
 
-NET "gpio_io<15>" LOC="P102" | IOSTANDARD = LVCMOS33;
-NET "gpio_io<14>" LOC="P101" | IOSTANDARD = LVCMOS33;
+NET "gpio_io<1>" LOC="P102" | IOSTANDARD = LVCMOS33;
+NET "gpio_io<0>" LOC="P101" | IOSTANDARD = LVCMOS33;
 NET "gpio_io<13>" LOC="P99" | IOSTANDARD = LVCMOS33;
 NET "gpio_io<12>" LOC="P98" | IOSTANDARD = LVCMOS33;
 NET "gpio_io<11>" LOC="P95" | IOSTANDARD = LVCMOS33;
@@ -123,8 +131,8 @@ NET "gpio_io<5>" LOC="P83" | IOSTANDARD = LVCMOS33;
 NET "gpio_io<4>" LOC="P82" | IOSTANDARD = LVCMOS33;
 NET "gpio_io<3>" LOC="P81" | IOSTANDARD = LVCMOS33;
 NET "gpio_io<2>" LOC="P80" | IOSTANDARD = LVCMOS33;
-NET "gpio_io<1>" LOC="P79" | IOSTANDARD = LVCMOS33;
-NET "gpio_io<0>" LOC="P78" | IOSTANDARD = LVCMOS33;
+#NET "gpio_io<1>" LOC="P79" | IOSTANDARD = LVCMOS33;
+#NET "gpio_io<0>" LOC="P78" | IOSTANDARD = LVCMOS33;
 
 #########################
 #        ZIGBEE         #
