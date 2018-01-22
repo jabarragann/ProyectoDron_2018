@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccgtmjoq.s 			page 1
+ARM GAS  /tmp/cclnpLQ1.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
   55              	.L2:
   56 0028 07000000 		.word	__heap_base__+7
   57              		.cfi_endproc
-ARM GAS  /tmp/ccgtmjoq.s 			page 2
+ARM GAS  /tmp/cclnpLQ1.s 			page 2
 
 
   58              	.LFE7:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  112              	.LBE7:
  113              	.LBB9:
  114              		.loc 1 96 0
-ARM GAS  /tmp/ccgtmjoq.s 			page 3
+ARM GAS  /tmp/cclnpLQ1.s 			page 3
 
 
  115 002e 0023     		movs	r3, #0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  167 0028 7047     		bx	lr
  168              		.cfi_endproc
  169              	.LFE9:
-ARM GAS  /tmp/ccgtmjoq.s 			page 4
+ARM GAS  /tmp/cclnpLQ1.s 			page 4
 
 
  170              		.size	chCoreAllocI, .-chCoreAllocI
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  222 000b 01       		.uleb128 0x1
  223 000c 5D000000 		.4byte	.LASF18
  224 0010 01       		.byte	0x1
-ARM GAS  /tmp/ccgtmjoq.s 			page 5
+ARM GAS  /tmp/cclnpLQ1.s 			page 5
 
 
  225 0011 1C010000 		.4byte	.LASF19
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  279 0080 05       		.byte	0x5
  280 0081 00000000 		.4byte	.LASF10
  281 0085 04       		.uleb128 0x4
-ARM GAS  /tmp/ccgtmjoq.s 			page 6
+ARM GAS  /tmp/cclnpLQ1.s 			page 6
 
 
  282 0086 08       		.byte	0x8
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  336 00f3 0C       		.uleb128 0xc
  337 00f4 45000000 		.4byte	0x45
  338 00f8 FE000000 		.4byte	0xfe
-ARM GAS  /tmp/ccgtmjoq.s 			page 7
+ARM GAS  /tmp/cclnpLQ1.s 			page 7
 
 
  339 00fc 0D       		.uleb128 0xd
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  393 0178 14       		.uleb128 0x14
  394 0179 2E000000 		.4byte	.LBB9
  395 017d 06000000 		.4byte	.LBE9-.LBB9
-ARM GAS  /tmp/ccgtmjoq.s 			page 8
+ARM GAS  /tmp/cclnpLQ1.s 			page 8
 
 
  396 0181 11       		.uleb128 0x11
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  450 01f6 0B       		.uleb128 0xb
  451 01f7 30000000 		.4byte	.LASF15
  452 01fb 01       		.byte	0x1
-ARM GAS  /tmp/ccgtmjoq.s 			page 9
+ARM GAS  /tmp/cclnpLQ1.s 			page 9
 
 
  453 01fc 45       		.byte	0x45
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  507 0031 0B       		.uleb128 0xb
  508 0032 03       		.uleb128 0x3
  509 0033 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccgtmjoq.s 			page 10
+ARM GAS  /tmp/cclnpLQ1.s 			page 10
 
 
  510 0034 00       		.byte	0
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  564 006a 00       		.byte	0
  565 006b 03       		.uleb128 0x3
  566 006c 08       		.uleb128 0x8
-ARM GAS  /tmp/ccgtmjoq.s 			page 11
+ARM GAS  /tmp/cclnpLQ1.s 			page 11
 
 
  567 006d 3A       		.uleb128 0x3a
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  621 00a4 13       		.uleb128 0x13
  622 00a5 01       		.uleb128 0x1
  623 00a6 13       		.uleb128 0x13
-ARM GAS  /tmp/ccgtmjoq.s 			page 12
+ARM GAS  /tmp/cclnpLQ1.s 			page 12
 
 
  624 00a7 00       		.byte	0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  678 00de 12       		.uleb128 0x12
  679 00df 06       		.uleb128 0x6
  680 00e0 01       		.uleb128 0x1
-ARM GAS  /tmp/ccgtmjoq.s 			page 13
+ARM GAS  /tmp/cclnpLQ1.s 			page 13
 
 
  681 00e1 13       		.uleb128 0x13
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  735 0117 34       		.uleb128 0x34
  736 0118 00       		.byte	0
  737 0119 31       		.uleb128 0x31
-ARM GAS  /tmp/ccgtmjoq.s 			page 14
+ARM GAS  /tmp/cclnpLQ1.s 			page 14
 
 
  738 011a 13       		.uleb128 0x13
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  792 0152 3B       		.uleb128 0x3b
  793 0153 0B       		.uleb128 0xb
  794 0154 49       		.uleb128 0x49
-ARM GAS  /tmp/ccgtmjoq.s 			page 15
+ARM GAS  /tmp/cclnpLQ1.s 			page 15
 
 
  795 0155 13       		.uleb128 0x13
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  849 0063 9F       		.byte	0x9f
  850 0064 00000000 		.4byte	0
  851 0068 00000000 		.4byte	0
-ARM GAS  /tmp/ccgtmjoq.s 			page 16
+ARM GAS  /tmp/cclnpLQ1.s 			page 16
 
 
  852              	.LLST2:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  906 0014 2A000000 		.4byte	.LFE9
  907 0018 00000000 		.4byte	.LFB10
  908 001c 18000000 		.4byte	.LFE10
-ARM GAS  /tmp/ccgtmjoq.s 			page 17
+ARM GAS  /tmp/cclnpLQ1.s 			page 17
 
 
  909 0020 00000000 		.4byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  931      2D66756E 
  931      6374696F 
  931      6E733D31 
-ARM GAS  /tmp/ccgtmjoq.s 			page 18
+ARM GAS  /tmp/cclnpLQ1.s 			page 18
 
 
  931      36202D66 
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  955      00
  956              	.LASF1:
  957 01cf 7369676E 		.ascii	"signed char\000"
-ARM GAS  /tmp/ccgtmjoq.s 			page 19
+ARM GAS  /tmp/cclnpLQ1.s 			page 19
 
 
  957      65642063 
@@ -1109,28 +1109,28 @@ ARM GAS  /tmp/ccgtmjoq.s 			page 1
  969      61747573 
  969      00
  970              		.ident	"GCC: (Sourcery CodeBench Lite 2013.11-24) 4.8.1"
-ARM GAS  /tmp/ccgtmjoq.s 			page 20
+ARM GAS  /tmp/cclnpLQ1.s 			page 20
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chmemcore.c
-     /tmp/ccgtmjoq.s:19     .text._core_init:00000000 $t
-     /tmp/ccgtmjoq.s:25     .text._core_init:00000000 _core_init
-     /tmp/ccgtmjoq.s:200    .bss.endmem:00000000 .LANCHOR1
-     /tmp/ccgtmjoq.s:207    .bss.nextmem:00000000 .LANCHOR0
-     /tmp/ccgtmjoq.s:56     .text._core_init:00000028 $d
-     /tmp/ccgtmjoq.s:61     .text.chCoreAlloc:00000000 $t
-     /tmp/ccgtmjoq.s:67     .text.chCoreAlloc:00000000 chCoreAlloc
-     /tmp/ccgtmjoq.s:127    .text.chCoreAllocI:00000000 $t
-     /tmp/ccgtmjoq.s:133    .text.chCoreAllocI:00000000 chCoreAllocI
-     /tmp/ccgtmjoq.s:172    .text.chCoreStatus:00000000 $t
-     /tmp/ccgtmjoq.s:178    .text.chCoreStatus:00000000 chCoreStatus
-     /tmp/ccgtmjoq.s:199    .bss.endmem:00000000 $d
-     /tmp/ccgtmjoq.s:203    .bss.endmem:00000000 endmem
-     /tmp/ccgtmjoq.s:206    .bss.nextmem:00000000 $d
-     /tmp/ccgtmjoq.s:210    .bss.nextmem:00000000 nextmem
+     /tmp/cclnpLQ1.s:19     .text._core_init:00000000 $t
+     /tmp/cclnpLQ1.s:25     .text._core_init:00000000 _core_init
+     /tmp/cclnpLQ1.s:200    .bss.endmem:00000000 .LANCHOR1
+     /tmp/cclnpLQ1.s:207    .bss.nextmem:00000000 .LANCHOR0
+     /tmp/cclnpLQ1.s:56     .text._core_init:00000028 $d
+     /tmp/cclnpLQ1.s:61     .text.chCoreAlloc:00000000 $t
+     /tmp/cclnpLQ1.s:67     .text.chCoreAlloc:00000000 chCoreAlloc
+     /tmp/cclnpLQ1.s:127    .text.chCoreAllocI:00000000 $t
+     /tmp/cclnpLQ1.s:133    .text.chCoreAllocI:00000000 chCoreAllocI
+     /tmp/cclnpLQ1.s:172    .text.chCoreStatus:00000000 $t
+     /tmp/cclnpLQ1.s:178    .text.chCoreStatus:00000000 chCoreStatus
+     /tmp/cclnpLQ1.s:199    .bss.endmem:00000000 $d
+     /tmp/cclnpLQ1.s:203    .bss.endmem:00000000 endmem
+     /tmp/cclnpLQ1.s:206    .bss.nextmem:00000000 $d
+     /tmp/cclnpLQ1.s:210    .bss.nextmem:00000000 nextmem
                      .debug_frame:00000010 $d
-     /tmp/ccgtmjoq.s:60     .text._core_init:0000002c $t
+     /tmp/cclnpLQ1.s:60     .text._core_init:0000002c $t
 
 UNDEFINED SYMBOLS
 __heap_end__

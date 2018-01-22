@@ -53,6 +53,8 @@ void psram_copy(uint8_t mem_offset, char *data, uint8_t len) {
   }
 }
 
+
+/*
 static WORKING_AREA(waEnvThread, 256);
 static msg_t EnvThread(void *arg) {
   (void)arg;
@@ -74,10 +76,11 @@ static msg_t EnvThread(void *arg) {
   mcu_info.version = kFirmwareVersion;
 
   while (true) {
-    palSetPad(IOPORT3, 17);
+		
+		palSetPad(IOPORT3, 17);
     chThdSleepMilliseconds(1);
     palClearPad(IOPORT3, 17);
-
+		    
     hts221.GetData(hum.humidity, hum.temperature);
 
     press.altitude = mpl3115a2.GetAltitude();
@@ -92,7 +95,7 @@ static msg_t EnvThread(void *arg) {
     psram_copy(mem_offset_uv, (char *)&uv, sizeof(uv));
   }
   return (0);
-}
+}*/
 
 static WORKING_AREA(waIMUThread, 512);
 static msg_t IMUThread(void *arg) {
@@ -121,15 +124,27 @@ static msg_t IMUThread(void *arg) {
 
     data.yaw = atan2(data.mag_y, -data.mag_x) * 180.0 / M_PI;
     data.roll = atan2(data.accel_y, data.accel_z) * 180.0 / M_PI;
-    data.pitch = atan2(-data.accel_x, sqrt(data.accel_y * data.accel_y +
-                                           data.accel_z * data.accel_z)) *
-                 180.0 / M_PI;
+    data.pitch = atan2(-data.accel_x, sqrt(data.accel_y * data.accel_y + data.accel_z * data.accel_z)) * 180.0 / M_PI;
 
     psram_copy(mem_offset_imu, (char *)&data, sizeof(data));
 
     chThdSleepMilliseconds(20);
 
     WDT_Restart( WDT ) ;
+  }
+  return (0);
+}
+
+static WORKING_AREA(waBlinkingThread, 64);
+static msg_t BlinkingThread(void *arg) {
+
+  (void)arg;
+ 
+  while (true) {
+    palSetPad(IOPORT3, 17);
+    chThdSleepMilliseconds(100);
+    palClearPad(IOPORT3, 17);
+		chThdSleepMilliseconds(100);
   }
   return (0);
 }
@@ -149,13 +164,17 @@ int main(void) {
   BOARD_ConfigurePSRAM(SMC);
 
   i2c.Init();
+  
   /* Creates the imu thread. */
-  chThdCreateStatic(waIMUThread, sizeof(waIMUThread), NORMALPRIO, IMUThread,
-                    NULL);
+  chThdCreateStatic(waIMUThread, sizeof(waIMUThread), HIGHPRIO, IMUThread,NULL);
 
   /* Creates the hum thread. */
-  chThdCreateStatic(waEnvThread, sizeof(waEnvThread), NORMALPRIO, EnvThread,
-                    NULL);
+  //chThdCreateStatic(waEnvThread, sizeof(waEnvThread), NORMALPRIO, EnvThread,NULL);
 
+	/* Creates the blinking thread.*/
+	chThdCreateStatic(waBlinkingThread, sizeof(waBlinkingThread), NORMALPRIO, BlinkingThread,NULL);
+	
+
+	
   return (0);
 }

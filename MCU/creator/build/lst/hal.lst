@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc56W3Mu.s 			page 1
+ARM GAS  /tmp/cccAuhI8.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
   55 001e 00BF     		.text
   56              	.Letext0:
   57              		.file 2 "../third_party/ChibiOS/os/hal/platforms/AT91SAM3S/pal_lld.h"
-ARM GAS  /tmp/cc56W3Mu.s 			page 2
+ARM GAS  /tmp/cccAuhI8.s 			page 2
 
 
   58              		.file 3 "/home/santi/arm-2013.11/arm-none-eabi/include/stdint.h"
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
  112 0063 07       		.byte	0x7
  113 0064 7C000000 		.4byte	.LASF6
  114 0068 03       		.uleb128 0x3
-ARM GAS  /tmp/cc56W3Mu.s 			page 3
+ARM GAS  /tmp/cccAuhI8.s 			page 3
 
 
  115 0069 08       		.byte	0x8
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
  169 00cf 00       		.byte	0
  170 00d0 06       		.uleb128 0x6
  171 00d1 B3000000 		.4byte	.LASF16
-ARM GAS  /tmp/cc56W3Mu.s 			page 4
+ARM GAS  /tmp/cccAuhI8.s 			page 4
 
 
  172 00d5 02       		.byte	0x2
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
  226 0154 05       		.byte	0x5
  227 0155 50       		.byte	0x50
  228 0156 10       		.uleb128 0x10
-ARM GAS  /tmp/cc56W3Mu.s 			page 5
+ARM GAS  /tmp/cccAuhI8.s 			page 5
 
 
  229 0157 00000000 		.4byte	.LASF28
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
  283 0021 0B       		.uleb128 0xb
  284 0022 0B       		.uleb128 0xb
  285 0023 3E       		.uleb128 0x3e
-ARM GAS  /tmp/cc56W3Mu.s 			page 6
+ARM GAS  /tmp/cccAuhI8.s 			page 6
 
 
  286 0024 0B       		.uleb128 0xb
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
  340 005a 0B       		.uleb128 0xb
  341 005b 49       		.uleb128 0x49
  342 005c 13       		.uleb128 0x13
-ARM GAS  /tmp/cc56W3Mu.s 			page 7
+ARM GAS  /tmp/cccAuhI8.s 			page 7
 
 
  343 005d 38       		.uleb128 0x38
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
  397 0099 3A       		.uleb128 0x3a
  398 009a 0B       		.uleb128 0xb
  399 009b 3B       		.uleb128 0x3b
-ARM GAS  /tmp/cc56W3Mu.s 			page 8
+ARM GAS  /tmp/cccAuhI8.s 			page 8
 
 
  400 009c 05       		.uleb128 0x5
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
  454 00d2 19       		.uleb128 0x19
  455 00d3 00       		.byte	0
  456 00d4 00       		.byte	0
-ARM GAS  /tmp/cc56W3Mu.s 			page 9
+ARM GAS  /tmp/cccAuhI8.s 			page 9
 
 
  457 00d5 10       		.uleb128 0x10
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
  511 0000 1C000000 		.4byte	0x1c
  512 0004 0200     		.2byte	0x2
  513 0006 00000000 		.4byte	.Ldebug_info0
-ARM GAS  /tmp/cc56W3Mu.s 			page 10
+ARM GAS  /tmp/cccAuhI8.s 			page 10
 
 
  514 000a 04       		.byte	0x4
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
  547 007c 6C6F6E67 		.ascii	"long unsigned int\000"
  547      20756E73 
  547      69676E65 
-ARM GAS  /tmp/cc56W3Mu.s 			page 11
+ARM GAS  /tmp/cccAuhI8.s 			page 11
 
 
  547      6420696E 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
  570      62202D67 
  570      67646220 
  570      2D4F3220 
-ARM GAS  /tmp/cc56W3Mu.s 			page 12
+ARM GAS  /tmp/cccAuhI8.s 			page 12
 
 
  570      2D737464 
@@ -714,13 +714,13 @@ ARM GAS  /tmp/cc56W3Mu.s 			page 1
  592      696E6974 
  592      00
  593              		.ident	"GCC: (Sourcery CodeBench Lite 2013.11-24) 4.8.1"
-ARM GAS  /tmp/cc56W3Mu.s 			page 13
+ARM GAS  /tmp/cccAuhI8.s 			page 13
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 hal.c
-     /tmp/cc56W3Mu.s:19     .text.halInit:00000000 $t
-     /tmp/cc56W3Mu.s:25     .text.halInit:00000000 halInit
+     /tmp/cccAuhI8.s:19     .text.halInit:00000000 $t
+     /tmp/cccAuhI8.s:25     .text.halInit:00000000 halInit
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

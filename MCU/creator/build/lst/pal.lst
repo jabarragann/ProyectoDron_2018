@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccVhSb2w.s 			page 1
+ARM GAS  /tmp/ccM8XsC9.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
   55              	.LFB37:
   56              		.loc 1 101 0
   57              		.cfi_startproc
-ARM GAS  /tmp/ccVhSb2w.s 			page 2
+ARM GAS  /tmp/ccM8XsC9.s 			page 2
 
 
   58              		@ args = 0, pretend = 0, frame = 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  110              	.LFE38:
  111              		.size	palSetBusMode, .-palSetBusMode
  112 0016 00BFAFF3 		.text
-ARM GAS  /tmp/ccVhSb2w.s 			page 3
+ARM GAS  /tmp/ccM8XsC9.s 			page 3
 
 
  112      0080AFF3 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  165 005d 61000000 		.4byte	0x61
  166 0061 03       		.uleb128 0x3
  167 0062 04       		.byte	0x4
-ARM GAS  /tmp/ccVhSb2w.s 			page 4
+ARM GAS  /tmp/ccM8XsC9.s 			page 4
 
 
  168 0063 07       		.byte	0x7
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  222 00d8 00       		.byte	0
  223 00d9 00       		.byte	0
  224 00da 07       		.uleb128 0x7
-ARM GAS  /tmp/ccVhSb2w.s 			page 5
+ARM GAS  /tmp/ccM8XsC9.s 			page 5
 
 
  225 00db AF000000 		.4byte	0xaf
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  279 0152 0A       		.uleb128 0xa
  280 0153 4C000000 		.4byte	.LASF22
  281 0157 03       		.byte	0x3
-ARM GAS  /tmp/ccVhSb2w.s 			page 6
+ARM GAS  /tmp/ccM8XsC9.s 			page 6
 
 
  282 0158 E106     		.2byte	0x6e1
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  336 01cd EA06     		.2byte	0x6ea
  337 01cf 94000000 		.4byte	0x94
  338 01d3 3C       		.byte	0x3c
-ARM GAS  /tmp/ccVhSb2w.s 			page 7
+ARM GAS  /tmp/ccM8XsC9.s 			page 7
 
 
  339 01d4 0A       		.uleb128 0xa
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  393 0249 0A       		.uleb128 0xa
  394 024a 14030000 		.4byte	.LASF41
  395 024e 03       		.byte	0x3
-ARM GAS  /tmp/ccVhSb2w.s 			page 8
+ARM GAS  /tmp/ccM8XsC9.s 			page 8
 
 
  396 024f F406     		.2byte	0x6f4
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  450 02c4 FD06     		.2byte	0x6fd
  451 02c6 A4000000 		.4byte	0xa4
  452 02ca 90       		.byte	0x90
-ARM GAS  /tmp/ccVhSb2w.s 			page 9
+ARM GAS  /tmp/ccM8XsC9.s 			page 9
 
 
  453 02cb 0A       		.uleb128 0xa
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  507 0340 0A       		.uleb128 0xa
  508 0341 F0010000 		.4byte	.LASF60
  509 0345 03       		.byte	0x3
-ARM GAS  /tmp/ccVhSb2w.s 			page 10
+ARM GAS  /tmp/ccM8XsC9.s 			page 10
 
 
  510 0346 0707     		.2byte	0x707
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  564 03bb 1007     		.2byte	0x710
  565 03bd 2A050000 		.4byte	0x52a
  566 03c1 DC       		.byte	0xdc
-ARM GAS  /tmp/ccVhSb2w.s 			page 11
+ARM GAS  /tmp/ccM8XsC9.s 			page 11
 
 
  567 03c2 0A       		.uleb128 0xa
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  621 043c 0B       		.uleb128 0xb
  622 043d CA020000 		.4byte	.LASF79
  623 0441 03       		.byte	0x3
-ARM GAS  /tmp/ccVhSb2w.s 			page 12
+ARM GAS  /tmp/ccM8XsC9.s 			page 12
 
 
  624 0442 1A07     		.2byte	0x71a
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  678 04c0 2307     		.2byte	0x723
  679 04c2 AF000000 		.4byte	0xaf
  680 04c6 8001     		.2byte	0x180
-ARM GAS  /tmp/ccVhSb2w.s 			page 13
+ARM GAS  /tmp/ccM8XsC9.s 			page 13
 
 
  681 04c8 0B       		.uleb128 0xb
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  735 054a 04       		.byte	0x4
  736 054b 2E       		.byte	0x2e
  737 054c 56000000 		.4byte	0x56
-ARM GAS  /tmp/ccVhSb2w.s 			page 14
+ARM GAS  /tmp/ccM8XsC9.s 			page 14
 
 
  738 0550 04       		.uleb128 0x4
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  792 05c2 01       		.byte	0x1
  793 05c3 4C       		.byte	0x4c
  794 05c4 CD050000 		.4byte	0x5cd
-ARM GAS  /tmp/ccVhSb2w.s 			page 15
+ARM GAS  /tmp/ccM8XsC9.s 			page 15
 
 
  795 05c8 00000000 		.4byte	.LLST0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  849 0643 52       		.byte	0x52
  850 0644 03       		.uleb128 0x3
  851 0645 F3       		.byte	0xf3
-ARM GAS  /tmp/ccVhSb2w.s 			page 16
+ARM GAS  /tmp/ccM8XsC9.s 			page 16
 
 
  852 0646 01       		.uleb128 0x1
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  906 001d 00       		.byte	0
  907 001e 03       		.uleb128 0x3
  908 001f 24       		.uleb128 0x24
-ARM GAS  /tmp/ccVhSb2w.s 			page 17
+ARM GAS  /tmp/ccM8XsC9.s 			page 17
 
 
  909 0020 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  963 0056 09       		.uleb128 0x9
  964 0057 13       		.uleb128 0x13
  965 0058 01       		.byte	0x1
-ARM GAS  /tmp/ccVhSb2w.s 			page 18
+ARM GAS  /tmp/ccM8XsC9.s 			page 18
 
 
  966 0059 0B       		.uleb128 0xb
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1020 008f 0F       		.uleb128 0xf
  1021 0090 00       		.byte	0
  1022 0091 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccVhSb2w.s 			page 19
+ARM GAS  /tmp/ccM8XsC9.s 			page 19
 
 
  1023 0092 0B       		.uleb128 0xb
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1077 00c8 9742     		.uleb128 0x2117
  1078 00ca 19       		.uleb128 0x19
  1079 00cb 01       		.uleb128 0x1
-ARM GAS  /tmp/ccVhSb2w.s 			page 20
+ARM GAS  /tmp/ccM8XsC9.s 			page 20
 
 
  1080 00cc 13       		.uleb128 0x13
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1134 0103 02       		.uleb128 0x2
  1135 0104 18       		.uleb128 0x18
  1136 0105 00       		.byte	0
-ARM GAS  /tmp/ccVhSb2w.s 			page 21
+ARM GAS  /tmp/ccM8XsC9.s 			page 21
 
 
  1137 0106 00       		.byte	0
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1191 0142 2E       		.uleb128 0x2e
  1192 0143 01       		.byte	0x1
  1193 0144 3F       		.uleb128 0x3f
-ARM GAS  /tmp/ccVhSb2w.s 			page 22
+ARM GAS  /tmp/ccM8XsC9.s 			page 22
 
 
  1194 0145 19       		.uleb128 0x19
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1248 004a 0100     		.2byte	0x1
  1249 004c 50       		.byte	0x50
  1250 004d 0A000000 		.4byte	.LVL5
-ARM GAS  /tmp/ccVhSb2w.s 			page 23
+ARM GAS  /tmp/ccM8XsC9.s 			page 23
 
 
  1251 0051 16000000 		.4byte	.LFE38
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1305 0000 77010000 		.section	.debug_str,"MS",%progbits,1
  1305      02003901 
  1305      00000201 
-ARM GAS  /tmp/ccVhSb2w.s 			page 24
+ARM GAS  /tmp/ccM8XsC9.s 			page 24
 
 
  1305      FB0E0D00 
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1333      72746964 
  1333      5F7400
  1334              	.LASF98:
-ARM GAS  /tmp/ccVhSb2w.s 			page 25
+ARM GAS  /tmp/ccM8XsC9.s 			page 25
 
 
  1335 0091 494F4275 		.ascii	"IOBus\000"
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1364              	.LASF93:
  1365 0116 696F706F 		.ascii	"ioportmask_t\000"
  1365      72746D61 
-ARM GAS  /tmp/ccVhSb2w.s 			page 26
+ARM GAS  /tmp/ccM8XsC9.s 			page 26
 
 
  1365      736B5F74 
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1391      00
  1392              	.LASF42:
  1393 01a8 50494F5F 		.ascii	"PIO_PUSR\000"
-ARM GAS  /tmp/ccVhSb2w.s 			page 27
+ARM GAS  /tmp/ccM8XsC9.s 			page 27
 
 
  1393      50555352 
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1421      00
  1422              	.LASF70:
  1423 0236 50494F5F 		.ascii	"PIO_LOCKSR\000"
-ARM GAS  /tmp/ccVhSb2w.s 			page 28
+ARM GAS  /tmp/ccM8XsC9.s 			page 28
 
 
  1423      4C4F434B 
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1449      00
  1450              	.LASF12:
  1451 02c5 63686172 		.ascii	"char\000"
-ARM GAS  /tmp/ccVhSb2w.s 			page 29
+ARM GAS  /tmp/ccM8XsC9.s 			page 29
 
 
  1451      00
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1477      49535200 
  1478              	.LASF45:
  1479 036f 52657365 		.ascii	"Reserved6\000"
-ARM GAS  /tmp/ccVhSb2w.s 			page 30
+ARM GAS  /tmp/ccM8XsC9.s 			page 30
 
 
  1479      72766564 
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1502 046e 2F686F6D 		.ascii	"/home/santi/Documentos/ProyectoDron_2018/MCU/creato"
  1502      652F7361 
  1502      6E74692F 
-ARM GAS  /tmp/ccVhSb2w.s 			page 31
+ARM GAS  /tmp/ccM8XsC9.s 			page 31
 
 
  1502      446F6375 
@@ -1851,17 +1851,17 @@ ARM GAS  /tmp/ccVhSb2w.s 			page 1
  1527 050e 50494F5F 		.ascii	"PIO_PSR\000"
  1527      50535200 
  1528              		.ident	"GCC: (Sourcery CodeBench Lite 2013.11-24) 4.8.1"
-ARM GAS  /tmp/ccVhSb2w.s 			page 32
+ARM GAS  /tmp/ccM8XsC9.s 			page 32
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pal.c
-     /tmp/ccVhSb2w.s:19     .text.palReadBus:00000000 $t
-     /tmp/ccVhSb2w.s:25     .text.palReadBus:00000000 palReadBus
-     /tmp/ccVhSb2w.s:48     .text.palWriteBus:00000000 $t
-     /tmp/ccVhSb2w.s:54     .text.palWriteBus:00000000 palWriteBus
-     /tmp/ccVhSb2w.s:77     .text.palSetBusMode:00000000 $t
-     /tmp/ccVhSb2w.s:83     .text.palSetBusMode:00000000 palSetBusMode
+     /tmp/ccM8XsC9.s:19     .text.palReadBus:00000000 $t
+     /tmp/ccM8XsC9.s:25     .text.palReadBus:00000000 palReadBus
+     /tmp/ccM8XsC9.s:48     .text.palWriteBus:00000000 $t
+     /tmp/ccM8XsC9.s:54     .text.palWriteBus:00000000 palWriteBus
+     /tmp/ccM8XsC9.s:77     .text.palSetBusMode:00000000 $t
+     /tmp/ccM8XsC9.s:83     .text.palSetBusMode:00000000 palSetBusMode
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

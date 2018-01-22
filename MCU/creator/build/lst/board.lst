@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccynCAHi.s 			page 1
+ARM GAS  /tmp/cc34nIaX.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
   53              		.cfi_def_cfa_offset 8
   54              		.cfi_offset 4, -8
   55              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccynCAHi.s 			page 2
+ARM GAS  /tmp/cc34nIaX.s 			page 2
 
 
   56              		.loc 1 63 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  110              		.size	pal_default_config, 36
  111              	pal_default_config:
  112 0000 00000000 		.word	0
-ARM GAS  /tmp/ccynCAHi.s 			page 3
+ARM GAS  /tmp/cc34nIaX.s 			page 3
 
 
  113 0004 00000000 		.word	0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  167 0050 04       		.byte	0x4
  168 0051 05       		.byte	0x5
  169 0052 29020000 		.4byte	.LASF5
-ARM GAS  /tmp/ccynCAHi.s 			page 4
+ARM GAS  /tmp/cc34nIaX.s 			page 4
 
 
  170 0056 04       		.uleb128 0x4
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  224 00c8 12       		.byte	0x12
  225 00c9 00       		.byte	0
  226 00ca 07       		.uleb128 0x7
-ARM GAS  /tmp/ccynCAHi.s 			page 5
+ARM GAS  /tmp/cc34nIaX.s 			page 5
 
 
  227 00cb AF000000 		.4byte	0xaf
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  281 0144 10       		.byte	0x10
  282 0145 0A       		.uleb128 0xa
  283 0146 52000000 		.4byte	.LASF21
-ARM GAS  /tmp/ccynCAHi.s 			page 6
+ARM GAS  /tmp/cc34nIaX.s 			page 6
 
 
  284 014a 03       		.byte	0x3
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  338 01bf 03       		.byte	0x3
  339 01c0 E906     		.2byte	0x6e9
  340 01c2 AF000000 		.4byte	0xaf
-ARM GAS  /tmp/ccynCAHi.s 			page 7
+ARM GAS  /tmp/cc34nIaX.s 			page 7
 
 
  341 01c6 38       		.byte	0x38
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  395 023b 5C       		.byte	0x5c
  396 023c 0A       		.uleb128 0xa
  397 023d 4F020000 		.4byte	.LASF40
-ARM GAS  /tmp/ccynCAHi.s 			page 8
+ARM GAS  /tmp/cc34nIaX.s 			page 8
 
 
  398 0241 03       		.byte	0x3
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  452 02b6 03       		.byte	0x3
  453 02b7 FC06     		.2byte	0x6fc
  454 02b9 AF000000 		.4byte	0xaf
-ARM GAS  /tmp/ccynCAHi.s 			page 9
+ARM GAS  /tmp/cc34nIaX.s 			page 9
 
 
  455 02bd 8C       		.byte	0x8c
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  509 0332 B0       		.byte	0xb0
  510 0333 0A       		.uleb128 0xa
  511 0334 45020000 		.4byte	.LASF59
-ARM GAS  /tmp/ccynCAHi.s 			page 10
+ARM GAS  /tmp/cc34nIaX.s 			page 10
 
 
  512 0338 03       		.byte	0x3
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  566 03ad 03       		.byte	0x3
  567 03ae 0F07     		.2byte	0x70f
  568 03b0 94000000 		.4byte	0x94
-ARM GAS  /tmp/ccynCAHi.s 			page 11
+ARM GAS  /tmp/cc34nIaX.s 			page 11
 
 
  569 03b4 D8       		.byte	0xd8
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  623 042c 5401     		.2byte	0x154
  624 042e 0B       		.uleb128 0xb
  625 042f 94010000 		.4byte	.LASF78
-ARM GAS  /tmp/ccynCAHi.s 			page 12
+ARM GAS  /tmp/cc34nIaX.s 			page 12
 
 
  626 0433 03       		.byte	0x3
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  680 04b1 03       		.byte	0x3
  681 04b2 2207     		.2byte	0x722
  682 04b4 AF000000 		.4byte	0xaf
-ARM GAS  /tmp/ccynCAHi.s 			page 13
+ARM GAS  /tmp/cc34nIaX.s 			page 13
 
 
  683 04b8 7C01     		.2byte	0x17c
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  737 0539 0C       		.uleb128 0xc
  738 053a 50696F00 		.ascii	"Pio\000"
  739 053e 03       		.byte	0x3
-ARM GAS  /tmp/ccynCAHi.s 			page 14
+ARM GAS  /tmp/cc34nIaX.s 			page 14
 
 
  740 053f 2707     		.2byte	0x727
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  794 05a9 00       		.byte	0
  795 05aa 04       		.uleb128 0x4
  796 05ab 91030000 		.4byte	.LASF98
-ARM GAS  /tmp/ccynCAHi.s 			page 15
+ARM GAS  /tmp/cc34nIaX.s 			page 15
 
 
  797 05af 04       		.byte	0x4
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  851 061e 14       		.uleb128 0x14
  852 061f 01       		.uleb128 0x1
  853 0620 50       		.byte	0x50
-ARM GAS  /tmp/ccynCAHi.s 			page 16
+ARM GAS  /tmp/cc34nIaX.s 			page 16
 
 
  854 0621 02       		.uleb128 0x2
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  908 0672 14       		.uleb128 0x14
  909 0673 01       		.uleb128 0x1
  910 0674 51       		.byte	0x51
-ARM GAS  /tmp/ccynCAHi.s 			page 17
+ARM GAS  /tmp/cc34nIaX.s 			page 17
 
 
  911 0675 01       		.uleb128 0x1
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  965 0000 01       		.uleb128 0x1
  966 0001 11       		.uleb128 0x11
  967 0002 01       		.byte	0x1
-ARM GAS  /tmp/ccynCAHi.s 			page 18
+ARM GAS  /tmp/cc34nIaX.s 			page 18
 
 
  968 0003 25       		.uleb128 0x25
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1022 0039 49       		.uleb128 0x49
  1023 003a 13       		.uleb128 0x13
  1024 003b 00       		.byte	0
-ARM GAS  /tmp/ccynCAHi.s 			page 19
+ARM GAS  /tmp/cc34nIaX.s 			page 19
 
 
  1025 003c 00       		.byte	0
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1079 0072 0B       		.uleb128 0xb
  1080 0073 0D       		.uleb128 0xd
  1081 0074 00       		.byte	0
-ARM GAS  /tmp/ccynCAHi.s 			page 20
+ARM GAS  /tmp/cc34nIaX.s 			page 20
 
 
  1082 0075 03       		.uleb128 0x3
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1136 00ab 0D       		.uleb128 0xd
  1137 00ac 00       		.byte	0
  1138 00ad 03       		.uleb128 0x3
-ARM GAS  /tmp/ccynCAHi.s 			page 21
+ARM GAS  /tmp/cc34nIaX.s 			page 21
 
 
  1139 00ae 08       		.uleb128 0x8
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1193 00e8 00       		.byte	0
  1194 00e9 00       		.byte	0
  1195 00ea 13       		.uleb128 0x13
-ARM GAS  /tmp/ccynCAHi.s 			page 22
+ARM GAS  /tmp/cc34nIaX.s 			page 22
 
 
  1196 00eb 898201   		.uleb128 0x4109
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1250 0129 3B       		.uleb128 0x3b
  1251 012a 0B       		.uleb128 0xb
  1252 012b 49       		.uleb128 0x49
-ARM GAS  /tmp/ccynCAHi.s 			page 23
+ARM GAS  /tmp/cc34nIaX.s 			page 23
 
 
  1253 012c 13       		.uleb128 0x13
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1307 000b 00       		.byte	0
  1308 000c 0000     		.2byte	0
  1309 000e 0000     		.2byte	0
-ARM GAS  /tmp/ccynCAHi.s 			page 24
+ARM GAS  /tmp/cc34nIaX.s 			page 24
 
 
  1310 0010 00000000 		.4byte	.LFB36
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1344 005a 50494F5F 		.ascii	"PIO_OSR\000"
  1344      4F535200 
  1345              	.LASF3:
-ARM GAS  /tmp/ccynCAHi.s 			page 25
+ARM GAS  /tmp/cc34nIaX.s 			page 25
 
 
  1346 0062 73686F72 		.ascii	"short int\000"
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1369      666E6F2D 
  1369      636F6D6D 
  1369      6F6E00
-ARM GAS  /tmp/ccynCAHi.s 			page 26
+ARM GAS  /tmp/cc34nIaX.s 			page 26
 
 
  1370              	.LASF71:
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1397      7400
  1398              	.LASF8:
  1399 01ef 6C6F6E67 		.ascii	"long long unsigned int\000"
-ARM GAS  /tmp/ccynCAHi.s 			page 27
+ARM GAS  /tmp/cc34nIaX.s 			page 27
 
 
  1399      206C6F6E 
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1427 0279 50494F5F 		.ascii	"PIO_IFSCDR\000"
  1427      49465343 
  1427      445200
-ARM GAS  /tmp/ccynCAHi.s 			page 28
+ARM GAS  /tmp/cc34nIaX.s 			page 28
 
 
  1428              	.LASF48:
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1455      50545352 
  1455      00
  1456              	.LASF0:
-ARM GAS  /tmp/ccynCAHi.s 			page 29
+ARM GAS  /tmp/cc34nIaX.s 			page 29
 
 
  1457 0310 756E7369 		.ascii	"unsigned int\000"
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1483      6700
  1484              	.LASF41:
  1485 039b 50494F5F 		.ascii	"PIO_PUER\000"
-ARM GAS  /tmp/ccynCAHi.s 			page 30
+ARM GAS  /tmp/cc34nIaX.s 			page 30
 
 
  1485      50554552 
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1511              	.LASF94:
  1512 0454 61743931 		.ascii	"at91sam3_pio_setup_t\000"
  1512      73616D33 
-ARM GAS  /tmp/ccynCAHi.s 			page 31
+ARM GAS  /tmp/cc34nIaX.s 			page 31
 
 
  1512      5F70696F 
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1537      00
  1538              	.LASF55:
  1539 0513 50494F5F 		.ascii	"PIO_OWDR\000"
-ARM GAS  /tmp/ccynCAHi.s 			page 32
+ARM GAS  /tmp/cc34nIaX.s 			page 32
 
 
  1539      4F574452 
@@ -1886,17 +1886,17 @@ ARM GAS  /tmp/ccynCAHi.s 			page 1
  1551 054b 50494F5F 		.ascii	"PIO_PSR\000"
  1551      50535200 
  1552              		.ident	"GCC: (Sourcery CodeBench Lite 2013.11-24) 4.8.1"
-ARM GAS  /tmp/ccynCAHi.s 			page 33
+ARM GAS  /tmp/cc34nIaX.s 			page 33
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 board.c
-     /tmp/ccynCAHi.s:19     .text.__early_init:00000000 $t
-     /tmp/ccynCAHi.s:25     .text.__early_init:00000000 __early_init
-     /tmp/ccynCAHi.s:40     .text.boardInit:00000000 $t
-     /tmp/ccynCAHi.s:46     .text.boardInit:00000000 boardInit
-     /tmp/ccynCAHi.s:111    .rodata.pal_default_config:00000000 pal_default_config
-     /tmp/ccynCAHi.s:108    .rodata.pal_default_config:00000000 $d
+     /tmp/cc34nIaX.s:19     .text.__early_init:00000000 $t
+     /tmp/cc34nIaX.s:25     .text.__early_init:00000000 __early_init
+     /tmp/cc34nIaX.s:40     .text.boardInit:00000000 $t
+     /tmp/cc34nIaX.s:46     .text.boardInit:00000000 boardInit
+     /tmp/cc34nIaX.s:111    .rodata.pal_default_config:00000000 pal_default_config
+     /tmp/cc34nIaX.s:108    .rodata.pal_default_config:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

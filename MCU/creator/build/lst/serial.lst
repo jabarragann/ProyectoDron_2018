@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccDEJPNx.s 			page 1
+ARM GAS  /tmp/ccoYB9tb.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
   55              		@ frame_needed = 0, uses_anonymous_args = 0
   56              		@ link register save eliminated.
   57              	.LVL2:
-ARM GAS  /tmp/ccDEJPNx.s 			page 2
+ARM GAS  /tmp/ccoYB9tb.s 			page 2
 
 
   58              		.loc 1 81 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  111      0080AFF3 
  111      0080
  112              		.align	2
-ARM GAS  /tmp/ccDEJPNx.s 			page 3
+ARM GAS  /tmp/ccoYB9tb.s 			page 3
 
 
  113              		.p2align 4,,15
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  164              		.loc 1 94 0
  165              		.cfi_startproc
  166              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccDEJPNx.s 			page 4
+ARM GAS  /tmp/ccoYB9tb.s 			page 4
 
 
  167              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  218 0002 FFF7FEBF 		b	chIQGetTimeout
  219              	.LVL20:
  220              		.cfi_endproc
-ARM GAS  /tmp/ccDEJPNx.s 			page 5
+ARM GAS  /tmp/ccoYB9tb.s 			page 5
 
 
  221              	.LFE41:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  269              		.thumb
  270              		.thumb_func
  271              		.type	sdObjectInit, %function
-ARM GAS  /tmp/ccDEJPNx.s 			page 6
+ARM GAS  /tmp/ccoYB9tb.s 			page 6
 
 
  272              	sdObjectInit:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  326 003e FFF7FEBF 		b	chOQInit
  327              	.LVL31:
  328              		.cfi_endproc
-ARM GAS  /tmp/ccDEJPNx.s 			page 7
+ARM GAS  /tmp/ccoYB9tb.s 			page 7
 
 
  329              	.LFE46:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  380 001a 00BFAFF3 		.section	.text.sdStop,"ax",%progbits
  380      0080
  381              		.align	2
-ARM GAS  /tmp/ccDEJPNx.s 			page 8
+ARM GAS  /tmp/ccoYB9tb.s 			page 8
 
 
  382              		.p2align 4,,15
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  436              	.LBE10:
  437              		.cfi_endproc
  438              	.LFE48:
-ARM GAS  /tmp/ccDEJPNx.s 			page 9
+ARM GAS  /tmp/ccoYB9tb.s 			page 9
 
 
  439              		.size	sdStop, .-sdStop
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  493 0030 FFF7FEFF 		bl	chIQPutI
  494              	.LVL47:
  495 0034 0028     		cmp	r0, #0
-ARM GAS  /tmp/ccDEJPNx.s 			page 10
+ARM GAS  /tmp/ccoYB9tb.s 			page 10
 
 
  496 0036 EFDA     		bge	.L14
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  550 0014 201D     		adds	r0, r4, #4
  551              	.LVL54:
  552 0016 43F00803 		orr	r3, r3, #8
-ARM GAS  /tmp/ccDEJPNx.s 			page 11
+ARM GAS  /tmp/ccoYB9tb.s 			page 11
 
 
  553 001a A360     		str	r3, [r4, #8]
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  605 0015 F2030000 		.4byte	.LASF154
  606 0019 48000000 		.4byte	.Ldebug_ranges0+0x48
  607 001d 00000000 		.4byte	0
-ARM GAS  /tmp/ccDEJPNx.s 			page 12
+ARM GAS  /tmp/ccoYB9tb.s 			page 12
 
 
  608 0021 00000000 		.4byte	.Ldebug_line0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  662 008a 08       		.byte	0x8
  663 008b 05       		.byte	0x5
  664 008c 77010000 		.4byte	.LASF11
-ARM GAS  /tmp/ccDEJPNx.s 			page 13
+ARM GAS  /tmp/ccoYB9tb.s 			page 13
 
 
  665 0090 04       		.uleb128 0x4
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  719 0105 05       		.uleb128 0x5
  720 0106 1B050000 		.4byte	.LASF22
  721 010a 48       		.byte	0x48
-ARM GAS  /tmp/ccDEJPNx.s 			page 14
+ARM GAS  /tmp/ccoYB9tb.s 			page 14
 
 
  722 010b 06       		.byte	0x6
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  776 0177 7D       		.byte	0x7d
  777 0178 AD000000 		.4byte	0xad
  778 017c 1D       		.byte	0x1d
-ARM GAS  /tmp/ccDEJPNx.s 			page 15
+ARM GAS  /tmp/ccoYB9tb.s 			page 15
 
 
  779 017d 06       		.uleb128 0x6
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  833 01e9 06       		.uleb128 0x6
  834 01ea 9B010000 		.4byte	.LASF40
  835 01ee 06       		.byte	0x6
-ARM GAS  /tmp/ccDEJPNx.s 			page 16
+ARM GAS  /tmp/ccoYB9tb.s 			page 16
 
 
  836 01ef D4       		.byte	0xd4
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  890 0255 05       		.uleb128 0x5
  891 0256 0D060000 		.4byte	.LASF44
  892 025a 24       		.byte	0x24
-ARM GAS  /tmp/ccDEJPNx.s 			page 17
+ARM GAS  /tmp/ccoYB9tb.s 			page 17
 
 
  893 025b 07       		.byte	0x7
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  947 02c8 1901     		.2byte	0x119
  948 02ca 48020000 		.4byte	0x248
  949 02ce 20       		.byte	0x20
-ARM GAS  /tmp/ccDEJPNx.s 			page 18
+ARM GAS  /tmp/ccoYB9tb.s 			page 18
 
 
  950 02cf 00       		.byte	0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1004 033a C1030000 		.4byte	.LASF47
  1005 033e 08       		.byte	0x8
  1006 033f 33       		.byte	0x33
-ARM GAS  /tmp/ccDEJPNx.s 			page 19
+ARM GAS  /tmp/ccoYB9tb.s 			page 19
 
 
  1007 0340 02030000 		.4byte	0x302
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1061 03ac 06       		.byte	0x6
  1062 03ad 90       		.byte	0x90
  1063 03ae DF030000 		.4byte	0x3df
-ARM GAS  /tmp/ccDEJPNx.s 			page 20
+ARM GAS  /tmp/ccoYB9tb.s 			page 20
 
 
  1064 03b2 0F       		.uleb128 0xf
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1118 0421 2C000000 		.4byte	0x2c
  1119 0425 08       		.byte	0x8
  1120 0426 06       		.uleb128 0x6
-ARM GAS  /tmp/ccDEJPNx.s 			page 21
+ARM GAS  /tmp/ccoYB9tb.s 			page 21
 
 
  1121 0427 DA010000 		.4byte	.LASF65
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1175 0496 03       		.uleb128 0x3
  1176 0497 51000000 		.4byte	.LASF72
  1177 049b 0A       		.byte	0xa
-ARM GAS  /tmp/ccDEJPNx.s 			page 22
+ARM GAS  /tmp/ccoYB9tb.s 			page 22
 
 
  1178 049c E6       		.byte	0xe6
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1232 051a FF040000 		.4byte	0x4ff
  1233 051e 13       		.uleb128 0x13
  1234 051f D9000000 		.4byte	0xd9
-ARM GAS  /tmp/ccDEJPNx.s 			page 23
+ARM GAS  /tmp/ccoYB9tb.s 			page 23
 
 
  1235 0523 32050000 		.4byte	0x532
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1289 05a1 C5040000 		.4byte	0x4c5
  1290 05a5 00       		.byte	0
  1291 05a6 15       		.uleb128 0x15
-ARM GAS  /tmp/ccDEJPNx.s 			page 24
+ARM GAS  /tmp/ccoYB9tb.s 			page 24
 
 
  1292 05a7 83050000 		.4byte	.LASF76
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1346 061e 09       		.uleb128 0x9
  1347 061f 04       		.byte	0x4
  1348 0620 0F060000 		.4byte	0x60f
-ARM GAS  /tmp/ccDEJPNx.s 			page 25
+ARM GAS  /tmp/ccoYB9tb.s 			page 25
 
 
  1349 0624 16       		.uleb128 0x16
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1403 0696 0817     		.2byte	0x1708
  1404 0698 AB070000 		.4byte	0x7ab
  1405 069c 15       		.uleb128 0x15
-ARM GAS  /tmp/ccDEJPNx.s 			page 26
+ARM GAS  /tmp/ccoYB9tb.s 			page 26
 
 
  1406 069d 27030000 		.4byte	.LASF88
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1460 0712 C4020000 		.4byte	.LASF97
  1461 0716 0C       		.byte	0xc
  1462 0717 1217     		.2byte	0x1712
-ARM GAS  /tmp/ccDEJPNx.s 			page 27
+ARM GAS  /tmp/ccoYB9tb.s 			page 27
 
 
  1463 0719 BB070000 		.4byte	0x7bb
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1517 0796 7C060000 		.4byte	0x67c
  1518 079a 2001     		.2byte	0x120
  1519 079c 18       		.uleb128 0x18
-ARM GAS  /tmp/ccDEJPNx.s 			page 28
+ARM GAS  /tmp/ccoYB9tb.s 			page 28
 
 
  1520 079d 1D020000 		.4byte	.LASF107
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1574 080f 89       		.byte	0x89
  1575 0810 19090000 		.4byte	0x919
  1576 0814 00       		.byte	0
-ARM GAS  /tmp/ccDEJPNx.s 			page 29
+ARM GAS  /tmp/ccoYB9tb.s 			page 29
 
 
  1577 0815 06       		.uleb128 0x6
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1631 087c 06       		.uleb128 0x6
  1632 087d CD050000 		.4byte	.LASF118
  1633 0881 0E       		.byte	0xe
-ARM GAS  /tmp/ccDEJPNx.s 			page 30
+ARM GAS  /tmp/ccoYB9tb.s 			page 30
 
 
  1634 0882 5D       		.byte	0x5d
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1688 08ee 7D       		.byte	0x7d
  1689 08ef 32050000 		.4byte	0x532
  1690 08f3 14       		.byte	0x14
-ARM GAS  /tmp/ccDEJPNx.s 			page 31
+ARM GAS  /tmp/ccoYB9tb.s 			page 31
 
 
  1691 08f4 06       		.uleb128 0x6
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1745 0968 4F       		.byte	0x4f
  1746 0969 A2000000 		.4byte	0xa2
  1747 096d 00000000 		.4byte	.LFB39
-ARM GAS  /tmp/ccDEJPNx.s 			page 32
+ARM GAS  /tmp/ccoYB9tb.s 			page 32
 
 
  1748 0971 0C000000 		.4byte	.LFE39-.LFB39
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1802 09ea 53       		.byte	0x53
  1803 09eb 00       		.byte	0
  1804 09ec 00       		.byte	0
-ARM GAS  /tmp/ccDEJPNx.s 			page 33
+ARM GAS  /tmp/ccoYB9tb.s 			page 33
 
 
  1805 09ed 1D       		.uleb128 0x1d
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1859 0a58 03       		.uleb128 0x3
  1860 0a59 F3       		.byte	0xf3
  1861 0a5a 01       		.uleb128 0x1
-ARM GAS  /tmp/ccDEJPNx.s 			page 34
+ARM GAS  /tmp/ccoYB9tb.s 			page 34
 
 
  1862 0a5b 51       		.byte	0x51
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1916 0abd 01       		.uleb128 0x1
  1917 0abe 52       		.byte	0x52
  1918 0abf 25       		.uleb128 0x25
-ARM GAS  /tmp/ccDEJPNx.s 			page 35
+ARM GAS  /tmp/ccoYB9tb.s 			page 35
 
 
  1919 0ac0 01       		.uleb128 0x1
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  1973 0b2b 25       		.uleb128 0x25
  1974 0b2c 01       		.uleb128 0x1
  1975 0b2d 53       		.byte	0x53
-ARM GAS  /tmp/ccDEJPNx.s 			page 36
+ARM GAS  /tmp/ccoYB9tb.s 			page 36
 
 
  1976 0b2e 03       		.uleb128 0x3
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2030 0b84 3E       		.byte	0x3e
  2031 0b85 2C000000 		.4byte	0x2c
  2032 0b89 41020000 		.4byte	.LLST16
-ARM GAS  /tmp/ccDEJPNx.s 			page 37
+ARM GAS  /tmp/ccoYB9tb.s 			page 37
 
 
  2033 0b8d 24       		.uleb128 0x24
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2087 0be3 EF000000 		.4byte	0xef
  2088 0be7 90020000 		.4byte	.LLST18
  2089 0beb 24       		.uleb128 0x24
-ARM GAS  /tmp/ccDEJPNx.s 			page 38
+ARM GAS  /tmp/ccoYB9tb.s 			page 38
 
 
  2090 0bec 06000000 		.4byte	.LVL20
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2144 0c55 03       		.uleb128 0x3
  2145 0c56 F3       		.byte	0xf3
  2146 0c57 01       		.uleb128 0x1
-ARM GAS  /tmp/ccDEJPNx.s 			page 39
+ARM GAS  /tmp/ccoYB9tb.s 			page 39
 
 
  2147 0c58 52       		.byte	0x52
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2201 0cca EA0F0000 		.4byte	0xfea
  2202 0cce EC0C0000 		.4byte	0xcec
  2203 0cd2 25       		.uleb128 0x25
-ARM GAS  /tmp/ccDEJPNx.s 			page 40
+ARM GAS  /tmp/ccoYB9tb.s 			page 40
 
 
  2204 0cd3 01       		.uleb128 0x1
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2258 0d10 50       		.byte	0x50
  2259 0d11 23       		.byte	0x23
  2260 0d12 30       		.uleb128 0x30
-ARM GAS  /tmp/ccDEJPNx.s 			page 41
+ARM GAS  /tmp/ccoYB9tb.s 			page 41
 
 
  2261 0d13 00       		.byte	0
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2315 0d8b 51       		.byte	0x51
  2316 0d8c 03       		.uleb128 0x3
  2317 0d8d F3       		.byte	0xf3
-ARM GAS  /tmp/ccDEJPNx.s 			page 42
+ARM GAS  /tmp/ccoYB9tb.s 			page 42
 
 
  2318 0d8e 01       		.uleb128 0x1
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2372 0dfa 0E000000 		.4byte	.LVL35
  2373 0dfe 42100000 		.4byte	0x1042
  2374 0e02 0D0E0000 		.4byte	0xe0d
-ARM GAS  /tmp/ccDEJPNx.s 			page 43
+ARM GAS  /tmp/ccoYB9tb.s 			page 43
 
 
  2375 0e06 25       		.uleb128 0x25
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2429 0e70 28       		.uleb128 0x28
  2430 0e71 14000000 		.4byte	.LVL42
  2431 0e75 7E100000 		.4byte	0x107e
-ARM GAS  /tmp/ccDEJPNx.s 			page 44
+ARM GAS  /tmp/ccoYB9tb.s 			page 44
 
 
  2432 0e79 8A0E0000 		.4byte	0xe8a
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2486 0eca F3       		.byte	0xf3
  2487 0ecb 01       		.uleb128 0x1
  2488 0ecc 50       		.byte	0x50
-ARM GAS  /tmp/ccDEJPNx.s 			page 45
+ARM GAS  /tmp/ccoYB9tb.s 			page 45
 
 
  2489 0ecd 23       		.byte	0x23
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2543 0f31 766D7400 		.ascii	"vmt\000"
  2544 0f35 01       		.byte	0x1
  2545 0f36 6C       		.byte	0x6c
-ARM GAS  /tmp/ccDEJPNx.s 			page 46
+ARM GAS  /tmp/ccoYB9tb.s 			page 46
 
 
  2546 0f37 1F090000 		.4byte	0x91f
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2600 0fb9 770F0000 		.4byte	0xf77
  2601 0fbd 12       		.uleb128 0x12
  2602 0fbe EF000000 		.4byte	0xef
-ARM GAS  /tmp/ccDEJPNx.s 			page 47
+ARM GAS  /tmp/ccoYB9tb.s 			page 47
 
 
  2603 0fc2 00       		.byte	0
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2657 103d 980D0000 		.4byte	0xd98
  2658 1041 00       		.byte	0
  2659 1042 32       		.uleb128 0x32
-ARM GAS  /tmp/ccDEJPNx.s 			page 48
+ARM GAS  /tmp/ccoYB9tb.s 			page 48
 
 
  2660 1043 8F060000 		.4byte	.LASF144
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2714 10bb 5A01     		.2byte	0x15a
  2715 10bd D9000000 		.4byte	0xd9
  2716 10c1 12       		.uleb128 0x12
-ARM GAS  /tmp/ccDEJPNx.s 			page 49
+ARM GAS  /tmp/ccoYB9tb.s 			page 49
 
 
  2717 10c2 A20F0000 		.4byte	0xfa2
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2771 0031 0B       		.uleb128 0xb
  2772 0032 03       		.uleb128 0x3
  2773 0033 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccDEJPNx.s 			page 50
+ARM GAS  /tmp/ccoYB9tb.s 			page 50
 
 
  2774 0034 00       		.byte	0
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2828 006a 3B       		.uleb128 0x3b
  2829 006b 0B       		.uleb128 0xb
  2830 006c 01       		.uleb128 0x1
-ARM GAS  /tmp/ccDEJPNx.s 			page 51
+ARM GAS  /tmp/ccoYB9tb.s 			page 51
 
 
  2831 006d 13       		.uleb128 0x13
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2885 00a3 00       		.byte	0
  2886 00a4 00       		.byte	0
  2887 00a5 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccDEJPNx.s 			page 52
+ARM GAS  /tmp/ccoYB9tb.s 			page 52
 
 
  2888 00a6 17       		.uleb128 0x17
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2942 00dc 13       		.uleb128 0x13
  2943 00dd 01       		.uleb128 0x1
  2944 00de 13       		.uleb128 0x13
-ARM GAS  /tmp/ccDEJPNx.s 			page 53
+ARM GAS  /tmp/ccoYB9tb.s 			page 53
 
 
  2945 00df 00       		.byte	0
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  2999 0115 00       		.byte	0
  3000 0116 00       		.byte	0
  3001 0117 18       		.uleb128 0x18
-ARM GAS  /tmp/ccDEJPNx.s 			page 54
+ARM GAS  /tmp/ccoYB9tb.s 			page 54
 
 
  3002 0118 0D       		.uleb128 0xd
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3056 014e 1D       		.uleb128 0x1d
  3057 014f 2E       		.uleb128 0x2e
  3058 0150 01       		.byte	0x1
-ARM GAS  /tmp/ccDEJPNx.s 			page 55
+ARM GAS  /tmp/ccoYB9tb.s 			page 55
 
 
  3059 0151 03       		.uleb128 0x3
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3113 0188 01       		.byte	0x1
  3114 0189 11       		.uleb128 0x11
  3115 018a 01       		.uleb128 0x1
-ARM GAS  /tmp/ccDEJPNx.s 			page 56
+ARM GAS  /tmp/ccoYB9tb.s 			page 56
 
 
  3116 018b 12       		.uleb128 0x12
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3170 01c4 25       		.uleb128 0x25
  3171 01c5 8A8201   		.uleb128 0x410a
  3172 01c8 00       		.byte	0
-ARM GAS  /tmp/ccDEJPNx.s 			page 57
+ARM GAS  /tmp/ccoYB9tb.s 			page 57
 
 
  3173 01c9 02       		.uleb128 0x2
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3227 0206 0B       		.uleb128 0xb
  3228 0207 01       		.byte	0x1
  3229 0208 55       		.uleb128 0x55
-ARM GAS  /tmp/ccDEJPNx.s 			page 58
+ARM GAS  /tmp/ccoYB9tb.s 			page 58
 
 
  3230 0209 17       		.uleb128 0x17
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3284 0244 08       		.uleb128 0x8
  3285 0245 3A       		.uleb128 0x3a
  3286 0246 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccDEJPNx.s 			page 59
+ARM GAS  /tmp/ccoYB9tb.s 			page 59
 
 
  3287 0247 3B       		.uleb128 0x3b
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3341 027d 0B       		.uleb128 0xb
  3342 027e 3B       		.uleb128 0x3b
  3343 027f 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccDEJPNx.s 			page 60
+ARM GAS  /tmp/ccoYB9tb.s 			page 60
 
 
  3344 0280 27       		.uleb128 0x27
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3398 02b6 05       		.uleb128 0x5
  3399 02b7 27       		.uleb128 0x27
  3400 02b8 19       		.uleb128 0x19
-ARM GAS  /tmp/ccDEJPNx.s 			page 61
+ARM GAS  /tmp/ccoYB9tb.s 			page 61
 
 
  3401 02b9 49       		.uleb128 0x49
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3455 006f 05000000 		.4byte	.LVL8-1
  3456 0073 0300     		.2byte	0x3
  3457 0075 70       		.byte	0x70
-ARM GAS  /tmp/ccDEJPNx.s 			page 62
+ARM GAS  /tmp/ccoYB9tb.s 			page 62
 
 
  3458 0076 70       		.sleb128 -16
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3512 00f1 00000000 		.4byte	.LVL9
  3513 00f5 02000000 		.4byte	.LVL10
  3514 00f9 0100     		.2byte	0x1
-ARM GAS  /tmp/ccDEJPNx.s 			page 63
+ARM GAS  /tmp/ccoYB9tb.s 			page 63
 
 
  3515 00fb 50       		.byte	0x50
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3569 0178 9F       		.byte	0x9f
  3570 0179 05000000 		.4byte	.LVL14-1
  3571 017d 06000000 		.4byte	.LFE42
-ARM GAS  /tmp/ccDEJPNx.s 			page 64
+ARM GAS  /tmp/ccoYB9tb.s 			page 64
 
 
  3572 0181 0400     		.2byte	0x4
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3626 01fd 02000000 		.4byte	.LVL16
  3627 0201 09000000 		.4byte	.LVL17-1
  3628 0205 0300     		.2byte	0x3
-ARM GAS  /tmp/ccDEJPNx.s 			page 65
+ARM GAS  /tmp/ccoYB9tb.s 			page 65
 
 
  3629 0207 70       		.byte	0x70
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3683 0284 F3       		.byte	0xf3
  3684 0285 01       		.uleb128 0x1
  3685 0286 50       		.byte	0x50
-ARM GAS  /tmp/ccDEJPNx.s 			page 66
+ARM GAS  /tmp/ccoYB9tb.s 			page 66
 
 
  3686 0287 9F       		.byte	0x9f
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3740 0308 0100     		.2byte	0x1
  3741 030a 52       		.byte	0x52
  3742 030b 05000000 		.4byte	.LVL23-1
-ARM GAS  /tmp/ccDEJPNx.s 			page 67
+ARM GAS  /tmp/ccoYB9tb.s 			page 67
 
 
  3743 030f 06000000 		.4byte	.LFE40
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3797 0391 52       		.byte	0x52
  3798 0392 2A000000 		.4byte	.LVL28
  3799 0396 3E000000 		.4byte	.LVL30
-ARM GAS  /tmp/ccDEJPNx.s 			page 68
+ARM GAS  /tmp/ccoYB9tb.s 			page 68
 
 
  3800 039a 0100     		.2byte	0x1
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3854 0423 0100     		.2byte	0x1
  3855 0425 50       		.byte	0x50
  3856 0426 10000000 		.4byte	.LVL41
-ARM GAS  /tmp/ccDEJPNx.s 			page 69
+ARM GAS  /tmp/ccoYB9tb.s 			page 69
 
 
  3857 042a 1A000000 		.4byte	.LVL43
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3911 04ac 0100     		.2byte	0x1
  3912 04ae 50       		.byte	0x50
  3913 04af 06000000 		.4byte	.LVL51
-ARM GAS  /tmp/ccDEJPNx.s 			page 70
+ARM GAS  /tmp/ccoYB9tb.s 			page 70
 
 
  3914 04b3 26000000 		.4byte	.LFE50
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  3968 0088 00000000 		.4byte	0
  3969 008c 00000000 		.4byte	0
  3970              		.section	.debug_ranges,"",%progbits
-ARM GAS  /tmp/ccDEJPNx.s 			page 71
+ARM GAS  /tmp/ccoYB9tb.s 			page 71
 
 
  3971              	.Ldebug_ranges0:
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4024      02005602 
  4024      00000201 
  4024      FB0E0D00 
-ARM GAS  /tmp/ccDEJPNx.s 			page 72
+ARM GAS  /tmp/ccoYB9tb.s 			page 72
 
 
  4024      01010101 
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4045      00
  4046              	.LASF12:
  4047 011e 6C6F6E67 		.ascii	"long long unsigned int\000"
-ARM GAS  /tmp/ccDEJPNx.s 			page 73
+ARM GAS  /tmp/ccoYB9tb.s 			page 73
 
 
  4047      206C6F6E 
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4074              	.LASF114:
  4075 01b2 73746174 		.ascii	"state\000"
  4075      6500
-ARM GAS  /tmp/ccDEJPNx.s 			page 74
+ARM GAS  /tmp/ccoYB9tb.s 			page 74
 
 
  4076              	.LASF8:
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4103      726D5F74 
  4103      00
  4104              	.LASF149:
-ARM GAS  /tmp/ccDEJPNx.s 			page 75
+ARM GAS  /tmp/ccoYB9tb.s 			page 75
 
 
  4105 0246 63684951 		.ascii	"chIQPutI\000"
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4131      7400
  4132              	.LASF6:
  4133 02e2 73686F72 		.ascii	"short unsigned int\000"
-ARM GAS  /tmp/ccDEJPNx.s 			page 76
+ARM GAS  /tmp/ccoYB9tb.s 			page 76
 
 
  4133      7420756E 
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4161      656F7574 
  4161      00
  4162              	.LASF41:
-ARM GAS  /tmp/ccDEJPNx.s 			page 77
+ARM GAS  /tmp/ccoYB9tb.s 			page 77
 
 
  4163 037a 54687265 		.ascii	"ThreadsQueue\000"
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4191      446F6375 
  4191      6D656E74 
  4192 0425 7200     		.ascii	"r\000"
-ARM GAS  /tmp/ccDEJPNx.s 			page 78
+ARM GAS  /tmp/ccoYB9tb.s 			page 78
 
 
  4193              	.LASF135:
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4222      7200
  4223              	.LASF143:
  4224 04ae 73645F6C 		.ascii	"sd_lld_start\000"
-ARM GAS  /tmp/ccDEJPNx.s 			page 79
+ARM GAS  /tmp/ccoYB9tb.s 			page 79
 
 
  4224      6C645F73 
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4254      5400
  4255              	.LASF9:
  4256 0540 75696E74 		.ascii	"uint32_t\000"
-ARM GAS  /tmp/ccDEJPNx.s 			page 80
+ARM GAS  /tmp/ccoYB9tb.s 			page 80
 
 
  4256      33325F74 
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4284      00
  4285              	.LASF118:
  4286 05cd 73635F73 		.ascii	"sc_speed\000"
-ARM GAS  /tmp/ccDEJPNx.s 			page 81
+ARM GAS  /tmp/ccoYB9tb.s 			page 81
 
 
  4286      70656564 
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4316 065a 666C6167 		.ascii	"flags\000"
  4316      7300
  4317              	.LASF132:
-ARM GAS  /tmp/ccDEJPNx.s 			page 82
+ARM GAS  /tmp/ccoYB9tb.s 			page 82
 
 
  4318 0660 6F6E6F74 		.ascii	"onotify\000"
@@ -4908,44 +4908,44 @@ ARM GAS  /tmp/ccDEJPNx.s 			page 1
  4342      696D656F 
  4342      757400
  4343              		.ident	"GCC: (Sourcery CodeBench Lite 2013.11-24) 4.8.1"
-ARM GAS  /tmp/ccDEJPNx.s 			page 83
+ARM GAS  /tmp/ccoYB9tb.s 			page 83
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 serial.c
-     /tmp/ccDEJPNx.s:19     .text.putwouldblock:00000000 $t
-     /tmp/ccDEJPNx.s:24     .text.putwouldblock:00000000 putwouldblock
-     /tmp/ccDEJPNx.s:45     .text.getwouldblock:00000000 $t
-     /tmp/ccDEJPNx.s:50     .text.getwouldblock:00000000 getwouldblock
-     /tmp/ccDEJPNx.s:70     .text.getflags:00000000 $t
-     /tmp/ccDEJPNx.s:75     .text.getflags:00000000 getflags
-     /tmp/ccDEJPNx.s:112    .text.readt:00000000 $t
-     /tmp/ccDEJPNx.s:117    .text.readt:00000000 readt
-     /tmp/ccDEJPNx.s:134    .text.reads:00000000 $t
-     /tmp/ccDEJPNx.s:139    .text.reads:00000000 reads
-     /tmp/ccDEJPNx.s:157    .text.writet:00000000 $t
-     /tmp/ccDEJPNx.s:162    .text.writet:00000000 writet
-     /tmp/ccDEJPNx.s:179    .text.writes:00000000 $t
-     /tmp/ccDEJPNx.s:184    .text.writes:00000000 writes
-     /tmp/ccDEJPNx.s:202    .text.gett:00000000 $t
-     /tmp/ccDEJPNx.s:207    .text.gett:00000000 gett
-     /tmp/ccDEJPNx.s:224    .text.putt:00000000 $t
-     /tmp/ccDEJPNx.s:229    .text.putt:00000000 putt
-     /tmp/ccDEJPNx.s:246    .text.sdInit:00000000 $t
-     /tmp/ccDEJPNx.s:252    .text.sdInit:00000000 sdInit
-     /tmp/ccDEJPNx.s:266    .text.sdObjectInit:00000000 $t
-     /tmp/ccDEJPNx.s:272    .text.sdObjectInit:00000000 sdObjectInit
-     /tmp/ccDEJPNx.s:565    .rodata.vmt:00000000 .LANCHOR0
-     /tmp/ccDEJPNx.s:332    .text.sdStart:00000000 $t
-     /tmp/ccDEJPNx.s:338    .text.sdStart:00000000 sdStart
-     /tmp/ccDEJPNx.s:381    .text.sdStop:00000000 $t
-     /tmp/ccDEJPNx.s:387    .text.sdStop:00000000 sdStop
-     /tmp/ccDEJPNx.s:441    .text.sdIncomingDataI:00000000 $t
-     /tmp/ccDEJPNx.s:447    .text.sdIncomingDataI:00000000 sdIncomingDataI
-     /tmp/ccDEJPNx.s:514    .text.sdRequestDataI:00000000 $t
-     /tmp/ccDEJPNx.s:520    .text.sdRequestDataI:00000000 sdRequestDataI
-     /tmp/ccDEJPNx.s:564    .rodata.vmt:00000000 $d
-     /tmp/ccDEJPNx.s:568    .rodata.vmt:00000000 vmt
+     /tmp/ccoYB9tb.s:19     .text.putwouldblock:00000000 $t
+     /tmp/ccoYB9tb.s:24     .text.putwouldblock:00000000 putwouldblock
+     /tmp/ccoYB9tb.s:45     .text.getwouldblock:00000000 $t
+     /tmp/ccoYB9tb.s:50     .text.getwouldblock:00000000 getwouldblock
+     /tmp/ccoYB9tb.s:70     .text.getflags:00000000 $t
+     /tmp/ccoYB9tb.s:75     .text.getflags:00000000 getflags
+     /tmp/ccoYB9tb.s:112    .text.readt:00000000 $t
+     /tmp/ccoYB9tb.s:117    .text.readt:00000000 readt
+     /tmp/ccoYB9tb.s:134    .text.reads:00000000 $t
+     /tmp/ccoYB9tb.s:139    .text.reads:00000000 reads
+     /tmp/ccoYB9tb.s:157    .text.writet:00000000 $t
+     /tmp/ccoYB9tb.s:162    .text.writet:00000000 writet
+     /tmp/ccoYB9tb.s:179    .text.writes:00000000 $t
+     /tmp/ccoYB9tb.s:184    .text.writes:00000000 writes
+     /tmp/ccoYB9tb.s:202    .text.gett:00000000 $t
+     /tmp/ccoYB9tb.s:207    .text.gett:00000000 gett
+     /tmp/ccoYB9tb.s:224    .text.putt:00000000 $t
+     /tmp/ccoYB9tb.s:229    .text.putt:00000000 putt
+     /tmp/ccoYB9tb.s:246    .text.sdInit:00000000 $t
+     /tmp/ccoYB9tb.s:252    .text.sdInit:00000000 sdInit
+     /tmp/ccoYB9tb.s:266    .text.sdObjectInit:00000000 $t
+     /tmp/ccoYB9tb.s:272    .text.sdObjectInit:00000000 sdObjectInit
+     /tmp/ccoYB9tb.s:565    .rodata.vmt:00000000 .LANCHOR0
+     /tmp/ccoYB9tb.s:332    .text.sdStart:00000000 $t
+     /tmp/ccoYB9tb.s:338    .text.sdStart:00000000 sdStart
+     /tmp/ccoYB9tb.s:381    .text.sdStop:00000000 $t
+     /tmp/ccoYB9tb.s:387    .text.sdStop:00000000 sdStop
+     /tmp/ccoYB9tb.s:441    .text.sdIncomingDataI:00000000 $t
+     /tmp/ccoYB9tb.s:447    .text.sdIncomingDataI:00000000 sdIncomingDataI
+     /tmp/ccoYB9tb.s:514    .text.sdRequestDataI:00000000 $t
+     /tmp/ccoYB9tb.s:520    .text.sdRequestDataI:00000000 sdRequestDataI
+     /tmp/ccoYB9tb.s:564    .rodata.vmt:00000000 $d
+     /tmp/ccoYB9tb.s:568    .rodata.vmt:00000000 vmt
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

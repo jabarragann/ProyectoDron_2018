@@ -1305,23 +1305,43 @@ Discarded input sections
                 0x00000000        0x0 build/obj/i2c.o
  .ARM.extab.text._ZN7creator3I2C9WriteByteEhhh
                 0x00000000        0x0 build/obj/i2c.o
+ .text._ZN7creator3I2C9WriteByteEhh
+                0x00000000       0x30 build/obj/i2c.o
  .ARM.extab.text._ZN7creator3I2C9WriteByteEhh
                 0x00000000        0x0 build/obj/i2c.o
+ .ARM.exidx.text._ZN7creator3I2C9WriteByteEhh
+                0x00000000        0x8 build/obj/i2c.o
  .ARM.extab.text._ZN7creator3I2C8ReadByteEhh
                 0x00000000        0x0 build/obj/i2c.o
+ .text._ZN7creator3I2C8ReadByteEh
+                0x00000000       0x30 build/obj/i2c.o
  .ARM.extab.text._ZN7creator3I2C8ReadByteEh
                 0x00000000        0x0 build/obj/i2c.o
+ .ARM.exidx.text._ZN7creator3I2C8ReadByteEh
+                0x00000000        0x8 build/obj/i2c.o
  .ARM.extab.text._ZN7creator3I2C9ReadBytesEhhPhh
                 0x00000000        0x0 build/obj/i2c.o
  .text          0x00000000        0x0 build/obj/hts221.o
  .data          0x00000000        0x0 build/obj/hts221.o
  .bss           0x00000000        0x0 build/obj/hts221.o
+ .text._ZN7creator6HTS221C2EPNS_3I2CEh
+                0x00000000       0x10 build/obj/hts221.o
  .ARM.extab.text._ZN7creator6HTS221C2EPNS_3I2CEh
                 0x00000000        0x0 build/obj/hts221.o
+ .ARM.exidx.text._ZN7creator6HTS221C2EPNS_3I2CEh
+                0x00000000        0x8 build/obj/hts221.o
+ .text._ZN7creator6HTS2215BeginEv
+                0x00000000       0xf0 build/obj/hts221.o
  .ARM.extab.text._ZN7creator6HTS2215BeginEv
                 0x00000000        0x0 build/obj/hts221.o
+ .ARM.exidx.text._ZN7creator6HTS2215BeginEv
+                0x00000000        0x8 build/obj/hts221.o
+ .text._ZN7creator6HTS2217GetDataERfS1_
+                0x00000000      0x130 build/obj/hts221.o
  .ARM.extab.text._ZN7creator6HTS2217GetDataERfS1_
                 0x00000000        0x0 build/obj/hts221.o
+ .ARM.exidx.text._ZN7creator6HTS2217GetDataERfS1_
+                0x00000000        0x8 build/obj/hts221.o
  .text._ZN7creator6HTS2214ReadEh
                 0x00000000       0x10 build/obj/hts221.o
  .ARM.extab.text._ZN7creator6HTS2214ReadEh
@@ -1340,6 +1360,18 @@ Discarded input sections
                 0x00000000        0x0 build/obj/hts221.o
  .ARM.exidx.text._ZN7creator6HTS2214ReadEhPhh
                 0x00000000        0x8 build/obj/hts221.o
+ .debug_info    0x00000000      0xb2a build/obj/hts221.o
+ .debug_abbrev  0x00000000      0x303 build/obj/hts221.o
+ .debug_loc     0x00000000      0x26e build/obj/hts221.o
+ .debug_aranges
+                0x00000000       0x48 build/obj/hts221.o
+ .debug_ranges  0x00000000      0x168 build/obj/hts221.o
+ .debug_line    0x00000000      0x1a5 build/obj/hts221.o
+ .debug_str     0x00000000      0x4ac build/obj/hts221.o
+ .comment       0x00000000       0x31 build/obj/hts221.o
+ .ARM.attributes
+                0x00000000       0x33 build/obj/hts221.o
+ .debug_frame   0x00000000       0xbc build/obj/hts221.o
  .text          0x00000000        0x0 build/obj/lsm9ds1.o
  .data          0x00000000        0x0 build/obj/lsm9ds1.o
  .bss           0x00000000        0x0 build/obj/lsm9ds1.o
@@ -1626,16 +1658,36 @@ Discarded input sections
  .text          0x00000000        0x0 build/obj/mpl3115a2.o
  .data          0x00000000        0x0 build/obj/mpl3115a2.o
  .bss           0x00000000        0x0 build/obj/mpl3115a2.o
+ .text._ZN7creator9MPL3115A2C2EPNS_3I2CEh
+                0x00000000       0x20 build/obj/mpl3115a2.o
  .ARM.extab.text._ZN7creator9MPL3115A2C2EPNS_3I2CEh
                 0x00000000        0x0 build/obj/mpl3115a2.o
+ .ARM.exidx.text._ZN7creator9MPL3115A2C2EPNS_3I2CEh
+                0x00000000        0x8 build/obj/mpl3115a2.o
+ .text._ZN7creator9MPL3115A25BeginEv
+                0x00000000       0x50 build/obj/mpl3115a2.o
  .ARM.extab.text._ZN7creator9MPL3115A25BeginEv
                 0x00000000        0x0 build/obj/mpl3115a2.o
+ .ARM.exidx.text._ZN7creator9MPL3115A25BeginEv
+                0x00000000        0x8 build/obj/mpl3115a2.o
+ .text._ZN7creator9MPL3115A211GetPressureEv
+                0x00000000       0xa0 build/obj/mpl3115a2.o
  .ARM.extab.text._ZN7creator9MPL3115A211GetPressureEv
                 0x00000000        0x0 build/obj/mpl3115a2.o
+ .ARM.exidx.text._ZN7creator9MPL3115A211GetPressureEv
+                0x00000000        0x8 build/obj/mpl3115a2.o
+ .text._ZN7creator9MPL3115A211GetAltitudeEv
+                0x00000000       0xa0 build/obj/mpl3115a2.o
  .ARM.extab.text._ZN7creator9MPL3115A211GetAltitudeEv
                 0x00000000        0x0 build/obj/mpl3115a2.o
+ .ARM.exidx.text._ZN7creator9MPL3115A211GetAltitudeEv
+                0x00000000        0x8 build/obj/mpl3115a2.o
+ .text._ZN7creator9MPL3115A214GetTemperatureEv
+                0x00000000       0x90 build/obj/mpl3115a2.o
  .ARM.extab.text._ZN7creator9MPL3115A214GetTemperatureEv
                 0x00000000        0x0 build/obj/mpl3115a2.o
+ .ARM.exidx.text._ZN7creator9MPL3115A214GetTemperatureEv
+                0x00000000        0x8 build/obj/mpl3115a2.o
  .text._ZN7creator9MPL3115A24ReadEh
                 0x00000000       0x10 build/obj/mpl3115a2.o
  .ARM.extab.text._ZN7creator9MPL3115A24ReadEh
@@ -1648,17 +1700,55 @@ Discarded input sections
                 0x00000000        0x0 build/obj/mpl3115a2.o
  .ARM.exidx.text._ZN7creator9MPL3115A25WriteEhh
                 0x00000000        0x8 build/obj/mpl3115a2.o
+ .debug_info    0x00000000      0xe5c build/obj/mpl3115a2.o
+ .debug_abbrev  0x00000000      0x337 build/obj/mpl3115a2.o
+ .debug_loc     0x00000000      0x411 build/obj/mpl3115a2.o
+ .debug_aranges
+                0x00000000       0x50 build/obj/mpl3115a2.o
+ .debug_ranges  0x00000000       0x88 build/obj/mpl3115a2.o
+ .debug_line    0x00000000      0x2a4 build/obj/mpl3115a2.o
+ .debug_str     0x00000000      0x66e build/obj/mpl3115a2.o
+ .comment       0x00000000       0x31 build/obj/mpl3115a2.o
+ .ARM.attributes
+                0x00000000       0x33 build/obj/mpl3115a2.o
+ .debug_frame   0x00000000       0xcc build/obj/mpl3115a2.o
  .text          0x00000000        0x0 build/obj/veml6070.o
  .data          0x00000000        0x0 build/obj/veml6070.o
  .bss           0x00000000        0x0 build/obj/veml6070.o
+ .text._ZN7creator8VEML6070C2EPNS_3I2CE
+                0x00000000       0x10 build/obj/veml6070.o
  .ARM.extab.text._ZN7creator8VEML6070C2EPNS_3I2CE
                 0x00000000        0x0 build/obj/veml6070.o
+ .ARM.exidx.text._ZN7creator8VEML6070C2EPNS_3I2CE
+                0x00000000        0x8 build/obj/veml6070.o
+ .text._ZN7creator8VEML60705BeginEv
+                0x00000000       0x20 build/obj/veml6070.o
+ .ARM.extab.text._ZN7creator8VEML60705BeginEv
+                0x00000000        0xc build/obj/veml6070.o
+ .ARM.exidx.text._ZN7creator8VEML60705BeginEv
+                0x00000000        0x8 build/obj/veml6070.o
+ .text._ZN7creator8VEML60705GetUVEv
+                0x00000000       0x30 build/obj/veml6070.o
  .ARM.extab.text._ZN7creator8VEML60705GetUVEv
                 0x00000000        0x0 build/obj/veml6070.o
+ .ARM.exidx.text._ZN7creator8VEML60705GetUVEv
+                0x00000000        0x8 build/obj/veml6070.o
+ .debug_info    0x00000000      0x603 build/obj/veml6070.o
+ .debug_abbrev  0x00000000      0x27b build/obj/veml6070.o
+ .debug_loc     0x00000000       0x4a build/obj/veml6070.o
+ .debug_aranges
+                0x00000000       0x30 build/obj/veml6070.o
+ .debug_ranges  0x00000000       0x38 build/obj/veml6070.o
+ .debug_line    0x00000000      0x163 build/obj/veml6070.o
+ .debug_str     0x00000000      0x486 build/obj/veml6070.o
+ .comment       0x00000000       0x31 build/obj/veml6070.o
+ .ARM.attributes
+                0x00000000       0x33 build/obj/veml6070.o
+ .debug_frame   0x00000000       0x5c build/obj/veml6070.o
  .text          0x00000000        0x0 build/obj/main.o
  .data          0x00000000        0x0 build/obj/main.o
  .bss           0x00000000        0x0 build/obj/main.o
- .ARM.extab.text._ZL9EnvThreadPv
+ .ARM.extab.text._ZL14BlinkingThreadPv
                 0x00000000        0x0 build/obj/main.o
  .ARM.extab.text._ZL9IMUThreadPv
                 0x00000000        0x0 build/obj/main.o
@@ -1894,7 +1984,7 @@ destructors     0x004000d0        0x0
  *(SORT(.fini_array.*))
                 0x004000d0                PROVIDE (__fini_array_end, .)
 
-.text           0x004000d0     0x8e5c
+.text           0x004000d0     0x883c
  *(.text.startup.*)
  .text.startup.main
                 0x004000d0       0x70 build/obj/main.o
@@ -2495,187 +2585,145 @@ destructors     0x004000d0        0x0
  .text._ZN7creator3I2C9WriteByteEhhh
                 0x00407c20       0x30 build/obj/i2c.o
                 0x00407c20                creator::I2C::WriteByte(unsigned char, unsigned char, unsigned char)
- .text._ZN7creator3I2C9WriteByteEhh
-                0x00407c50       0x30 build/obj/i2c.o
-                0x00407c50                creator::I2C::WriteByte(unsigned char, unsigned char)
  .text._ZN7creator3I2C8ReadByteEhh
-                0x00407c80       0x30 build/obj/i2c.o
-                0x00407c80                creator::I2C::ReadByte(unsigned char, unsigned char)
- .text._ZN7creator3I2C8ReadByteEh
-                0x00407cb0       0x30 build/obj/i2c.o
-                0x00407cb0                creator::I2C::ReadByte(unsigned char)
+                0x00407c50       0x30 build/obj/i2c.o
+                0x00407c50                creator::I2C::ReadByte(unsigned char, unsigned char)
  .text._ZN7creator3I2C9ReadBytesEhhPhh
-                0x00407ce0       0x30 build/obj/i2c.o
-                0x00407ce0                creator::I2C::ReadBytes(unsigned char, unsigned char, unsigned char*, unsigned char)
- .text._ZN7creator6HTS221C2EPNS_3I2CEh
-                0x00407d10       0x10 build/obj/hts221.o
-                0x00407d10                creator::HTS221::HTS221(creator::I2C*, unsigned char)
-                0x00407d10                creator::HTS221::HTS221(creator::I2C*, unsigned char)
- .text._ZN7creator6HTS2215BeginEv
-                0x00407d20       0xf0 build/obj/hts221.o
-                0x00407d20                creator::HTS221::Begin()
- .text._ZN7creator6HTS2217GetDataERfS1_
-                0x00407e10      0x130 build/obj/hts221.o
-                0x00407e10                creator::HTS221::GetData(float&, float&)
+                0x00407c80       0x30 build/obj/i2c.o
+                0x00407c80                creator::I2C::ReadBytes(unsigned char, unsigned char, unsigned char*, unsigned char)
  .text._ZN7LSM9DS14initE14interface_modehh
-                0x00407f40       0xc0 build/obj/lsm9ds1.o
-                0x00407f40                LSM9DS1::init(interface_mode, unsigned char, unsigned char)
+                0x00407cb0       0xc0 build/obj/lsm9ds1.o
+                0x00407cb0                LSM9DS1::init(interface_mode, unsigned char, unsigned char)
  .text._ZN7LSM9DS1C2EPN7creator3I2CE14interface_modehh
-                0x00408000       0x20 build/obj/lsm9ds1.o
-                0x00408000                LSM9DS1::LSM9DS1(creator::I2C*, interface_mode, unsigned char, unsigned char)
-                0x00408000                LSM9DS1::LSM9DS1(creator::I2C*, interface_mode, unsigned char, unsigned char)
+                0x00407d70       0x20 build/obj/lsm9ds1.o
+                0x00407d70                LSM9DS1::LSM9DS1(creator::I2C*, interface_mode, unsigned char, unsigned char)
+                0x00407d70                LSM9DS1::LSM9DS1(creator::I2C*, interface_mode, unsigned char, unsigned char)
  .text._ZN7LSM9DS18initGyroEv
-                0x00408020       0xe0 build/obj/lsm9ds1.o
-                0x00408020                LSM9DS1::initGyro()
+                0x00407d90       0xe0 build/obj/lsm9ds1.o
+                0x00407d90                LSM9DS1::initGyro()
  .text._ZN7LSM9DS19initAccelEv
-                0x00408100       0xa0 build/obj/lsm9ds1.o
-                0x00408100                LSM9DS1::initAccel()
+                0x00407e70       0xa0 build/obj/lsm9ds1.o
+                0x00407e70                LSM9DS1::initAccel()
  .text._ZN7LSM9DS17initMagEv
-                0x004081a0       0xb0 build/obj/lsm9ds1.o
-                0x004081a0                LSM9DS1::initMag()
+                0x00407f10       0xb0 build/obj/lsm9ds1.o
+                0x00407f10                LSM9DS1::initMag()
  .text._ZN7LSM9DS19readAccelEv
-                0x00408250       0x70 build/obj/lsm9ds1.o
-                0x00408250                LSM9DS1::readAccel()
+                0x00407fc0       0x70 build/obj/lsm9ds1.o
+                0x00407fc0                LSM9DS1::readAccel()
  .text._ZN7LSM9DS17readMagEv
-                0x004082c0       0x50 build/obj/lsm9ds1.o
-                0x004082c0                LSM9DS1::readMag()
+                0x00408030       0x50 build/obj/lsm9ds1.o
+                0x00408030                LSM9DS1::readMag()
  .text._ZN7LSM9DS18readGyroEv
-                0x00408310       0x70 build/obj/lsm9ds1.o
-                0x00408310                LSM9DS1::readGyro()
+                0x00408080       0x70 build/obj/lsm9ds1.o
+                0x00408080                LSM9DS1::readGyro()
  .text._ZN7LSM9DS18calcGyroEs
-                0x00408380       0x20 build/obj/lsm9ds1.o
-                0x00408380                LSM9DS1::calcGyro(short)
+                0x004080f0       0x20 build/obj/lsm9ds1.o
+                0x004080f0                LSM9DS1::calcGyro(short)
  .text._ZN7LSM9DS19calcAccelEs
-                0x004083a0       0x20 build/obj/lsm9ds1.o
-                0x004083a0                LSM9DS1::calcAccel(short)
+                0x00408110       0x20 build/obj/lsm9ds1.o
+                0x00408110                LSM9DS1::calcAccel(short)
  .text._ZN7LSM9DS17calcMagEs
-                0x004083c0       0x20 build/obj/lsm9ds1.o
-                0x004083c0                LSM9DS1::calcMag(short)
+                0x00408130       0x20 build/obj/lsm9ds1.o
+                0x00408130                LSM9DS1::calcMag(short)
  .text._ZN7LSM9DS18calcmResEv
-                0x004083e0       0x60 build/obj/lsm9ds1.o
-                0x004083e0                LSM9DS1::calcmRes()
+                0x00408150       0x60 build/obj/lsm9ds1.o
+                0x00408150                LSM9DS1::calcmRes()
  .text._ZN7LSM9DS115constrainScalesEv
-                0x00408440       0x50 build/obj/lsm9ds1.o
-                0x00408440                LSM9DS1::constrainScales()
+                0x004081b0       0x50 build/obj/lsm9ds1.o
+                0x004081b0                LSM9DS1::constrainScales()
  .text._ZN7LSM9DS15beginEv
-                0x00408490       0x80 build/obj/lsm9ds1.o
-                0x00408490                LSM9DS1::begin()
- .text._ZN7creator9MPL3115A2C2EPNS_3I2CEh
-                0x00408510       0x20 build/obj/mpl3115a2.o
-                0x00408510                creator::MPL3115A2::MPL3115A2(creator::I2C*, unsigned char)
-                0x00408510                creator::MPL3115A2::MPL3115A2(creator::I2C*, unsigned char)
- .text._ZN7creator9MPL3115A25BeginEv
-                0x00408530       0x50 build/obj/mpl3115a2.o
-                0x00408530                creator::MPL3115A2::Begin()
- .text._ZN7creator9MPL3115A211GetPressureEv
-                0x00408580       0xa0 build/obj/mpl3115a2.o
-                0x00408580                creator::MPL3115A2::GetPressure()
- .text._ZN7creator9MPL3115A211GetAltitudeEv
-                0x00408620       0xa0 build/obj/mpl3115a2.o
-                0x00408620                creator::MPL3115A2::GetAltitude()
- .text._ZN7creator9MPL3115A214GetTemperatureEv
-                0x004086c0       0x90 build/obj/mpl3115a2.o
-                0x004086c0                creator::MPL3115A2::GetTemperature()
- .text._ZN7creator8VEML6070C2EPNS_3I2CE
-                0x00408750       0x10 build/obj/veml6070.o
-                0x00408750                creator::VEML6070::VEML6070(creator::I2C*)
-                0x00408750                creator::VEML6070::VEML6070(creator::I2C*)
- .text._ZN7creator8VEML60705BeginEv
-                0x00408760       0x20 build/obj/veml6070.o
-                0x00408760                creator::VEML6070::Begin()
- .text._ZN7creator8VEML60705GetUVEv
-                0x00408780       0x30 build/obj/veml6070.o
-                0x00408780                creator::VEML6070::GetUV()
- .text._ZL9EnvThreadPv
-                0x004087b0      0x120 build/obj/main.o
+                0x00408200       0x80 build/obj/lsm9ds1.o
+                0x00408200                LSM9DS1::begin()
+ .text._ZL14BlinkingThreadPv
+                0x00408280       0x30 build/obj/main.o
  .text._ZL9IMUThreadPv
-                0x004088d0      0x1b0 build/obj/main.o
+                0x004082b0      0x1b0 build/obj/main.o
  *(.rodata)
- .rodata        0x00408a80       0x40 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_atan.o)
- .rodata        0x00408ac0        0x4 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
-                0x00408ac0                _global_impure_ptr
- *fill*         0x00408ac4        0xc 
- .rodata        0x00408ad0       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
- .rodata        0x00408af0       0x60 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
-                0x00408af0                __sf_fake_stderr
-                0x00408b10                __sf_fake_stdout
-                0x00408b30                __sf_fake_stdin
+ .rodata        0x00408460       0x40 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_atan.o)
+ .rodata        0x004084a0        0x4 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                0x004084a0                _global_impure_ptr
+ *fill*         0x004084a4        0xc 
+ .rodata        0x004084b0       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .rodata        0x004084d0       0x60 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x004084d0                __sf_fake_stderr
+                0x004084f0                __sf_fake_stdout
+                0x00408510                __sf_fake_stdin
  *(.rodata.*)
  .rodata.str1.4
-                0x00408b50        0xd build/obj/chsys.o
+                0x00408530        0xd build/obj/chsys.o
                                  0x10 (size before relaxing)
- *fill*         0x00408b5d        0x3 
- .rodata.vmt    0x00408b60       0x24 build/obj/serial.o
- *fill*         0x00408b84        0xc 
+ *fill*         0x0040853d        0x3 
+ .rodata.vmt    0x00408540       0x24 build/obj/serial.o
+ *fill*         0x00408564        0xc 
  .rodata.str1.4
-                0x00408b90       0x42 build/obj/pmc.o
+                0x00408570       0x42 build/obj/pmc.o
                                  0x44 (size before relaxing)
- *fill*         0x00408bd2        0xe 
+ *fill*         0x004085b2        0xe 
  .rodata.__func__.4754
-                0x00408be0       0x18 build/obj/pmc.o
- *fill*         0x00408bf8        0x8 
+                0x004085c0       0x18 build/obj/pmc.o
+ *fill*         0x004085d8        0x8 
  .rodata.__func__.4821
-                0x00408c00        0xc build/obj/atmel_twi.o
- *fill*         0x00408c0c        0x4 
+                0x004085e0        0xc build/obj/atmel_twi.o
+ *fill*         0x004085ec        0x4 
  .rodata.__func__.4877
-                0x00408c10       0x18 build/obj/atmel_twi.o
- *fill*         0x00408c28        0x8 
+                0x004085f0       0x18 build/obj/atmel_twi.o
+ *fill*         0x00408608        0x8 
  .rodata.__func__.4832
-                0x00408c30       0x10 build/obj/atmel_twi.o
+                0x00408610       0x10 build/obj/atmel_twi.o
  .rodata.__func__.4828
-                0x00408c40       0x10 build/obj/atmel_twi.o
+                0x00408620       0x10 build/obj/atmel_twi.o
  .rodata.__func__.4837
-                0x00408c50       0x10 build/obj/atmel_twi.o
+                0x00408630       0x10 build/obj/atmel_twi.o
  .rodata.__func__.4845
-                0x00408c60       0x10 build/obj/atmel_twi.o
+                0x00408640       0x10 build/obj/atmel_twi.o
  .rodata.str1.4
-                0x00408c70       0xf0 build/obj/atmel_twi.o
+                0x00408650       0xf0 build/obj/atmel_twi.o
  .rodata.__func__.4802
-                0x00408d60       0x14 build/obj/atmel_twi.o
- *fill*         0x00408d74        0xc 
+                0x00408740       0x14 build/obj/atmel_twi.o
+ *fill*         0x00408754        0xc 
  .rodata.__func__.4859
-                0x00408d80       0x10 build/obj/atmel_twi.o
+                0x00408760       0x10 build/obj/atmel_twi.o
  .rodata.__func__.4879
-                0x00408d90        0xc build/obj/atmel_twid.o
- *fill*         0x00408d9c        0x4 
+                0x00408770        0xc build/obj/atmel_twid.o
+ *fill*         0x0040877c        0x4 
  .rodata.str1.4
-                0x00408da0       0x3f build/obj/atmel_twid.o
+                0x00408780       0x3f build/obj/atmel_twid.o
                                  0x84 (size before relaxing)
- *fill*         0x00408ddf        0x1 
+ *fill*         0x004087bf        0x1 
  .rodata.__func__.4857
-                0x00408de0        0xc build/obj/atmel_twid.o
- *fill*         0x00408dec        0x4 
+                0x004087c0        0xc build/obj/atmel_twid.o
+ *fill*         0x004087cc        0x4 
  .rodata.pal_default_config
-                0x00408df0       0x24 build/obj/board.o
-                0x00408df0                pal_default_config
- *fill*         0x00408e14        0xc 
+                0x004087d0       0x24 build/obj/board.o
+                0x004087d0                pal_default_config
+ *fill*         0x004087f4        0xc 
  .rodata._ZN7creatorL4pinsE
-                0x00408e20       0x18 build/obj/i2c.o
- *fill*         0x00408e38        0x8 
+                0x00408800       0x18 build/obj/i2c.o
+ *fill*         0x00408818        0x8 
  .rodata.CSWTCH.42
-                0x00408e40        0xc build/obj/lsm9ds1.o
- *fill*         0x00408e4c        0x4 
+                0x00408820        0xc build/obj/lsm9ds1.o
+ *fill*         0x0040882c        0x4 
  .rodata._ZL8pinPsram
-                0x00408e50       0x3c build/obj/main.o
- *fill*         0x00408e8c        0x4 
+                0x00408830       0x3c build/obj/main.o
+ *fill*         0x0040886c        0x4 
  .rodata.str1.4
-                0x00408e90        0x5 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-w_sqrt.o)
+                0x00408870        0x5 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-w_sqrt.o)
                                   0x8 (size before relaxing)
- *fill*         0x00408e95        0xb 
+ *fill*         0x00408875        0xb 
  .rodata.str1.4
-                0x00408ea0       0x3f /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-assert.o)
+                0x00408880       0x3f /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-assert.o)
                                  0x44 (size before relaxing)
- *fill*         0x00408edf        0x1 
+ *fill*         0x004088bf        0x1 
  .rodata.str1.4
-                0x00408ee0        0x2 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                0x004088c0        0x2 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
                                   0x4 (size before relaxing)
- *fill*         0x00408ee2        0xe 
+ *fill*         0x004088c2        0xe 
  .rodata.str1.4
-                0x00408ef0       0x2f /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                0x004088d0       0x2f /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
                                  0x30 (size before relaxing)
- *fill*         0x00408f1f        0x1 
+ *fill*         0x004088ff        0x1 
  .rodata.str1.4
-                0x00408f20        0xc /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x00408900        0xc /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
                                  0x14 (size before relaxing)
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
@@ -2683,117 +2731,85 @@ destructors     0x004000d0        0x0
  .glue_7        0x00000000        0x0 linker stubs
  *(.gcc*)
 
-.vfp11_veneer   0x00408f2c        0x0
+.vfp11_veneer   0x0040890c        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00408f2c        0x0
+.v4_bx          0x0040890c        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00408f2c        0x0
+.iplt           0x0040890c        0x0
  .iplt          0x00000000        0x0 build/obj/crt0.o
 
-.ARM.extab      0x00408f2c       0x30
+.ARM.extab      0x0040890c       0x24
  *(.ARM.extab* .gnu.linkonce.armextab.*)
- .ARM.extab.text._ZN7creator8VEML60705BeginEv
-                0x00408f2c        0xc build/obj/veml6070.o
- .ARM.extab     0x00408f38        0xc /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(unwind-arm.o)
- .ARM.extab     0x00408f44       0x18 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(pr-support.o)
+ .ARM.extab     0x0040890c        0xc /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(unwind-arm.o)
+ .ARM.extab     0x00408918       0x18 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(pr-support.o)
 
-.ARM.exidx      0x00408f5c      0x188
-                0x00408f5c                PROVIDE (__exidx_start, .)
+.ARM.exidx      0x00408930      0x140
+                0x00408930                PROVIDE (__exidx_start, .)
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
  .ARM.exidx.text._ZN7creator3I2C4InitEv
-                0x0040902c        0x8 build/obj/i2c.o
+                0x00408a00        0x8 build/obj/i2c.o
  .ARM.exidx.text._ZN7creator3I2C9WriteByteEhhh
-                0x00409034        0x8 build/obj/i2c.o
- .ARM.exidx.text._ZN7creator3I2C9WriteByteEhh
-                0x0040903c        0x0 build/obj/i2c.o
-                                  0x8 (size before relaxing)
+                0x00408a08        0x8 build/obj/i2c.o
  .ARM.exidx.text._ZN7creator3I2C8ReadByteEhh
-                0x0040903c        0x8 build/obj/i2c.o
- .ARM.exidx.text._ZN7creator3I2C8ReadByteEh
-                0x00409044        0x0 build/obj/i2c.o
-                                  0x8 (size before relaxing)
+                0x00408a10        0x8 build/obj/i2c.o
  .ARM.exidx.text._ZN7creator3I2C9ReadBytesEhhPhh
-                0x00409044        0x8 build/obj/i2c.o
- .ARM.exidx.text._ZN7creator6HTS221C2EPNS_3I2CEh
-                0x0040904c        0x8 build/obj/hts221.o
- .ARM.exidx.text._ZN7creator6HTS2215BeginEv
-                0x00409054        0x8 build/obj/hts221.o
- .ARM.exidx.text._ZN7creator6HTS2217GetDataERfS1_
-                0x0040905c        0x8 build/obj/hts221.o
+                0x00408a18        0x8 build/obj/i2c.o
  .ARM.exidx.text._ZN7LSM9DS14initE14interface_modehh
-                0x00409064        0x8 build/obj/lsm9ds1.o
+                0x00408a20        0x8 build/obj/lsm9ds1.o
  .ARM.exidx.text._ZN7LSM9DS1C2EPN7creator3I2CE14interface_modehh
-                0x0040906c        0x0 build/obj/lsm9ds1.o
+                0x00408a28        0x0 build/obj/lsm9ds1.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN7LSM9DS18initGyroEv
-                0x0040906c        0x8 build/obj/lsm9ds1.o
+                0x00408a28        0x8 build/obj/lsm9ds1.o
  .ARM.exidx.text._ZN7LSM9DS19initAccelEv
-                0x00409074        0x0 build/obj/lsm9ds1.o
+                0x00408a30        0x0 build/obj/lsm9ds1.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN7LSM9DS17initMagEv
-                0x00409074        0x0 build/obj/lsm9ds1.o
+                0x00408a30        0x0 build/obj/lsm9ds1.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN7LSM9DS19readAccelEv
-                0x00409074        0x8 build/obj/lsm9ds1.o
+                0x00408a30        0x8 build/obj/lsm9ds1.o
  .ARM.exidx.text._ZN7LSM9DS17readMagEv
-                0x0040907c        0x8 build/obj/lsm9ds1.o
+                0x00408a38        0x8 build/obj/lsm9ds1.o
  .ARM.exidx.text._ZN7LSM9DS18readGyroEv
-                0x00409084        0x8 build/obj/lsm9ds1.o
+                0x00408a40        0x8 build/obj/lsm9ds1.o
  .ARM.exidx.text._ZN7LSM9DS18calcGyroEs
-                0x0040908c        0x8 build/obj/lsm9ds1.o
+                0x00408a48        0x8 build/obj/lsm9ds1.o
  .ARM.exidx.text._ZN7LSM9DS19calcAccelEs
-                0x00409094        0x0 build/obj/lsm9ds1.o
+                0x00408a50        0x0 build/obj/lsm9ds1.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN7LSM9DS17calcMagEs
-                0x00409094        0x0 build/obj/lsm9ds1.o
+                0x00408a50        0x0 build/obj/lsm9ds1.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN7LSM9DS18calcmResEv
-                0x00409094        0x0 build/obj/lsm9ds1.o
+                0x00408a50        0x0 build/obj/lsm9ds1.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN7LSM9DS115constrainScalesEv
-                0x00409094        0x0 build/obj/lsm9ds1.o
+                0x00408a50        0x0 build/obj/lsm9ds1.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text._ZN7LSM9DS15beginEv
-                0x00409094        0x8 build/obj/lsm9ds1.o
- .ARM.exidx.text._ZN7creator9MPL3115A2C2EPNS_3I2CEh
-                0x0040909c        0x8 build/obj/mpl3115a2.o
- .ARM.exidx.text._ZN7creator9MPL3115A25BeginEv
-                0x004090a4        0x8 build/obj/mpl3115a2.o
- .ARM.exidx.text._ZN7creator9MPL3115A211GetPressureEv
-                0x004090ac        0x8 build/obj/mpl3115a2.o
- .ARM.exidx.text._ZN7creator9MPL3115A211GetAltitudeEv
-                0x004090b4        0x0 build/obj/mpl3115a2.o
-                                  0x8 (size before relaxing)
- .ARM.exidx.text._ZN7creator9MPL3115A214GetTemperatureEv
-                0x004090b4        0x0 build/obj/mpl3115a2.o
-                                  0x8 (size before relaxing)
- .ARM.exidx.text._ZN7creator8VEML6070C2EPNS_3I2CE
-                0x004090b4        0x8 build/obj/veml6070.o
- .ARM.exidx.text._ZN7creator8VEML60705BeginEv
-                0x004090bc        0x8 build/obj/veml6070.o
- .ARM.exidx.text._ZN7creator8VEML60705GetUVEv
-                0x004090c4        0x8 build/obj/veml6070.o
- .ARM.exidx.text._ZL9EnvThreadPv
-                0x004090cc        0x8 build/obj/main.o
+                0x00408a50        0x8 build/obj/lsm9ds1.o
+ .ARM.exidx.text._ZL14BlinkingThreadPv
+                0x00408a58        0x8 build/obj/main.o
  .ARM.exidx.text._ZL9IMUThreadPv
-                0x004090d4       0x10 build/obj/main.o
+                0x00408a60       0x10 build/obj/main.o
                                   0x8 (size before relaxing)
  .ARM.exidx.text.startup.main
-                0x00408f5c       0x10 build/obj/main.o
+                0x00408930       0x10 build/obj/main.o
                                   0x8 (size before relaxing)
- .ARM.exidx     0x00408f6c       0x88 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(unwind-arm.o)
+ .ARM.exidx     0x00408940       0x88 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(unwind-arm.o)
                                  0xd8 (size before relaxing)
- .ARM.exidx     0x00408ff4       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(pr-support.o)
+ .ARM.exidx     0x004089c8       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(pr-support.o)
                                  0x48 (size before relaxing)
- .ARM.exidx     0x0040902c        0x0 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00408a00        0x0 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_divdi3.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x0040902c        0x0 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x00408a00        0x0 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x004090e4                PROVIDE (__exidx_end, .)
+                0x00408a70                PROVIDE (__exidx_end, .)
 
-.rel.dyn        0x004090e4        0x0
+.rel.dyn        0x00408a70        0x0
  .rel.iplt      0x00000000        0x0 build/obj/crt0.o
 
 .eh_frame_hdr
@@ -2802,11 +2818,10 @@ destructors     0x004000d0        0x0
 .eh_frame
  *(.eh_frame)
 
-.textalign      0x004090e4        0x4
-                0x004090e8                . = ALIGN (0x8)
- *fill*         0x004090e4        0x4 
-                0x004090e8                _etext = .
-                0x004090e8                _textdata = _etext
+.textalign      0x00408a70        0x0
+                0x00408a70                . = ALIGN (0x8)
+                0x00408a70                _etext = .
+                0x00408a70                _textdata = _etext
 
 .stacks         0x20000000      0x800
                 0x20000000                . = ALIGN (0x8)
@@ -2823,7 +2838,7 @@ destructors     0x004000d0        0x0
                 0x20000800                __process_stack_end__ = .
                 0x20000800                __main_thread_stack_end__ = .
 
-.data           0x20000800      0x59c load address 0x004090e8
+.data           0x20000800      0x59c load address 0x00408a70
                 0x20000800                . = ALIGN (0x4)
                 0x20000800                PROVIDE (_data, .)
  *(.data)
@@ -2853,10 +2868,10 @@ destructors     0x004000d0        0x0
                 0x20000d9c                . = ALIGN (0x4)
                 0x20000d9c                PROVIDE (_edata, .)
 
-.igot.plt       0x20000d9c        0x0 load address 0x00409684
+.igot.plt       0x20000d9c        0x0 load address 0x0040900c
  .igot.plt      0x00000000        0x0 build/obj/crt0.o
 
-.bss            0x20000da0      0x6ec load address 0x00409684
+.bss            0x20000da0      0x62c load address 0x0040900c
                 0x20000da0                . = ALIGN (0x4)
                 0x20000da0                PROVIDE (_bss_start, .)
  *(.bss)
@@ -2885,25 +2900,25 @@ destructors     0x004000d0        0x0
                 0x20000f38                SD1
  .bss.SD2       0x20000fac       0x74 build/obj/serial_lld.o
                 0x20000fac                SD2
- .bss._ZL11waEnvThread
-                0x20001020      0x1b0 build/obj/main.o
- .bss.i2c       0x200011d0        0x8 build/obj/main.o
-                0x200011d0                i2c
+ .bss._ZL16waBlinkingThread
+                0x20001020       0xf0 build/obj/main.o
+ .bss.i2c       0x20001110        0x8 build/obj/main.o
+                0x20001110                i2c
  .bss._ZL11waIMUThread
-                0x200011d8      0x2b0 build/obj/main.o
-                0x20001488                . = ALIGN (0x4)
+                0x20001118      0x2b0 build/obj/main.o
+                0x200013c8                . = ALIGN (0x4)
  *(COMMON)
- COMMON         0x20001488        0x4 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
-                0x20001488                errno
-                0x2000148c                . = ALIGN (0x4)
-                0x2000148c                PROVIDE (_bss_end, .)
-                0x2000148c                PROVIDE (end, .)
-                0x2000148c                _end = .
-                0x2000148c                __heap_base__ = _end
+ COMMON         0x200013c8        0x4 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                0x200013c8                errno
+                0x200013cc                . = ALIGN (0x4)
+                0x200013cc                PROVIDE (_bss_end, .)
+                0x200013cc                PROVIDE (end, .)
+                0x200013cc                _end = .
+                0x200013cc                __heap_base__ = _end
                 0x20008000                __heap_end__ = __ram_end__
 OUTPUT(build/ch.elf elf32-littlearm)
 
-.debug_info     0x00000000    0x154b1
+.debug_info     0x00000000    0x12d01
  .debug_info    0x00000000      0x2e8 build/obj/crt0.o
  .debug_info    0x000002e8       0xb3 build/obj/vectors.o
  .debug_info    0x0000039b      0x7cc build/obj/chcore_v7m.o
@@ -2932,13 +2947,10 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_info    0x0000b4d8      0x6d5 build/obj/board.o
  .debug_info    0x0000bbad      0xc03 build/obj/syscalls.o
  .debug_info    0x0000c7b0     0x102b build/obj/i2c.o
- .debug_info    0x0000d7db      0xb2a build/obj/hts221.o
- .debug_info    0x0000e305     0x3569 build/obj/lsm9ds1.o
- .debug_info    0x0001186e      0xe5c build/obj/mpl3115a2.o
- .debug_info    0x000126ca      0x603 build/obj/veml6070.o
- .debug_info    0x00012ccd     0x27e4 build/obj/main.o
+ .debug_info    0x0000d7db     0x3569 build/obj/lsm9ds1.o
+ .debug_info    0x00010d44     0x1fbd build/obj/main.o
 
-.debug_abbrev   0x00000000     0x4681
+.debug_abbrev   0x00000000     0x3d0b
  .debug_abbrev  0x00000000      0x131 build/obj/crt0.o
  .debug_abbrev  0x00000131       0x75 build/obj/vectors.o
  .debug_abbrev  0x000001a6      0x1e2 build/obj/chcore_v7m.o
@@ -2967,13 +2979,10 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_abbrev  0x00002e5f      0x15d build/obj/board.o
  .debug_abbrev  0x00002fbc      0x204 build/obj/syscalls.o
  .debug_abbrev  0x000031c0      0x255 build/obj/i2c.o
- .debug_abbrev  0x00003415      0x303 build/obj/hts221.o
- .debug_abbrev  0x00003718      0x49b build/obj/lsm9ds1.o
- .debug_abbrev  0x00003bb3      0x337 build/obj/mpl3115a2.o
- .debug_abbrev  0x00003eea      0x27b build/obj/veml6070.o
- .debug_abbrev  0x00004165      0x51c build/obj/main.o
+ .debug_abbrev  0x00003415      0x49b build/obj/lsm9ds1.o
+ .debug_abbrev  0x000038b0      0x45b build/obj/main.o
 
-.debug_loc      0x00000000     0x71b5
+.debug_loc      0x00000000     0x6a51
  .debug_loc     0x00000000       0xe2 build/obj/crt0.o
  .debug_loc     0x000000e2       0x5a build/obj/chcore_v7m.o
  .debug_loc     0x0000013c      0x169 build/obj/nvic.o
@@ -2997,13 +3006,10 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_loc     0x00003c84       0x4f build/obj/wdt.o
  .debug_loc     0x00003cd3      0x1a4 build/obj/syscalls.o
  .debug_loc     0x00003e77      0x246 build/obj/i2c.o
- .debug_loc     0x000040bd      0x26e build/obj/hts221.o
- .debug_loc     0x0000432b     0x28ed build/obj/lsm9ds1.o
- .debug_loc     0x00006c18      0x411 build/obj/mpl3115a2.o
- .debug_loc     0x00007029       0x4a build/obj/veml6070.o
- .debug_loc     0x00007073      0x142 build/obj/main.o
+ .debug_loc     0x000040bd     0x28ed build/obj/lsm9ds1.o
+ .debug_loc     0x000069aa       0xa7 build/obj/main.o
 
-.debug_aranges  0x00000000      0xae0
+.debug_aranges  0x00000000      0xa18
  .debug_aranges
                 0x00000000       0x38 build/obj/crt0.o
  .debug_aranges
@@ -3061,17 +3067,11 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_aranges
                 0x000007c0       0x48 build/obj/i2c.o
  .debug_aranges
-                0x00000808       0x48 build/obj/hts221.o
+                0x00000808      0x1d8 build/obj/lsm9ds1.o
  .debug_aranges
-                0x00000850      0x1d8 build/obj/lsm9ds1.o
- .debug_aranges
-                0x00000a28       0x50 build/obj/mpl3115a2.o
- .debug_aranges
-                0x00000a78       0x30 build/obj/veml6070.o
- .debug_aranges
-                0x00000aa8       0x38 build/obj/main.o
+                0x000009e0       0x38 build/obj/main.o
 
-.debug_ranges   0x00000000     0x1670
+.debug_ranges   0x00000000     0x13d0
  .debug_ranges  0x00000000       0x28 build/obj/crt0.o
  .debug_ranges  0x00000028       0x10 build/obj/vectors.o
  .debug_ranges  0x00000038       0x58 build/obj/chcore_v7m.o
@@ -3100,13 +3100,10 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_ranges  0x00000a28       0x18 build/obj/board.o
  .debug_ranges  0x00000a40       0x58 build/obj/syscalls.o
  .debug_ranges  0x00000a98       0xb0 build/obj/i2c.o
- .debug_ranges  0x00000b48      0x168 build/obj/hts221.o
- .debug_ranges  0x00000cb0      0x860 build/obj/lsm9ds1.o
- .debug_ranges  0x00001510       0x88 build/obj/mpl3115a2.o
- .debug_ranges  0x00001598       0x38 build/obj/veml6070.o
- .debug_ranges  0x000015d0       0xa0 build/obj/main.o
+ .debug_ranges  0x00000b48      0x860 build/obj/lsm9ds1.o
+ .debug_ranges  0x000013a8       0x28 build/obj/main.o
 
-.debug_line     0x00000000     0x4bee
+.debug_line     0x00000000     0x4601
  .debug_line    0x00000000       0xf4 build/obj/crt0.o
  .debug_line    0x000000f4       0x70 build/obj/vectors.o
  .debug_line    0x00000164      0x1fa build/obj/chcore_v7m.o
@@ -3135,13 +3132,10 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_line    0x00003366      0x15e build/obj/board.o
  .debug_line    0x000034c4      0x1ed build/obj/syscalls.o
  .debug_line    0x000036b1      0x1b2 build/obj/i2c.o
- .debug_line    0x00003863      0x1a5 build/obj/hts221.o
- .debug_line    0x00003a08      0xa4f build/obj/lsm9ds1.o
- .debug_line    0x00004457      0x2a4 build/obj/mpl3115a2.o
- .debug_line    0x000046fb      0x163 build/obj/veml6070.o
- .debug_line    0x0000485e      0x390 build/obj/main.o
+ .debug_line    0x00003863      0xa4f build/obj/lsm9ds1.o
+ .debug_line    0x000042b2      0x34f build/obj/main.o
 
-.debug_str      0x00000000     0x3a03
+.debug_str      0x00000000     0x357b
  .debug_str     0x00000000      0x298 build/obj/crt0.o
                                 0x2d7 (size before relaxing)
  .debug_str     0x00000298       0x5d build/obj/vectors.o
@@ -3198,16 +3192,10 @@ OUTPUT(build/ch.elf elf32-littlearm)
                                 0x6bb (size before relaxing)
  .debug_str     0x00002519      0x189 build/obj/i2c.o
                                 0x7b6 (size before relaxing)
- .debug_str     0x000026a2       0xff build/obj/hts221.o
-                                0x4ac (size before relaxing)
- .debug_str     0x000027a1      0xd46 build/obj/lsm9ds1.o
+ .debug_str     0x000026a2      0xd67 build/obj/lsm9ds1.o
                                0x117a (size before relaxing)
- .debug_str     0x000034e7      0x28f build/obj/mpl3115a2.o
-                                0x66e (size before relaxing)
- .debug_str     0x00003776       0xcc build/obj/veml6070.o
-                                0x486 (size before relaxing)
- .debug_str     0x00003842      0x1c1 build/obj/main.o
-                               0x19a7 (size before relaxing)
+ .debug_str     0x00003409      0x172 build/obj/main.o
+                               0x1667 (size before relaxing)
 
 .comment        0x00000000       0x30
  .comment       0x00000000       0x30 build/obj/crt0.o
@@ -3239,10 +3227,7 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .comment       0x00000000       0x31 build/obj/board.o
  .comment       0x00000000       0x31 build/obj/syscalls.o
  .comment       0x00000000       0x31 build/obj/i2c.o
- .comment       0x00000000       0x31 build/obj/hts221.o
  .comment       0x00000000       0x31 build/obj/lsm9ds1.o
- .comment       0x00000000       0x31 build/obj/mpl3115a2.o
- .comment       0x00000000       0x31 build/obj/veml6070.o
  .comment       0x00000000       0x31 build/obj/main.o
 
 .ARM.attributes
@@ -3304,123 +3289,117 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .ARM.attributes
                 0x00000561       0x33 build/obj/i2c.o
  .ARM.attributes
-                0x00000594       0x33 build/obj/hts221.o
+                0x00000594       0x33 build/obj/lsm9ds1.o
  .ARM.attributes
-                0x000005c7       0x33 build/obj/lsm9ds1.o
+                0x000005c7       0x33 build/obj/main.o
  .ARM.attributes
-                0x000005fa       0x33 build/obj/mpl3115a2.o
+                0x000005fa       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-w_atan2.o)
  .ARM.attributes
-                0x0000062d       0x33 build/obj/veml6070.o
+                0x00000623       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-w_sqrt.o)
  .ARM.attributes
-                0x00000660       0x33 build/obj/main.o
+                0x0000064c       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-e_atan2.o)
  .ARM.attributes
-                0x00000693       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-w_atan2.o)
+                0x00000675       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-e_sqrt.o)
  .ARM.attributes
-                0x000006bc       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-w_sqrt.o)
+                0x0000069e       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_atan.o)
  .ARM.attributes
-                0x000006e5       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-e_atan2.o)
+                0x000006c7       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_fabs.o)
  .ARM.attributes
-                0x0000070e       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-e_sqrt.o)
+                0x000006f0       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_fpclassify.o)
  .ARM.attributes
-                0x00000737       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_atan.o)
+                0x00000719       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_lib_ver.o)
  .ARM.attributes
-                0x00000760       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_fabs.o)
+                0x00000742       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_matherr.o)
  .ARM.attributes
-                0x00000789       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_fpclassify.o)
+                0x0000076b       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x000007b2       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_lib_ver.o)
+                0x00000784       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x000007db       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_matherr.o)
+                0x0000079d       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_cmpdf2.o)
  .ARM.attributes
-                0x00000804       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_addsubdf3.o)
+                0x000007b6       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x0000081d       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_muldivdf3.o)
+                0x000007cf       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x00000836       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_cmpdf2.o)
+                0x000007e8       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x0000084f       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_truncdfsf2.o)
+                0x00000801       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
  .ARM.attributes
-                0x00000868       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_addsubsf3.o)
+                0x0000082a       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-assert.o)
  .ARM.attributes
-                0x00000881       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_arm_muldivsf3.o)
+                0x00000853       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-errno.o)
  .ARM.attributes
-                0x0000089a       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+                0x0000087c       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fiprintf.o)
  .ARM.attributes
-                0x000008c3       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-assert.o)
+                0x000008a5       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x000008ec       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-errno.o)
+                0x000008ce       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x00000915       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fiprintf.o)
+                0x000008f7       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
  .ARM.attributes
-                0x0000093e       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-impure.o)
+                0x00000920       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
  .ARM.attributes
-                0x00000967       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy-stub.o)
+                0x00000949       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
  .ARM.attributes
-                0x00000990       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+                0x00000972       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
  .ARM.attributes
-                0x000009b9       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+                0x0000099b       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
  .ARM.attributes
-                0x000009e2       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+                0x000009c4       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
  .ARM.attributes
-                0x00000a0b       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+                0x000009ed       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
  .ARM.attributes
-                0x00000a34       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+                0x00000a16       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
  .ARM.attributes
-                0x00000a5d       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+                0x00000a3f       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
  .ARM.attributes
-                0x00000a86       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+                0x00000a68       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
  .ARM.attributes
-                0x00000aaf       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+                0x00000a91       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
  .ARM.attributes
-                0x00000ad8       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+                0x00000aba       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
  .ARM.attributes
-                0x00000b01       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+                0x00000ae3       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
  .ARM.attributes
-                0x00000b2a       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+                0x00000b0c       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
  .ARM.attributes
-                0x00000b53       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+                0x00000b35       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr-stub.o)
  .ARM.attributes
-                0x00000b7c       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+                0x00000b5e       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
  .ARM.attributes
-                0x00000ba5       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+                0x00000b87       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
  .ARM.attributes
-                0x00000bce       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr-stub.o)
+                0x00000bb0       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
  .ARM.attributes
-                0x00000bf7       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+                0x00000bd9       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
  .ARM.attributes
-                0x00000c20       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+                0x00000c02       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
  .ARM.attributes
-                0x00000c49       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+                0x00000c2b       0x17 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
  .ARM.attributes
-                0x00000c72       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+                0x00000c42       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
  .ARM.attributes
-                0x00000c9b       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+                0x00000c6b       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
  .ARM.attributes
-                0x00000cc4       0x17 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strcmp.o)
+                0x00000c94       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
  .ARM.attributes
-                0x00000cdb       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+                0x00000cbd       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
  .ARM.attributes
-                0x00000d04       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+                0x00000ce6       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
  .ARM.attributes
-                0x00000d2d       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+                0x00000d0f       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x00000d56       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+                0x00000d28       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(bpabi.o)
  .ARM.attributes
-                0x00000d7f       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+                0x00000d51       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x00000da8       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_aeabi_uldivmod.o)
+                0x00000d6a       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_divdi3.o)
  .ARM.attributes
-                0x00000dc1       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(bpabi.o)
+                0x00000d93       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_udivdi3.o)
  .ARM.attributes
-                0x00000dea       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_dvmd_tls.o)
- .ARM.attributes
-                0x00000e03       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_divdi3.o)
- .ARM.attributes
-                0x00000e2c       0x29 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_udivdi3.o)
- .ARM.attributes
-                0x00000e55       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_udivsi3.o)
+                0x00000dbc       0x19 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_udivsi3.o)
 
-.debug_frame    0x00000000     0x2798
+.debug_frame    0x00000000     0x25ac
  .debug_frame   0x00000000       0x50 build/obj/crt0.o
  .debug_frame   0x00000050       0x20 build/obj/vectors.o
  .debug_frame   0x00000070       0x98 build/obj/chcore_v7m.o
@@ -3449,54 +3428,51 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_frame   0x000010b8       0x3c build/obj/board.o
  .debug_frame   0x000010f4       0xc8 build/obj/syscalls.o
  .debug_frame   0x000011bc       0xe4 build/obj/i2c.o
- .debug_frame   0x000012a0       0xbc build/obj/hts221.o
- .debug_frame   0x0000135c      0x69c build/obj/lsm9ds1.o
- .debug_frame   0x000019f8       0xcc build/obj/mpl3115a2.o
- .debug_frame   0x00001ac4       0x5c build/obj/veml6070.o
- .debug_frame   0x00001b20       0x9c build/obj/main.o
- .debug_frame   0x00001bbc       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-w_atan2.o)
- .debug_frame   0x00001bdc       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-w_sqrt.o)
- .debug_frame   0x00001c14       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-e_atan2.o)
- .debug_frame   0x00001c4c       0x34 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-e_sqrt.o)
- .debug_frame   0x00001c80       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_atan.o)
- .debug_frame   0x00001cb8       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_fabs.o)
- .debug_frame   0x00001cd8       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_fpclassify.o)
- .debug_frame   0x00001cf8       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_matherr.o)
- .debug_frame   0x00001d18       0x28 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
- .debug_frame   0x00001d40       0x40 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-assert.o)
- .debug_frame   0x00001d80       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-errno.o)
- .debug_frame   0x00001da0       0x58 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fiprintf.o)
- .debug_frame   0x00001df8       0x2c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy-stub.o)
- .debug_frame   0x00001e24       0x2c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
- .debug_frame   0x00001e50       0xc0 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
- .debug_frame   0x00001f10       0x3c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
- .debug_frame   0x00001f4c       0xbc /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
- .debug_frame   0x00002008       0x2c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
- .debug_frame   0x00002034       0x5c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
- .debug_frame   0x00002090      0x110 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
- .debug_frame   0x000021a0       0x50 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
- .debug_frame   0x000021f0       0x50 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
- .debug_frame   0x00002240       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
- .debug_frame   0x00002278       0x54 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
- .debug_frame   0x000022cc       0x98 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
- .debug_frame   0x00002364       0x30 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
- .debug_frame   0x00002394       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
- .debug_frame   0x000023cc       0x2c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr-stub.o)
- .debug_frame   0x000023f8       0x2c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
- .debug_frame   0x00002424       0x30 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
- .debug_frame   0x00002454       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
- .debug_frame   0x0000248c       0x48 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
- .debug_frame   0x000024d4       0x80 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
- .debug_frame   0x00002554       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
- .debug_frame   0x00002574       0x3c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
- .debug_frame   0x000025b0       0x58 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
- .debug_frame   0x00002608       0x44 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
- .debug_frame   0x0000264c       0x3c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
- .debug_frame   0x00002688       0x28 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x000026b0       0x58 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(bpabi.o)
- .debug_frame   0x00002708       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_divdi3.o)
- .debug_frame   0x00002740       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_udivdi3.o)
- .debug_frame   0x00002778       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000012a0      0x69c build/obj/lsm9ds1.o
+ .debug_frame   0x0000193c       0x94 build/obj/main.o
+ .debug_frame   0x000019d0       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-w_atan2.o)
+ .debug_frame   0x000019f0       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-w_sqrt.o)
+ .debug_frame   0x00001a28       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-e_atan2.o)
+ .debug_frame   0x00001a60       0x34 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-e_sqrt.o)
+ .debug_frame   0x00001a94       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_atan.o)
+ .debug_frame   0x00001acc       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_fabs.o)
+ .debug_frame   0x00001aec       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x00001b0c       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x00001b2c       0x28 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-abort.o)
+ .debug_frame   0x00001b54       0x40 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-assert.o)
+ .debug_frame   0x00001b94       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-errno.o)
+ .debug_frame   0x00001bb4       0x58 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fiprintf.o)
+ .debug_frame   0x00001c0c       0x2c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00001c38       0x2c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memset.o)
+ .debug_frame   0x00001c64       0xc0 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-signal.o)
+ .debug_frame   0x00001d24       0x3c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)
+ .debug_frame   0x00001d60       0xbc /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-vfiprintf.o)
+ .debug_frame   0x00001e1c       0x2c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wsetup.o)
+ .debug_frame   0x00001e48       0x5c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fflush.o)
+ .debug_frame   0x00001ea4      0x110 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-findfp.o)
+ .debug_frame   0x00001fb4       0x50 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fputwc.o)
+ .debug_frame   0x00002004       0x50 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-freer.o)
+ .debug_frame   0x00002054       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fvwrite.o)
+ .debug_frame   0x0000208c       0x54 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fwalk.o)
+ .debug_frame   0x000020e0       0x98 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-locale.o)
+ .debug_frame   0x00002178       0x30 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-makebuf.o)
+ .debug_frame   0x000021a8       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mallocr.o)
+ .debug_frame   0x000021e0       0x2c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000220c       0x2c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-memmove.o)
+ .debug_frame   0x00002238       0x30 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-mlock.o)
+ .debug_frame   0x00002268       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reallocr.o)
+ .debug_frame   0x000022a0       0x48 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
+ .debug_frame   0x000022e8       0x80 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-stdio.o)
+ .debug_frame   0x00002368       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-strlen.o)
+ .debug_frame   0x00002388       0x3c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wbuf.o)
+ .debug_frame   0x000023c4       0x58 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wcrtomb.o)
+ .debug_frame   0x0000241c       0x44 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-wctomb_r.o)
+ .debug_frame   0x00002460       0x3c /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-fclose.o)
+ .debug_frame   0x0000249c       0x28 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x000024c4       0x58 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(bpabi.o)
+ .debug_frame   0x0000251c       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_divdi3.o)
+ .debug_frame   0x00002554       0x38 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_udivdi3.o)
+ .debug_frame   0x0000258c       0x20 /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/thumb2/libgcc.a(_udivsi3.o)
 
 Cross Reference Table
 
@@ -4516,11 +4492,8 @@ chprintf                                          build/obj/chprintf.o
                                                   build/obj/atmel_adc.o
 cleanup_glue                                      /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
 creator::HTS221::Begin()                          build/obj/hts221.o
-                                                  build/obj/main.o
 creator::HTS221::GetData(float&, float&)          build/obj/hts221.o
-                                                  build/obj/main.o
 creator::HTS221::HTS221(creator::I2C*, unsigned char) build/obj/hts221.o
-                                                  build/obj/main.o
 creator::HTS221::HTS221(creator::I2C*, unsigned char) build/obj/hts221.o
 creator::HTS221::Read(unsigned char)              build/obj/hts221.o
 creator::HTS221::Read(unsigned char, unsigned char*, unsigned char) build/obj/hts221.o
@@ -4544,24 +4517,16 @@ creator::I2C::WriteByte(unsigned char, unsigned char, unsigned char) build/obj/i
                                                   build/obj/lsm9ds1.o
                                                   build/obj/hts221.o
 creator::MPL3115A2::Begin()                       build/obj/mpl3115a2.o
-                                                  build/obj/main.o
 creator::MPL3115A2::GetAltitude()                 build/obj/mpl3115a2.o
-                                                  build/obj/main.o
 creator::MPL3115A2::GetPressure()                 build/obj/mpl3115a2.o
-                                                  build/obj/main.o
 creator::MPL3115A2::GetTemperature()              build/obj/mpl3115a2.o
-                                                  build/obj/main.o
 creator::MPL3115A2::MPL3115A2(creator::I2C*, unsigned char) build/obj/mpl3115a2.o
 creator::MPL3115A2::MPL3115A2(creator::I2C*, unsigned char) build/obj/mpl3115a2.o
-                                                  build/obj/main.o
 creator::MPL3115A2::Read(unsigned char)           build/obj/mpl3115a2.o
 creator::MPL3115A2::Write(unsigned char, unsigned char) build/obj/mpl3115a2.o
 creator::VEML6070::Begin()                        build/obj/veml6070.o
-                                                  build/obj/main.o
 creator::VEML6070::GetUV()                        build/obj/veml6070.o
-                                                  build/obj/main.o
 creator::VEML6070::VEML6070(creator::I2C*)        build/obj/veml6070.o
-                                                  build/obj/main.o
 creator::VEML6070::VEML6070(creator::I2C*)        build/obj/veml6070.o
 errno                                             /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-reent.o)
                                                   /home/santi/arm-2013.11/bin/../lib/gcc/arm-none-eabi/4.8.1/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-signalr.o)

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccFJYNw2.s 			page 1
+ARM GAS  /tmp/ccdCGx1y.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
   55              		.loc 1 73 0
   56 0020 1861     		str	r0, [r3, #16]
   57 0022 08BD     		pop	{r3, pc}
-ARM GAS  /tmp/ccFJYNw2.s 			page 2
+ARM GAS  /tmp/ccdCGx1y.s 			page 2
 
 
   58              	.LVL2:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  109              		.loc 1 100 0
  110 0000 2228     		cmp	r0, #34
  111              		.loc 1 99 0
-ARM GAS  /tmp/ccFJYNw2.s 			page 3
+ARM GAS  /tmp/ccdCGx1y.s 			page 3
 
 
  112 0002 08B5     		push	{r3, lr}
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  166 005c 6421     		movs	r1, #100
  167 005e FFF7FEFF 		bl	__assert_func
  168              	.LVL18:
-ARM GAS  /tmp/ccFJYNw2.s 			page 4
+ARM GAS  /tmp/ccdCGx1y.s 			page 4
 
 
  169              		.cfi_endproc
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  217              		.thumb_func
  218              		.type	PMC_DisableAllPeripherals, %function
  219              	PMC_DisableAllPeripherals:
-ARM GAS  /tmp/ccFJYNw2.s 			page 5
+ARM GAS  /tmp/ccdCGx1y.s 			page 5
 
 
  220              	.LFB3:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  274              		.loc 1 164 0
  275 0006 1F28     		cmp	r0, #31
  276 0008 0BD9     		bls	.L28
-ARM GAS  /tmp/ccFJYNw2.s 			page 6
+ARM GAS  /tmp/ccdCGx1y.s 			page 6
 
 
  277              		.loc 1 169 0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  329              		@ link register save eliminated.
  330              	.LVL27:
  331 0000 10B4     		push	{r4}
-ARM GAS  /tmp/ccFJYNw2.s 			page 7
+ARM GAS  /tmp/ccdCGx1y.s 			page 7
 
 
  332              		.cfi_def_cfa_offset 4
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  386 0044 02E0     		b	.L38
  387              	.LVL34:
  388              	.L60:
-ARM GAS  /tmp/ccFJYNw2.s 			page 8
+ARM GAS  /tmp/ccdCGx1y.s 			page 8
 
 
  389              		.loc 1 192 0 is_stmt 0 discriminator 2
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  443 0086 1446     		mov	r4, r2
  444              		.loc 1 204 0
  445 0088 21F00301 		bic	r1, r1, #3
-ARM GAS  /tmp/ccFJYNw2.s 			page 9
+ARM GAS  /tmp/ccdCGx1y.s 			page 9
 
 
  446 008c 0843     		orrs	r0, r0, r1
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  498 0012 4FF48064 		mov	r4, #1024
  499              		.loc 1 219 0
  500 0016 0143     		orrs	r1, r1, r0
-ARM GAS  /tmp/ccFJYNw2.s 			page 10
+ARM GAS  /tmp/ccdCGx1y.s 			page 10
 
 
  501              	.LVL49:
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  555              		.loc 1 235 0 discriminator 1
  556 001a 8A6E     		ldr	r2, [r1, #104]
  557 001c D003     		lsls	r0, r2, #15
-ARM GAS  /tmp/ccFJYNw2.s 			page 11
+ARM GAS  /tmp/ccdCGx1y.s 			page 11
 
 
  558 001e FAD5     		bpl	.L73
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  609              	.LVL59:
  610 002a FBD0     		beq	.L74
  611              	.LVL60:
-ARM GAS  /tmp/ccFJYNw2.s 			page 12
+ARM GAS  /tmp/ccdCGx1y.s 			page 12
 
 
  612              	.L78:
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  666              		.align	2
  667              		.set	.LANCHOR2,. + 0
  668              		.type	__func__.4780, %object
-ARM GAS  /tmp/ccFJYNw2.s 			page 13
+ARM GAS  /tmp/ccdCGx1y.s 			page 13
 
 
  669              		.size	__func__.4780, 20
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  704 000b 01       		.uleb128 0x1
  705 000c 5D020000 		.4byte	.LASF66
  706 0010 01       		.byte	0x1
-ARM GAS  /tmp/ccFJYNw2.s 			page 14
+ARM GAS  /tmp/ccdCGx1y.s 			page 14
 
 
  707 0011 73010000 		.4byte	.LASF67
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  761 007d 09020000 		.4byte	.LASF10
  762 0081 03       		.uleb128 0x3
  763 0082 6D010000 		.4byte	.LASF11
-ARM GAS  /tmp/ccFJYNw2.s 			page 15
+ARM GAS  /tmp/ccdCGx1y.s 			page 15
 
 
  764 0086 03       		.byte	0x3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  818 00fc 0A       		.uleb128 0xa
  819 00fd 1A000000 		.4byte	.LASF17
  820 0101 03       		.byte	0x3
-ARM GAS  /tmp/ccFJYNw2.s 			page 16
+ARM GAS  /tmp/ccdCGx1y.s 			page 16
 
 
  821 0102 420D     		.2byte	0xd42
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  875 0177 4B0D     		.2byte	0xd4b
  876 0179 A6000000 		.4byte	0xa6
  877 017d 2C       		.byte	0x2c
-ARM GAS  /tmp/ccFJYNw2.s 			page 17
+ARM GAS  /tmp/ccdCGx1y.s 			page 17
 
 
  878 017e 0A       		.uleb128 0xa
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  932 01f3 0A       		.uleb128 0xa
  933 01f4 65010000 		.4byte	.LASF36
  934 01f8 03       		.byte	0x3
-ARM GAS  /tmp/ccFJYNw2.s 			page 18
+ARM GAS  /tmp/ccdCGx1y.s 			page 18
 
 
  935 01f9 550D     		.2byte	0xd55
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  989 026f 5E0D     		.2byte	0xd5e
  990 0271 96000000 		.4byte	0x96
  991 0275 0401     		.2byte	0x104
-ARM GAS  /tmp/ccFJYNw2.s 			page 19
+ARM GAS  /tmp/ccdCGx1y.s 			page 19
 
 
  992 0277 0B       		.uleb128 0xb
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1046 02f5 620D     		.2byte	0xd62
  1047 02f7 D8000000 		.4byte	0xd8
  1048 02fb 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccFJYNw2.s 			page 20
+ARM GAS  /tmp/ccdCGx1y.s 			page 20
 
 
  1049 02fc 7A030000 		.4byte	.LASF50
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1103 0368 14       		.byte	0x14
  1104 0369 00       		.byte	0
  1105 036a 02       		.uleb128 0x2
-ARM GAS  /tmp/ccFJYNw2.s 			page 21
+ARM GAS  /tmp/ccdCGx1y.s 			page 21
 
 
  1106 036b 01       		.byte	0x1
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1160 03d4 00       		.byte	0
  1161 03d5 07       		.uleb128 0x7
  1162 03d6 6A030000 		.4byte	0x36a
-ARM GAS  /tmp/ccFJYNw2.s 			page 22
+ARM GAS  /tmp/ccdCGx1y.s 			page 22
 
 
  1163 03da E5030000 		.4byte	0x3e5
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1217 0455 11       		.uleb128 0x11
  1218 0456 01       		.uleb128 0x1
  1219 0457 52       		.byte	0x52
-ARM GAS  /tmp/ccFJYNw2.s 			page 23
+ARM GAS  /tmp/ccdCGx1y.s 			page 23
 
 
  1220 0458 05       		.uleb128 0x5
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1274 04c7 0D       		.uleb128 0xd
  1275 04c8 E8030000 		.4byte	.LASF59
  1276 04cc 01       		.byte	0x1
-ARM GAS  /tmp/ccFJYNw2.s 			page 24
+ARM GAS  /tmp/ccdCGx1y.s 			page 24
 
 
  1277 04cd D4       		.byte	0xd4
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1331 0548 EF       		.byte	0xef
  1332 0549 53000000 		.4byte	0x53
  1333 054d 02030000 		.4byte	.LLST9
-ARM GAS  /tmp/ccFJYNw2.s 			page 25
+ARM GAS  /tmp/ccdCGx1y.s 			page 25
 
 
  1334 0551 0E       		.uleb128 0xe
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1388 0013 02       		.uleb128 0x2
  1389 0014 24       		.uleb128 0x24
  1390 0015 00       		.byte	0
-ARM GAS  /tmp/ccFJYNw2.s 			page 26
+ARM GAS  /tmp/ccdCGx1y.s 			page 26
 
 
  1391 0016 0B       		.uleb128 0xb
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1445 004c 00       		.byte	0
  1446 004d 08       		.uleb128 0x8
  1447 004e 21       		.uleb128 0x21
-ARM GAS  /tmp/ccFJYNw2.s 			page 27
+ARM GAS  /tmp/ccdCGx1y.s 			page 27
 
 
  1448 004f 00       		.byte	0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1502 0085 08       		.uleb128 0x8
  1503 0086 3A       		.uleb128 0x3a
  1504 0087 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccFJYNw2.s 			page 28
+ARM GAS  /tmp/ccdCGx1y.s 			page 28
 
 
  1505 0088 3B       		.uleb128 0x3b
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1559 00bf 19       		.uleb128 0x19
  1560 00c0 02       		.uleb128 0x2
  1561 00c1 18       		.uleb128 0x18
-ARM GAS  /tmp/ccFJYNw2.s 			page 29
+ARM GAS  /tmp/ccdCGx1y.s 			page 29
 
 
  1562 00c2 00       		.byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1616 00fe 27       		.uleb128 0x27
  1617 00ff 19       		.uleb128 0x19
  1618 0100 49       		.uleb128 0x49
-ARM GAS  /tmp/ccFJYNw2.s 			page 30
+ARM GAS  /tmp/ccdCGx1y.s 			page 30
 
 
  1619 0101 13       		.uleb128 0x13
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1673 0138 27       		.uleb128 0x27
  1674 0139 19       		.uleb128 0x19
  1675 013a 3C       		.uleb128 0x3c
-ARM GAS  /tmp/ccFJYNw2.s 			page 31
+ARM GAS  /tmp/ccdCGx1y.s 			page 31
 
 
  1676 013b 19       		.uleb128 0x19
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1730 0040 1C       		.byte	0x1c
  1731 0041 9F       		.byte	0x9f
  1732 0042 44000000 		.4byte	.LVL6
-ARM GAS  /tmp/ccFJYNw2.s 			page 32
+ARM GAS  /tmp/ccdCGx1y.s 			page 32
 
 
  1733 0046 48000000 		.4byte	.LVL7
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1787 00c3 0400     		.2byte	0x4
  1788 00c5 F3       		.byte	0xf3
  1789 00c6 01       		.uleb128 0x1
-ARM GAS  /tmp/ccFJYNw2.s 			page 33
+ARM GAS  /tmp/ccdCGx1y.s 			page 33
 
 
  1790 00c7 50       		.byte	0x50
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1844 0146 F3       		.byte	0xf3
  1845 0147 01       		.uleb128 0x1
  1846 0148 50       		.byte	0x50
-ARM GAS  /tmp/ccFJYNw2.s 			page 34
+ARM GAS  /tmp/ccdCGx1y.s 			page 34
 
 
  1847 0149 9F       		.byte	0x9f
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1901 01c8 53       		.byte	0x53
  1902 01c9 2A000000 		.4byte	.LVL31
  1903 01cd 30000000 		.4byte	.LVL32
-ARM GAS  /tmp/ccFJYNw2.s 			page 35
+ARM GAS  /tmp/ccdCGx1y.s 			page 35
 
 
  1904 01d1 0300     		.2byte	0x3
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  1958 0258 A6000000 		.4byte	.LFE5
  1959 025c 0100     		.2byte	0x1
  1960 025e 51       		.byte	0x51
-ARM GAS  /tmp/ccFJYNw2.s 			page 36
+ARM GAS  /tmp/ccdCGx1y.s 			page 36
 
 
  1961 025f 00000000 		.4byte	0
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  2015 02db 0400     		.2byte	0x4
  2016 02dd F3       		.byte	0xf3
  2017 02de 01       		.uleb128 0x1
-ARM GAS  /tmp/ccFJYNw2.s 			page 37
+ARM GAS  /tmp/ccdCGx1y.s 			page 37
 
 
  2018 02df 50       		.byte	0x50
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  2072 035d 0100     		.2byte	0x1
  2073 035f 52       		.byte	0x52
  2074 0360 42000000 		.4byte	.LVL63
-ARM GAS  /tmp/ccFJYNw2.s 			page 38
+ARM GAS  /tmp/ccdCGx1y.s 			page 38
 
 
  2075 0364 70000000 		.4byte	.LFE8
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  2129 03d4 00       		.sleb128 0
  2130 03d5 1F       		.byte	0x1f
  2131 03d6 9F       		.byte	0x9f
-ARM GAS  /tmp/ccFJYNw2.s 			page 39
+ARM GAS  /tmp/ccdCGx1y.s 			page 39
 
 
  2132 03d7 66000000 		.4byte	.LVL67
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  2186 0038 00000000 		.4byte	.LFB7
  2187 003c 22000000 		.4byte	.LFE7
  2188 0040 00000000 		.4byte	.LFB8
-ARM GAS  /tmp/ccFJYNw2.s 			page 40
+ARM GAS  /tmp/ccdCGx1y.s 			page 40
 
 
  2189 0044 70000000 		.4byte	.LFE8
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  2218 0073 504D435F 		.ascii	"PMC_PCER1\000"
  2218      50434552 
  2218      3100
-ARM GAS  /tmp/ccFJYNw2.s 			page 41
+ARM GAS  /tmp/ccdCGx1y.s 			page 41
 
 
  2219              	.LASF12:
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  2246      50434452 
  2246      3100
  2247              	.LASF33:
-ARM GAS  /tmp/ccFJYNw2.s 			page 42
+ARM GAS  /tmp/ccdCGx1y.s 			page 42
 
 
  2248 0111 504D435F 		.ascii	"PMC_IER\000"
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  2271      506C6C43 
  2271      6C6F636B 
  2272              	.LASF13:
-ARM GAS  /tmp/ccFJYNw2.s 			page 43
+ARM GAS  /tmp/ccdCGx1y.s 			page 43
 
 
  2273 01d7 52775265 		.ascii	"RwReg\000"
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  2297      753D636F 
  2298 0290 7468756D 		.ascii	"thumb -ggdb -O2 -std=gnu99 -fomit-frame-pointer -fa"
  2298      62202D67 
-ARM GAS  /tmp/ccFJYNw2.s 			page 44
+ARM GAS  /tmp/ccdCGx1y.s 			page 44
 
 
  2298      67646220 
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  2322 0370 52657365 		.ascii	"Reserved3\000"
  2322      72766564 
  2322      3300
-ARM GAS  /tmp/ccFJYNw2.s 			page 45
+ARM GAS  /tmp/ccdCGx1y.s 			page 45
 
 
  2323              	.LASF50:
@@ -2686,43 +2686,43 @@ ARM GAS  /tmp/ccFJYNw2.s 			page 1
  2341      5F504C4C 
  2341      425200
  2342              		.ident	"GCC: (Sourcery CodeBench Lite 2013.11-24) 4.8.1"
-ARM GAS  /tmp/ccFJYNw2.s 			page 46
+ARM GAS  /tmp/ccdCGx1y.s 			page 46
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pmc.c
-     /tmp/ccFJYNw2.s:19     .text.PMC_EnablePeripheral:00000000 $t
-     /tmp/ccFJYNw2.s:25     .text.PMC_EnablePeripheral:00000000 PMC_EnablePeripheral
-     /tmp/ccFJYNw2.s:674    .rodata.str1.4:00000000 .LC0
-     /tmp/ccFJYNw2.s:681    .rodata.__func__.4754:00000000 .LANCHOR0
-     /tmp/ccFJYNw2.s:677    .rodata.str1.4:00000038 .LC1
-     /tmp/ccFJYNw2.s:96     .text.PMC_DisablePeripheral:00000000 $t
-     /tmp/ccFJYNw2.s:102    .text.PMC_DisablePeripheral:00000000 PMC_DisablePeripheral
-     /tmp/ccFJYNw2.s:688    .rodata.__func__.4758:00000000 .LANCHOR1
-     /tmp/ccFJYNw2.s:173    .text.PMC_EnableAllPeripherals:00000000 $t
-     /tmp/ccFJYNw2.s:179    .text.PMC_EnableAllPeripherals:00000000 PMC_EnableAllPeripherals
-     /tmp/ccFJYNw2.s:213    .text.PMC_DisableAllPeripherals:00000000 $t
-     /tmp/ccFJYNw2.s:219    .text.PMC_DisableAllPeripherals:00000000 PMC_DisableAllPeripherals
-     /tmp/ccFJYNw2.s:252    .text.PMC_IsPeriphEnabled:00000000 $t
-     /tmp/ccFJYNw2.s:258    .text.PMC_IsPeriphEnabled:00000000 PMC_IsPeriphEnabled
-     /tmp/ccFJYNw2.s:667    .rodata.__func__.4780:00000000 .LANCHOR2
-     /tmp/ccFJYNw2.s:317    .text.PmcMasterClockSelection:00000000 $t
-     /tmp/ccFJYNw2.s:323    .text.PmcMasterClockSelection:00000000 PmcMasterClockSelection
-     /tmp/ccFJYNw2.s:339    .text.PmcMasterClockSelection:0000000a $d
-     /tmp/ccFJYNw2.s:343    .text.PmcMasterClockSelection:0000000e $t
-     /tmp/ccFJYNw2.s:473    .text.ConfigurePck:00000000 $t
-     /tmp/ccFJYNw2.s:479    .text.ConfigurePck:00000000 ConfigurePck
-     /tmp/ccFJYNw2.s:524    .text.PmcMainClockSwitchMainOsc:00000000 $t
-     /tmp/ccFJYNw2.s:530    .text.PmcMainClockSwitchMainOsc:00000000 PmcMainClockSwitchMainOsc
-     /tmp/ccFJYNw2.s:566    .text.PmcConfigurePllClock:00000000 $t
-     /tmp/ccFJYNw2.s:572    .text.PmcConfigurePllClock:00000000 PmcConfigurePllClock
-     /tmp/ccFJYNw2.s:666    .rodata.__func__.4780:00000000 $d
-     /tmp/ccFJYNw2.s:670    .rodata.__func__.4780:00000000 __func__.4780
-     /tmp/ccFJYNw2.s:673    .rodata.str1.4:00000000 $d
-     /tmp/ccFJYNw2.s:680    .rodata.__func__.4754:00000000 $d
-     /tmp/ccFJYNw2.s:684    .rodata.__func__.4754:00000000 __func__.4754
-     /tmp/ccFJYNw2.s:687    .rodata.__func__.4758:00000000 $d
-     /tmp/ccFJYNw2.s:691    .rodata.__func__.4758:00000000 __func__.4758
+     /tmp/ccdCGx1y.s:19     .text.PMC_EnablePeripheral:00000000 $t
+     /tmp/ccdCGx1y.s:25     .text.PMC_EnablePeripheral:00000000 PMC_EnablePeripheral
+     /tmp/ccdCGx1y.s:674    .rodata.str1.4:00000000 .LC0
+     /tmp/ccdCGx1y.s:681    .rodata.__func__.4754:00000000 .LANCHOR0
+     /tmp/ccdCGx1y.s:677    .rodata.str1.4:00000038 .LC1
+     /tmp/ccdCGx1y.s:96     .text.PMC_DisablePeripheral:00000000 $t
+     /tmp/ccdCGx1y.s:102    .text.PMC_DisablePeripheral:00000000 PMC_DisablePeripheral
+     /tmp/ccdCGx1y.s:688    .rodata.__func__.4758:00000000 .LANCHOR1
+     /tmp/ccdCGx1y.s:173    .text.PMC_EnableAllPeripherals:00000000 $t
+     /tmp/ccdCGx1y.s:179    .text.PMC_EnableAllPeripherals:00000000 PMC_EnableAllPeripherals
+     /tmp/ccdCGx1y.s:213    .text.PMC_DisableAllPeripherals:00000000 $t
+     /tmp/ccdCGx1y.s:219    .text.PMC_DisableAllPeripherals:00000000 PMC_DisableAllPeripherals
+     /tmp/ccdCGx1y.s:252    .text.PMC_IsPeriphEnabled:00000000 $t
+     /tmp/ccdCGx1y.s:258    .text.PMC_IsPeriphEnabled:00000000 PMC_IsPeriphEnabled
+     /tmp/ccdCGx1y.s:667    .rodata.__func__.4780:00000000 .LANCHOR2
+     /tmp/ccdCGx1y.s:317    .text.PmcMasterClockSelection:00000000 $t
+     /tmp/ccdCGx1y.s:323    .text.PmcMasterClockSelection:00000000 PmcMasterClockSelection
+     /tmp/ccdCGx1y.s:339    .text.PmcMasterClockSelection:0000000a $d
+     /tmp/ccdCGx1y.s:343    .text.PmcMasterClockSelection:0000000e $t
+     /tmp/ccdCGx1y.s:473    .text.ConfigurePck:00000000 $t
+     /tmp/ccdCGx1y.s:479    .text.ConfigurePck:00000000 ConfigurePck
+     /tmp/ccdCGx1y.s:524    .text.PmcMainClockSwitchMainOsc:00000000 $t
+     /tmp/ccdCGx1y.s:530    .text.PmcMainClockSwitchMainOsc:00000000 PmcMainClockSwitchMainOsc
+     /tmp/ccdCGx1y.s:566    .text.PmcConfigurePllClock:00000000 $t
+     /tmp/ccdCGx1y.s:572    .text.PmcConfigurePllClock:00000000 PmcConfigurePllClock
+     /tmp/ccdCGx1y.s:666    .rodata.__func__.4780:00000000 $d
+     /tmp/ccdCGx1y.s:670    .rodata.__func__.4780:00000000 __func__.4780
+     /tmp/ccdCGx1y.s:673    .rodata.str1.4:00000000 $d
+     /tmp/ccdCGx1y.s:680    .rodata.__func__.4754:00000000 $d
+     /tmp/ccdCGx1y.s:684    .rodata.__func__.4754:00000000 __func__.4754
+     /tmp/ccdCGx1y.s:687    .rodata.__func__.4758:00000000 $d
+     /tmp/ccdCGx1y.s:691    .rodata.__func__.4758:00000000 __func__.4758
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

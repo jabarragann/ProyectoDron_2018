@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cckZzIFH.s 			page 1
+ARM GAS  /tmp/ccAhLNsa.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
   52              		.cfi_endproc
   53              	.LFE8:
   54              		.size	__late_init, .-__late_init
-ARM GAS  /tmp/cckZzIFH.s 			page 2
+ARM GAS  /tmp/ccAhLNsa.s 			page 2
 
 
   55 0002 00BFAFF3 		.section	.text._default_exit,"ax",%progbits
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  103              		.thumb
  104 000e 0223     		movs	r3, #2
  105              	@ 284 "../third_party/ChibiOS/os/ports/GCC/ARMCMx/crt0.c" 1
-ARM GAS  /tmp/cckZzIFH.s 			page 3
+ARM GAS  /tmp/ccAhLNsa.s 			page 3
 
 
  106 0010 83F31488 		msr     CONTROL, r3
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  160              	.LVL7:
  161              		.loc 1 246 0
  162 006a 8B42     		cmp	r3, r1
-ARM GAS  /tmp/cckZzIFH.s 			page 4
+ARM GAS  /tmp/ccAhLNsa.s 			page 4
 
 
  163 006c FBD1     		bne	.L13
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  217 00c6 8B42     		cmp	r3, r1
  218 00c8 FBD1     		bne	.L19
  219              	.LVL14:
-ARM GAS  /tmp/cckZzIFH.s 			page 5
+ARM GAS  /tmp/ccAhLNsa.s 			page 5
 
 
  220              	.L15:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  274              		.loc 1 339 0
  275 0120 55F8043F 		ldr	r3, [r5, #4]!
  276              	.LVL22:
-ARM GAS  /tmp/cckZzIFH.s 			page 6
+ARM GAS  /tmp/ccAhLNsa.s 			page 6
 
 
  277 0124 9847     		blx	r3
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  329 0041 45000000 		.4byte	0x45
  330 0045 03       		.uleb128 0x3
  331 0046 01       		.byte	0x1
-ARM GAS  /tmp/cckZzIFH.s 			page 7
+ARM GAS  /tmp/ccAhLNsa.s 			page 7
 
 
  332 0047 08       		.byte	0x8
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  386 00ad 04       		.byte	0x4
  387 00ae 8F000000 		.4byte	0x8f
  388 00b2 07       		.uleb128 0x7
-ARM GAS  /tmp/cckZzIFH.s 			page 8
+ARM GAS  /tmp/ccAhLNsa.s 			page 8
 
 
  389 00b3 FB010000 		.4byte	.LASF36
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  443 0129 01       		.uleb128 0x1
  444 012a 9C       		.byte	0x9c
  445 012b 51020000 		.4byte	0x251
-ARM GAS  /tmp/cckZzIFH.s 			page 9
+ARM GAS  /tmp/ccAhLNsa.s 			page 9
 
 
  446 012f 0C       		.uleb128 0xc
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  500 01bc 01       		.byte	0x1
  501 01bd 2F01     		.2byte	0x12f
  502 01bf E0000000 		.4byte	0xe0
-ARM GAS  /tmp/cckZzIFH.s 			page 10
+ARM GAS  /tmp/ccAhLNsa.s 			page 10
 
 
  503 01c3 44000000 		.4byte	.LLST2
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  557 0256 01       		.byte	0x1
  558 0257 72       		.byte	0x72
  559 0258 61000000 		.4byte	0x61
-ARM GAS  /tmp/cckZzIFH.s 			page 11
+ARM GAS  /tmp/ccAhLNsa.s 			page 11
 
 
  560 025c 15       		.uleb128 0x15
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  614 02d1 8F000000 		.4byte	0x8f
  615 02d5 15       		.uleb128 0x15
  616 02d6 12000000 		.4byte	.LASF32
-ARM GAS  /tmp/cckZzIFH.s 			page 12
+ARM GAS  /tmp/ccAhLNsa.s 			page 12
 
 
  617 02da 01       		.byte	0x1
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  671 002c 03       		.uleb128 0x3
  672 002d 0E       		.uleb128 0xe
  673 002e 3A       		.uleb128 0x3a
-ARM GAS  /tmp/cckZzIFH.s 			page 13
+ARM GAS  /tmp/ccAhLNsa.s 			page 13
 
 
  674 002f 0B       		.uleb128 0xb
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  728 0065 05       		.uleb128 0x5
  729 0066 00       		.byte	0
  730 0067 03       		.uleb128 0x3
-ARM GAS  /tmp/cckZzIFH.s 			page 14
+ARM GAS  /tmp/ccAhLNsa.s 			page 14
 
 
  731 0068 08       		.uleb128 0x8
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  785 00a0 13       		.uleb128 0x13
  786 00a1 00       		.byte	0
  787 00a2 00       		.byte	0
-ARM GAS  /tmp/cckZzIFH.s 			page 15
+ARM GAS  /tmp/ccAhLNsa.s 			page 15
 
 
  788 00a3 0C       		.uleb128 0xc
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  842 00d9 10       		.uleb128 0x10
  843 00da 05       		.uleb128 0x5
  844 00db 00       		.byte	0
-ARM GAS  /tmp/cckZzIFH.s 			page 16
+ARM GAS  /tmp/ccAhLNsa.s 			page 16
 
 
  845 00dc 31       		.uleb128 0x31
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  899 0114 0B       		.uleb128 0xb
  900 0115 3B       		.uleb128 0x3b
  901 0116 0B       		.uleb128 0xb
-ARM GAS  /tmp/cckZzIFH.s 			page 17
+ARM GAS  /tmp/ccAhLNsa.s 			page 17
 
 
  902 0117 49       		.uleb128 0x49
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  956 003a 04       		.sleb128 4
  957 003b 9F       		.byte	0x9f
  958 003c 00000000 		.4byte	0
-ARM GAS  /tmp/cckZzIFH.s 			page 18
+ARM GAS  /tmp/ccAhLNsa.s 			page 18
 
 
  959 0040 00000000 		.4byte	0
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  1013 00bf 75       		.byte	0x75
  1014 00c0 04       		.sleb128 4
  1015 00c1 9F       		.byte	0x9f
-ARM GAS  /tmp/cckZzIFH.s 			page 19
+ARM GAS  /tmp/ccAhLNsa.s 			page 19
 
 
  1016 00c2 24010000 		.4byte	.LVL22
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  1064 000b 5F656461 		.ascii	"_edata\000"
  1064      746100
  1065              	.LASF32:
-ARM GAS  /tmp/cckZzIFH.s 			page 20
+ARM GAS  /tmp/ccAhLNsa.s 			page 20
 
 
  1066 0012 5F5F6669 		.ascii	"__fini_array_end\000"
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  1087      646C6572 
  1087      00
  1088              	.LASF4:
-ARM GAS  /tmp/cckZzIFH.s 			page 21
+ARM GAS  /tmp/ccAhLNsa.s 			page 21
 
 
  1089 00d9 73686F72 		.ascii	"short unsigned int\000"
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  1109      2D66756E 
  1109      6374696F 
  1109      6E733D31 
-ARM GAS  /tmp/cckZzIFH.s 			page 22
+ARM GAS  /tmp/ccAhLNsa.s 			page 22
 
 
  1109      36202D66 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  1136      61636B5F 
  1136      656E645F 
  1137              	.LASF29:
-ARM GAS  /tmp/cckZzIFH.s 			page 23
+ARM GAS  /tmp/ccAhLNsa.s 			page 23
 
 
  1138 027f 5F5F696E 		.ascii	"__init_array_start\000"
@@ -1339,22 +1339,22 @@ ARM GAS  /tmp/cckZzIFH.s 			page 1
  1142      74792F43 
  1142      68696269 
  1143              		.ident	"GCC: (Sourcery CodeBench Lite 2013.11-24) 4.8.1"
-ARM GAS  /tmp/cckZzIFH.s 			page 24
+ARM GAS  /tmp/ccAhLNsa.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 crt0.c
-     /tmp/cckZzIFH.s:19     .text.__early_init:00000000 $t
-     /tmp/cckZzIFH.s:25     .text.__early_init:00000000 __early_init
-     /tmp/cckZzIFH.s:38     .text.__late_init:00000000 $t
-     /tmp/cckZzIFH.s:44     .text.__late_init:00000000 __late_init
-     /tmp/cckZzIFH.s:56     .text._default_exit:00000000 $t
-     /tmp/cckZzIFH.s:62     .text._default_exit:00000000 _default_exit
-     /tmp/cckZzIFH.s:75     .text.ResetHandler:00000000 $t
-     /tmp/cckZzIFH.s:81     .text.ResetHandler:00000000 ResetHandler
-     /tmp/cckZzIFH.s:292    .text.ResetHandler:00000130 $d
+     /tmp/ccAhLNsa.s:19     .text.__early_init:00000000 $t
+     /tmp/ccAhLNsa.s:25     .text.__early_init:00000000 __early_init
+     /tmp/ccAhLNsa.s:38     .text.__late_init:00000000 $t
+     /tmp/ccAhLNsa.s:44     .text.__late_init:00000000 __late_init
+     /tmp/ccAhLNsa.s:56     .text._default_exit:00000000 $t
+     /tmp/ccAhLNsa.s:62     .text._default_exit:00000000 _default_exit
+     /tmp/ccAhLNsa.s:75     .text.ResetHandler:00000000 $t
+     /tmp/ccAhLNsa.s:81     .text.ResetHandler:00000000 ResetHandler
+     /tmp/ccAhLNsa.s:292    .text.ResetHandler:00000130 $d
                      .debug_frame:00000010 $d
-     /tmp/cckZzIFH.s:296    .text.ResetHandler:00000134 $t
+     /tmp/ccAhLNsa.s:296    .text.ResetHandler:00000134 $t
 
 UNDEFINED SYMBOLS
 __process_stack_end__

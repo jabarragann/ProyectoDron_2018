@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccRngTeS.s 			page 1
+ARM GAS  /tmp/ccNQmvjm.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
   55 001c 22D0     		beq	.L11
   56              		.loc 1 152 0
   57 001e 0828     		cmp	r0, #8
-ARM GAS  /tmp/ccRngTeS.s 			page 2
+ARM GAS  /tmp/ccNQmvjm.s 			page 2
 
 
   58 0020 22D0     		beq	.L12
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  112 0054 1820     		movs	r0, #24
  113              	.LVL10:
  114 0056 7047     		bx	lr
-ARM GAS  /tmp/ccRngTeS.s 			page 3
+ARM GAS  /tmp/ccNQmvjm.s 			page 3
 
 
  115              	.LVL11:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  169              	.LVL29:
  170              	.L18:
  171              	.LBB7:
-ARM GAS  /tmp/ccRngTeS.s 			page 4
+ARM GAS  /tmp/ccNQmvjm.s 			page 4
 
 
  172              	.LBB6:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  226 002c 0560     		str	r5, [r0]
  227              		.loc 1 73 0
  228 002e 4460     		str	r4, [r0, #4]
-ARM GAS  /tmp/ccRngTeS.s 			page 5
+ARM GAS  /tmp/ccNQmvjm.s 			page 5
 
 
  229              		.loc 1 74 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  280              		.loc 1 89 0
  281 0008 1202     		lsls	r2, r2, #8
  282              	.LVL36:
-ARM GAS  /tmp/ccRngTeS.s 			page 6
+ARM GAS  /tmp/ccNQmvjm.s 			page 6
 
 
  283 000a 92B2     		uxth	r2, r2
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  335 001e 7047     		bx	lr
  336              		.cfi_endproc
  337              	.LFE39:
-ARM GAS  /tmp/ccRngTeS.s 			page 7
+ARM GAS  /tmp/ccNQmvjm.s 			page 7
 
 
  338              		.size	ADC_CfgTrigering, .-ADC_CfgTrigering
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  392              		.loc 1 116 0
  393 0010 0B43     		orrs	r3, r3, r1
  394 0012 4360     		str	r3, [r0, #4]
-ARM GAS  /tmp/ccRngTeS.s 			page 8
+ARM GAS  /tmp/ccNQmvjm.s 			page 8
 
 
  395 0014 7047     		bx	lr
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  447 0004 0546     		mov	r5, r0
  448              		.loc 1 182 0
  449 0006 C4F30724 		ubfx	r4, r4, #8, #8
-ARM GAS  /tmp/ccRngTeS.s 			page 9
+ARM GAS  /tmp/ccNQmvjm.s 			page 9
 
 
  450              	.LVL50:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  504              		.loc 1 215 0
  505 0064 84BF     		itt	hi
  506 0066 40F20001 		movwhi	r1, #:lower16:.LC3
-ARM GAS  /tmp/ccRngTeS.s 			page 10
+ARM GAS  /tmp/ccNQmvjm.s 			page 10
 
 
  507 006a 40F20000 		movwhi	r0, #:lower16:SD2
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  561 00ce CFD2     		bcs	.L28
  562              		.loc 1 225 0
  563 00d0 04EB8404 		add	r4, r4, r4, lsl #2
-ARM GAS  /tmp/ccRngTeS.s 			page 11
+ARM GAS  /tmp/ccNQmvjm.s 			page 11
 
 
  564              	.LVL64:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  617              		.loc 1 245 0
  618              		.cfi_startproc
  619              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccRngTeS.s 			page 12
+ARM GAS  /tmp/ccNQmvjm.s 			page 12
 
 
  620              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  674 001c 0364     		strne	r3, [r0, #64]
  675              		.loc 1 270 0
  676 001e 036C     		ldrne	r3, [r0, #64]
-ARM GAS  /tmp/ccRngTeS.s 			page 13
+ARM GAS  /tmp/ccNQmvjm.s 			page 13
 
 
  677              		.loc 1 274 0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  731              	.LFE47:
  732              		.size	ADC_SetCompareMode, .-ADC_SetCompareMode
  733 0014 AFF30080 		.section	.text.ADC_SetComparisonWindow,"ax",%progbits
-ARM GAS  /tmp/ccRngTeS.s 			page 14
+ARM GAS  /tmp/ccNQmvjm.s 			page 14
 
 
  733      AFF30080 
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  782              		.thumb
  783              		.thumb_func
  784              		.type	ADC_IsStatusSet, %function
-ARM GAS  /tmp/ccRngTeS.s 			page 15
+ARM GAS  /tmp/ccNQmvjm.s 			page 15
 
 
  785              	ADC_IsStatusSet:
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  835              		.thumb
  836              		.thumb_func
  837              		.type	ADC_ReadBuffer, %function
-ARM GAS  /tmp/ccRngTeS.s 			page 16
+ARM GAS  /tmp/ccNQmvjm.s 			page 16
 
 
  838              	ADC_ReadBuffer:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  892              		.cfi_endproc
  893              	.LFE52:
  894              		.size	ADC_ReadBuffer, .-ADC_ReadBuffer
-ARM GAS  /tmp/ccRngTeS.s 			page 17
+ARM GAS  /tmp/ccNQmvjm.s 			page 17
 
 
  895 0044 AFF30080 		.section	.rodata.__func__.5994,"a",%progbits
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  922      68697264 
  922      5F706172 
  922      74792F43 
-ARM GAS  /tmp/ccRngTeS.s 			page 18
+ARM GAS  /tmp/ccNQmvjm.s 			page 18
 
 
  922      68696269 
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  971 003a 5D030000 		.4byte	.LASF0
  972 003e 04       		.uleb128 0x4
  973 003f 01       		.byte	0x1
-ARM GAS  /tmp/ccRngTeS.s 			page 19
+ARM GAS  /tmp/ccNQmvjm.s 			page 19
 
 
  974 0040 06       		.byte	0x6
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1028 00a9 37000000 		.4byte	0x37
  1029 00ad 03       		.uleb128 0x3
  1030 00ae E4010000 		.4byte	.LASF15
-ARM GAS  /tmp/ccRngTeS.s 			page 20
+ARM GAS  /tmp/ccNQmvjm.s 			page 20
 
 
  1031 00b2 04       		.byte	0x4
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1085 0127 00       		.byte	0
  1086 0128 06       		.uleb128 0x6
  1087 0129 DF040000 		.4byte	.LASF25
-ARM GAS  /tmp/ccRngTeS.s 			page 21
+ARM GAS  /tmp/ccNQmvjm.s 			page 21
 
 
  1088 012d 06       		.byte	0x6
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1142 0199 06       		.byte	0x6
  1143 019a 89       		.byte	0x89
  1144 019b 08030000 		.4byte	0x308
-ARM GAS  /tmp/ccRngTeS.s 			page 22
+ARM GAS  /tmp/ccNQmvjm.s 			page 22
 
 
  1145 019f 20       		.byte	0x20
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1199 0205 22020000 		.4byte	0x222
  1200 0209 06       		.uleb128 0x6
  1201 020a E3060000 		.4byte	.LASF24
-ARM GAS  /tmp/ccRngTeS.s 			page 23
+ARM GAS  /tmp/ccNQmvjm.s 			page 23
 
 
  1202 020e 05       		.byte	0x5
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1256 0277 00       		.byte	0
  1257 0278 0B       		.uleb128 0xb
  1258 0279 723500   		.ascii	"r5\000"
-ARM GAS  /tmp/ccRngTeS.s 			page 24
+ARM GAS  /tmp/ccNQmvjm.s 			page 24
 
 
  1259 027c 07       		.byte	0x7
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1313 02e9 72313300 		.ascii	"r13\000"
  1314 02ed 07       		.byte	0x7
  1315 02ee 2401     		.2byte	0x124
-ARM GAS  /tmp/ccRngTeS.s 			page 25
+ARM GAS  /tmp/ccNQmvjm.s 			page 25
 
 
  1316 02f0 F6020000 		.4byte	0x2f6
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1370 035f 0C       		.byte	0xc
  1371 0360 09       		.byte	0x9
  1372 0361 2E       		.byte	0x2e
-ARM GAS  /tmp/ccRngTeS.s 			page 26
+ARM GAS  /tmp/ccNQmvjm.s 			page 26
 
 
  1373 0362 8B030000 		.4byte	0x38b
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1427 03ce 9E       		.byte	0x9e
  1428 03cf E4000000 		.4byte	0xe4
  1429 03d3 0F       		.uleb128 0xf
-ARM GAS  /tmp/ccRngTeS.s 			page 27
+ARM GAS  /tmp/ccNQmvjm.s 			page 27
 
 
  1430 03d4 50040000 		.4byte	.LASF60
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1484 0443 49       		.byte	0x49
  1485 0444 90040000 		.4byte	0x490
  1486 0448 10       		.byte	0x10
-ARM GAS  /tmp/ccRngTeS.s 			page 28
+ARM GAS  /tmp/ccNQmvjm.s 			page 28
 
 
  1487 0449 06       		.uleb128 0x6
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1541 04bb C5040000 		.4byte	0x4c5
  1542 04bf 12       		.uleb128 0x12
  1543 04c0 2C000000 		.4byte	0x2c
-ARM GAS  /tmp/ccRngTeS.s 			page 29
+ARM GAS  /tmp/ccNQmvjm.s 			page 29
 
 
  1544 04c4 00       		.byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1598 0536 0B       		.byte	0xb
  1599 0537 52       		.byte	0x52
  1600 0538 90050000 		.4byte	0x590
-ARM GAS  /tmp/ccRngTeS.s 			page 30
+ARM GAS  /tmp/ccNQmvjm.s 			page 30
 
 
  1601 053c 10       		.byte	0x10
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1655 05b1 2C000000 		.4byte	0x2c
  1656 05b5 CE050000 		.4byte	0x5ce
  1657 05b9 12       		.uleb128 0x12
-ARM GAS  /tmp/ccRngTeS.s 			page 31
+ARM GAS  /tmp/ccNQmvjm.s 			page 31
 
 
  1658 05ba 5E020000 		.4byte	0x25e
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1712 0630 23060000 		.4byte	0x623
  1713 0634 3E060000 		.4byte	0x63e
  1714 0638 12       		.uleb128 0x12
-ARM GAS  /tmp/ccRngTeS.s 			page 32
+ARM GAS  /tmp/ccNQmvjm.s 			page 32
 
 
  1715 0639 5E020000 		.4byte	0x25e
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1769 06ac 0C       		.byte	0xc
  1770 06ad ED       		.byte	0xed
  1771 06ae 5F060000 		.4byte	0x65f
-ARM GAS  /tmp/ccRngTeS.s 			page 33
+ARM GAS  /tmp/ccNQmvjm.s 			page 33
 
 
  1772 06b2 0C       		.byte	0xc
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1826 071e 30       		.byte	0x30
  1827 071f 06       		.uleb128 0x6
  1828 0720 F3010000 		.4byte	.LASF99
-ARM GAS  /tmp/ccRngTeS.s 			page 34
+ARM GAS  /tmp/ccNQmvjm.s 			page 34
 
 
  1829 0724 0C       		.byte	0xc
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1883 0790 0C       		.byte	0xc
  1884 0791 0001     		.2byte	0x100
  1885 0793 95080000 		.4byte	0x895
-ARM GAS  /tmp/ccRngTeS.s 			page 35
+ARM GAS  /tmp/ccNQmvjm.s 			page 35
 
 
  1886 0797 98       		.byte	0x98
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1940 0811 1401     		.2byte	0x114
  1941 0813 19       		.uleb128 0x19
  1942 0814 1C030000 		.4byte	.LASF118
-ARM GAS  /tmp/ccRngTeS.s 			page 36
+ARM GAS  /tmp/ccNQmvjm.s 			page 36
 
 
  1943 0818 0C       		.byte	0xc
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  1997 0895 0D       		.uleb128 0xd
  1998 0896 6A060000 		.4byte	0x66a
  1999 089a 15       		.uleb128 0x15
-ARM GAS  /tmp/ccRngTeS.s 			page 37
+ARM GAS  /tmp/ccNQmvjm.s 			page 37
 
 
  2000 089b 5F060000 		.4byte	0x65f
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2054 0913 18       		.uleb128 0x18
  2055 0914 F2060000 		.4byte	.LASF127
  2056 0918 0C       		.byte	0xc
-ARM GAS  /tmp/ccRngTeS.s 			page 38
+ARM GAS  /tmp/ccNQmvjm.s 			page 38
 
 
  2057 0919 460D     		.2byte	0xd46
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2111 098e 4F0D     		.2byte	0xd4f
  2112 0990 940A0000 		.4byte	0xa94
  2113 0994 3C       		.byte	0x3c
-ARM GAS  /tmp/ccRngTeS.s 			page 39
+ARM GAS  /tmp/ccNQmvjm.s 			page 39
 
 
  2114 0995 18       		.uleb128 0x18
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2168 0a0a 18       		.uleb128 0x18
  2169 0a0b 1B020000 		.4byte	.LASF142
  2170 0a0f 0C       		.byte	0xc
-ARM GAS  /tmp/ccRngTeS.s 			page 40
+ARM GAS  /tmp/ccNQmvjm.s 			page 40
 
 
  2171 0a10 590D     		.2byte	0xd59
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2225 0a8a 0D       		.uleb128 0xd
  2226 0a8b 4C080000 		.4byte	0x84c
  2227 0a8f 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccRngTeS.s 			page 41
+ARM GAS  /tmp/ccNQmvjm.s 			page 41
 
 
  2228 0a90 4C080000 		.4byte	0x84c
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2282 0b0e 08       		.byte	0x8
  2283 0b0f 18       		.uleb128 0x18
  2284 0b10 71080000 		.4byte	.LASF154
-ARM GAS  /tmp/ccRngTeS.s 			page 42
+ARM GAS  /tmp/ccNQmvjm.s 			page 42
 
 
  2285 0b14 0C       		.byte	0xc
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2339 0b8b 0C       		.byte	0xc
  2340 0b8c 1517     		.2byte	0x1715
  2341 0b8e 5F060000 		.4byte	0x65f
-ARM GAS  /tmp/ccRngTeS.s 			page 43
+ARM GAS  /tmp/ccNQmvjm.s 			page 43
 
 
  2342 0b92 0801     		.2byte	0x108
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2396 0c0d 30080000 		.4byte	.LASF170
  2397 0c11 0C       		.byte	0xc
  2398 0c12 1D17     		.2byte	0x171d
-ARM GAS  /tmp/ccRngTeS.s 			page 44
+ARM GAS  /tmp/ccNQmvjm.s 			page 44
 
 
  2399 0c14 DE0A0000 		.4byte	0xade
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2453 0c80 330C0000 		.4byte	0xc33
  2454 0c84 0C       		.byte	0xc
  2455 0c85 06       		.uleb128 0x6
-ARM GAS  /tmp/ccRngTeS.s 			page 45
+ARM GAS  /tmp/ccNQmvjm.s 			page 45
 
 
  2456 0c86 89030000 		.4byte	.LASF179
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2510 0cf0 06       		.uleb128 0x6
  2511 0cf1 67090000 		.4byte	.LASF78
  2512 0cf5 0D       		.byte	0xd
-ARM GAS  /tmp/ccRngTeS.s 			page 46
+ARM GAS  /tmp/ccNQmvjm.s 			page 46
 
 
  2513 0cf6 7D       		.byte	0x7d
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2567 0d65 01       		.byte	0x1
  2568 0d66 810D0000 		.4byte	0xd81
  2569 0d6a 1F       		.uleb128 0x1f
-ARM GAS  /tmp/ccRngTeS.s 			page 47
+ARM GAS  /tmp/ccNQmvjm.s 			page 47
 
 
  2570 0d6b 7D020000 		.4byte	.LASF189
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2624 0de6 AF080000 		.4byte	0x8af
  2625 0dea 26       		.uleb128 0x26
  2626 0deb 33050000 		.4byte	.LASF185
-ARM GAS  /tmp/ccRngTeS.s 			page 48
+ARM GAS  /tmp/ccNQmvjm.s 			page 48
 
 
  2627 0def 01       		.byte	0x1
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2681 0e64 00000000 		.4byte	.LFB39
  2682 0e68 20000000 		.4byte	.LFE39-.LFB39
  2683 0e6c 01       		.uleb128 0x1
-ARM GAS  /tmp/ccRngTeS.s 			page 49
+ARM GAS  /tmp/ccNQmvjm.s 			page 49
 
 
  2684 0e6d 9C       		.byte	0x9c
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2738 0ee5 72       		.byte	0x72
  2739 0ee6 00000000 		.4byte	.LFB41
  2740 0eea 16000000 		.4byte	.LFE41-.LFB41
-ARM GAS  /tmp/ccRngTeS.s 			page 50
+ARM GAS  /tmp/ccNQmvjm.s 			page 50
 
 
  2741 0eee 01       		.uleb128 0x1
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2795 0f63 47100000 		.4byte	0x1047
  2796 0f67 28       		.uleb128 0x28
  2797 0f68 C6060000 		.4byte	.LASF186
-ARM GAS  /tmp/ccRngTeS.s 			page 51
+ARM GAS  /tmp/ccNQmvjm.s 			page 51
 
 
  2798 0f6c 01       		.byte	0x1
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2852 0fe1 00       		.sleb128 0
  2853 0fe2 00       		.byte	0
  2854 0fe3 2A       		.uleb128 0x2a
-ARM GAS  /tmp/ccRngTeS.s 			page 52
+ARM GAS  /tmp/ccNQmvjm.s 			page 52
 
 
  2855 0fe4 A8000000 		.4byte	.LVL61
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2909 104d F4       		.byte	0xf4
  2910 104e 82000000 		.4byte	0x82
  2911 1052 00000000 		.4byte	.LFB45
-ARM GAS  /tmp/ccRngTeS.s 			page 53
+ARM GAS  /tmp/ccNQmvjm.s 			page 53
 
 
  2912 1056 0E000000 		.4byte	.LFE45-.LFB45
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  2966 10dd 01       		.uleb128 0x1
  2967 10de 53       		.byte	0x53
  2968 10df 05       		.uleb128 0x5
-ARM GAS  /tmp/ccRngTeS.s 			page 54
+ARM GAS  /tmp/ccNQmvjm.s 			page 54
 
 
  2969 10e0 03       		.byte	0x3
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3023 114a 2F       		.uleb128 0x2f
  3024 114b 35000000 		.4byte	.LASF212
  3025 114f 01       		.byte	0x1
-ARM GAS  /tmp/ccRngTeS.s 			page 55
+ARM GAS  /tmp/ccNQmvjm.s 			page 55
 
 
  3026 1150 2601     		.2byte	0x126
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3080 11cc EF110000 		.4byte	0x11ef
  3081 11d0 30       		.uleb128 0x30
  3082 11d1 C6060000 		.4byte	.LASF186
-ARM GAS  /tmp/ccRngTeS.s 			page 56
+ARM GAS  /tmp/ccNQmvjm.s 			page 56
 
 
  3083 11d5 01       		.byte	0x1
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3137 125a 6401     		.2byte	0x164
  3138 125c E40D0000 		.4byte	0xde4
  3139 1260 94050000 		.4byte	.LLST29
-ARM GAS  /tmp/ccRngTeS.s 			page 57
+ARM GAS  /tmp/ccNQmvjm.s 			page 57
 
 
  3140 1264 32       		.uleb128 0x32
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3194 12d6 12       		.uleb128 0x12
  3195 12d7 EA030000 		.4byte	0x3ea
  3196 12db 00       		.byte	0
-ARM GAS  /tmp/ccRngTeS.s 			page 58
+ARM GAS  /tmp/ccNQmvjm.s 			page 58
 
 
  3197 12dc 00       		.byte	0
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3251 0033 0E       		.uleb128 0xe
  3252 0034 00       		.byte	0
  3253 0035 00       		.byte	0
-ARM GAS  /tmp/ccRngTeS.s 			page 59
+ARM GAS  /tmp/ccNQmvjm.s 			page 59
 
 
  3254 0036 05       		.uleb128 0x5
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3308 006c 01       		.uleb128 0x1
  3309 006d 13       		.uleb128 0x13
  3310 006e 00       		.byte	0
-ARM GAS  /tmp/ccRngTeS.s 			page 60
+ARM GAS  /tmp/ccNQmvjm.s 			page 60
 
 
  3311 006f 00       		.byte	0
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3365 00a5 0E       		.uleb128 0xe
  3366 00a6 17       		.uleb128 0x17
  3367 00a7 01       		.byte	0x1
-ARM GAS  /tmp/ccRngTeS.s 			page 61
+ARM GAS  /tmp/ccNQmvjm.s 			page 61
 
 
  3368 00a8 0B       		.uleb128 0xb
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3422 00de 13       		.uleb128 0x13
  3423 00df 00       		.byte	0
  3424 00e0 00       		.byte	0
-ARM GAS  /tmp/ccRngTeS.s 			page 62
+ARM GAS  /tmp/ccNQmvjm.s 			page 62
 
 
  3425 00e1 14       		.uleb128 0x14
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3479 0117 13       		.uleb128 0x13
  3480 0118 38       		.uleb128 0x38
  3481 0119 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccRngTeS.s 			page 63
+ARM GAS  /tmp/ccNQmvjm.s 			page 63
 
 
  3482 011a 00       		.byte	0
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3536 0150 00       		.byte	0
  3537 0151 00       		.byte	0
  3538 0152 1D       		.uleb128 0x1d
-ARM GAS  /tmp/ccRngTeS.s 			page 64
+ARM GAS  /tmp/ccNQmvjm.s 			page 64
 
 
  3539 0153 28       		.uleb128 0x28
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3593 0189 2E       		.uleb128 0x2e
  3594 018a 01       		.byte	0x1
  3595 018b 31       		.uleb128 0x31
-ARM GAS  /tmp/ccRngTeS.s 			page 65
+ARM GAS  /tmp/ccNQmvjm.s 			page 65
 
 
  3596 018c 13       		.uleb128 0x13
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3650 01c3 3B       		.uleb128 0x3b
  3651 01c4 0B       		.uleb128 0xb
  3652 01c5 27       		.uleb128 0x27
-ARM GAS  /tmp/ccRngTeS.s 			page 66
+ARM GAS  /tmp/ccNQmvjm.s 			page 66
 
 
  3653 01c6 19       		.uleb128 0x19
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3707 01fd 02       		.uleb128 0x2
  3708 01fe 17       		.uleb128 0x17
  3709 01ff 00       		.byte	0
-ARM GAS  /tmp/ccRngTeS.s 			page 67
+ARM GAS  /tmp/ccNQmvjm.s 			page 67
 
 
  3710 0200 00       		.byte	0
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3764 0240 49       		.uleb128 0x49
  3765 0241 13       		.uleb128 0x13
  3766 0242 11       		.uleb128 0x11
-ARM GAS  /tmp/ccRngTeS.s 			page 68
+ARM GAS  /tmp/ccNQmvjm.s 			page 68
 
 
  3767 0243 01       		.uleb128 0x1
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3821 027b 03       		.uleb128 0x3
  3822 027c 0E       		.uleb128 0xe
  3823 027d 49       		.uleb128 0x49
-ARM GAS  /tmp/ccRngTeS.s 			page 69
+ARM GAS  /tmp/ccNQmvjm.s 			page 69
 
 
  3824 027e 13       		.uleb128 0x13
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3878 02b5 3A       		.uleb128 0x3a
  3879 02b6 0B       		.uleb128 0xb
  3880 02b7 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccRngTeS.s 			page 70
+ARM GAS  /tmp/ccNQmvjm.s 			page 70
 
 
  3881 02b8 05       		.uleb128 0x5
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3935 02ee 3C       		.uleb128 0x3c
  3936 02ef 19       		.uleb128 0x19
  3937 02f0 01       		.uleb128 0x1
-ARM GAS  /tmp/ccRngTeS.s 			page 71
+ARM GAS  /tmp/ccNQmvjm.s 			page 71
 
 
  3938 02f1 13       		.uleb128 0x13
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  3992 003c 50       		.byte	0x50
  3993 003d 4E000000 		.4byte	.LVL6
  3994 0041 50000000 		.4byte	.LVL7
-ARM GAS  /tmp/ccRngTeS.s 			page 72
+ARM GAS  /tmp/ccNQmvjm.s 			page 72
 
 
  3995 0045 0400     		.2byte	0x4
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4049 00be 64000000 		.4byte	.LVL17
  4050 00c2 0400     		.2byte	0x4
  4051 00c4 F3       		.byte	0xf3
-ARM GAS  /tmp/ccRngTeS.s 			page 73
+ARM GAS  /tmp/ccNQmvjm.s 			page 73
 
 
  4052 00c5 01       		.uleb128 0x1
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4106 0141 F3       		.byte	0xf3
  4107 0142 01       		.uleb128 0x1
  4108 0143 50       		.byte	0x50
-ARM GAS  /tmp/ccRngTeS.s 			page 74
+ARM GAS  /tmp/ccNQmvjm.s 			page 74
 
 
  4109 0144 9F       		.byte	0x9f
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4163 01c3 86000000 		.4byte	.LVL29
  4164 01c7 8A000000 		.4byte	.LVL30
  4165 01cb 0100     		.2byte	0x1
-ARM GAS  /tmp/ccRngTeS.s 			page 75
+ARM GAS  /tmp/ccNQmvjm.s 			page 75
 
 
  4166 01cd 50       		.byte	0x50
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4220 024b 0E000000 		.4byte	.LVL39
  4221 024f 0100     		.2byte	0x1
  4222 0251 51       		.byte	0x51
-ARM GAS  /tmp/ccRngTeS.s 			page 76
+ARM GAS  /tmp/ccNQmvjm.s 			page 76
 
 
  4223 0252 0E000000 		.4byte	.LVL39
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4277 02d3 0100     		.2byte	0x1
  4278 02d5 51       		.byte	0x51
  4279 02d6 0A000000 		.4byte	.LVL45
-ARM GAS  /tmp/ccRngTeS.s 			page 77
+ARM GAS  /tmp/ccNQmvjm.s 			page 77
 
 
  4280 02da 16000000 		.4byte	.LFE41
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4334 035a 0100     		.2byte	0x1
  4335 035c 55       		.byte	0x55
  4336 035d 00000000 		.4byte	0
-ARM GAS  /tmp/ccRngTeS.s 			page 78
+ARM GAS  /tmp/ccNQmvjm.s 			page 78
 
 
  4337 0361 00000000 		.4byte	0
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4391 03e4 F2000000 		.4byte	.LVL65
  4392 03e8 0100     		.2byte	0x1
  4393 03ea 56       		.byte	0x56
-ARM GAS  /tmp/ccRngTeS.s 			page 79
+ARM GAS  /tmp/ccNQmvjm.s 			page 79
 
 
  4394 03eb 0E010000 		.4byte	.LVL68
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4448 0474 F3       		.byte	0xf3
  4449 0475 01       		.uleb128 0x1
  4450 0476 50       		.byte	0x50
-ARM GAS  /tmp/ccRngTeS.s 			page 80
+ARM GAS  /tmp/ccNQmvjm.s 			page 80
 
 
  4451 0477 9F       		.byte	0x9f
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4505 04f4 00000000 		.4byte	0
  4506 04f8 00000000 		.4byte	0
  4507              	.LLST25:
-ARM GAS  /tmp/ccRngTeS.s 			page 81
+ARM GAS  /tmp/ccNQmvjm.s 			page 81
 
 
  4508 04fc 00000000 		.4byte	.LVL85
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4562 0572 FF       		.byte	0xff
  4563 0573 1A       		.byte	0x1a
  4564 0574 9F       		.byte	0x9f
-ARM GAS  /tmp/ccRngTeS.s 			page 82
+ARM GAS  /tmp/ccNQmvjm.s 			page 82
 
 
  4565 0575 08000000 		.4byte	.LVL89
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4619 0054 2A010000 		.4byte	.LFE44-.LFB44
  4620 0058 00000000 		.4byte	.LFB45
  4621 005c 0E000000 		.4byte	.LFE45-.LFB45
-ARM GAS  /tmp/ccRngTeS.s 			page 83
+ARM GAS  /tmp/ccNQmvjm.s 			page 83
 
 
  4622 0060 00000000 		.4byte	.LFB46
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4676 0090 00000000 		.4byte	.LFB51
  4677 0094 16000000 		.4byte	.LFE51
  4678 0098 00000000 		.4byte	.LFB52
-ARM GAS  /tmp/ccRngTeS.s 			page 84
+ARM GAS  /tmp/ccNQmvjm.s 			page 84
 
 
  4679 009c 44000000 		.4byte	.LFE52
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4704      6374696F 
  4704      6E733D31 
  4704      36202D66 
-ARM GAS  /tmp/ccRngTeS.s 			page 85
+ARM GAS  /tmp/ccNQmvjm.s 			page 85
 
 
  4705 00ee 6E73202D 		.ascii	"ns -fno-common\000"
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4728      6720696E 
  4728      7400
  4729              	.LASF1:
-ARM GAS  /tmp/ccRngTeS.s 			page 86
+ARM GAS  /tmp/ccNQmvjm.s 			page 86
 
 
  4730 01ae 7369676E 		.ascii	"signed char\000"
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4758      616E6E65 
  4758      6C00
  4759              	.LASF216:
-ARM GAS  /tmp/ccRngTeS.s 			page 87
+ARM GAS  /tmp/ccNQmvjm.s 			page 87
 
 
  4760 0243 6477466C 		.ascii	"dwFlag\000"
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4789              	.LASF28:
  4790 02c8 705F6E65 		.ascii	"p_newer\000"
  4790      77657200 
-ARM GAS  /tmp/ccRngTeS.s 			page 88
+ARM GAS  /tmp/ccNQmvjm.s 			page 88
 
 
  4791              	.LASF77:
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4818      6F775265 
  4818      7300
  4819              	.LASF0:
-ARM GAS  /tmp/ccRngTeS.s 			page 89
+ARM GAS  /tmp/ccNQmvjm.s 			page 89
 
 
  4820 035d 756E7369 		.ascii	"unsigned int\000"
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4844      7369676E 
  4844      65642069 
  4844      6E7400
-ARM GAS  /tmp/ccRngTeS.s 			page 90
+ARM GAS  /tmp/ccNQmvjm.s 			page 90
 
 
  4845              	.LASF132:
@@ -5398,7 +5398,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4876      544E4352 
  4876      00
  4877              	.LASF71:
-ARM GAS  /tmp/ccRngTeS.s 			page 91
+ARM GAS  /tmp/ccNQmvjm.s 			page 91
 
 
  4878 0486 716E6F74 		.ascii	"qnotify_t\000"
@@ -5458,7 +5458,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4908 0508 64774869 		.ascii	"dwHi_Lo\000"
  4908      5F4C6F00 
  4909              	.LASF141:
-ARM GAS  /tmp/ccRngTeS.s 			page 92
+ARM GAS  /tmp/ccNQmvjm.s 			page 92
 
 
  4910 0510 504D435F 		.ascii	"PMC_FOCR\000"
@@ -5518,7 +5518,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4937      5200
  4938              	.LASF101:
  4939 05bf 4144435F 		.ascii	"ADC_EMR\000"
-ARM GAS  /tmp/ccRngTeS.s 			page 93
+ARM GAS  /tmp/ccNQmvjm.s 			page 93
 
 
  4939      454D5200 
@@ -5578,7 +5578,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4967      65727275 
  4968              	.LASF92:
  4969 0663 4144435F 		.ascii	"ADC_CHSR\000"
-ARM GAS  /tmp/ccRngTeS.s 			page 94
+ARM GAS  /tmp/ccNQmvjm.s 			page 94
 
 
  4969      43485352 
@@ -5638,7 +5638,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  4999      655F7400 
  5000              	.LASF127:
  5001 06f2 504D435F 		.ascii	"PMC_PCSR0\000"
-ARM GAS  /tmp/ccRngTeS.s 			page 95
+ARM GAS  /tmp/ccNQmvjm.s 			page 95
 
 
  5001      50435352 
@@ -5698,7 +5698,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  5027      425200
  5028              	.LASF175:
  5029 078f 53657269 		.ascii	"SerialDriver\000"
-ARM GAS  /tmp/ccRngTeS.s 			page 96
+ARM GAS  /tmp/ccNQmvjm.s 			page 96
 
 
  5029      616C4472 
@@ -5758,7 +5758,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  5057 0816 4144435F 		.ascii	"ADC_RNCR\000"
  5057      524E4352 
  5057      00
-ARM GAS  /tmp/ccRngTeS.s 			page 97
+ARM GAS  /tmp/ccNQmvjm.s 			page 97
 
 
  5058              	.LASF95:
@@ -5818,7 +5818,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  5088              	.LASF67:
  5089 08a2 715F746F 		.ascii	"q_top\000"
  5089      7000
-ARM GAS  /tmp/ccRngTeS.s 			page 98
+ARM GAS  /tmp/ccNQmvjm.s 			page 98
 
 
  5090              	.LASF58:
@@ -5878,7 +5878,7 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  5120              	.LASF193:
  5121 0932 74726753 		.ascii	"trgSel\000"
  5121      656C00
-ARM GAS  /tmp/ccRngTeS.s 			page 99
+ARM GAS  /tmp/ccNQmvjm.s 			page 99
 
 
  5122              	.LASF140:
@@ -5938,62 +5938,62 @@ ARM GAS  /tmp/ccRngTeS.s 			page 1
  5151      00
  5152              	.LASF230:
  5153 09bd 63687072 		.ascii	"chprintf\000"
-ARM GAS  /tmp/ccRngTeS.s 			page 100
+ARM GAS  /tmp/ccNQmvjm.s 			page 100
 
 
  5153      696E7466 
  5153      00
  5154              		.ident	"GCC: (Sourcery CodeBench Lite 2013.11-24) 4.8.1"
-ARM GAS  /tmp/ccRngTeS.s 			page 101
+ARM GAS  /tmp/ccNQmvjm.s 			page 101
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 atmel_adc.c
-     /tmp/ccRngTeS.s:19     .text.calcul_startup:00000000 $t
-     /tmp/ccRngTeS.s:24     .text.calcul_startup:00000000 calcul_startup
-     /tmp/ccRngTeS.s:183    .text.ADC_Initialize:00000000 $t
-     /tmp/ccRngTeS.s:189    .text.ADC_Initialize:00000000 ADC_Initialize
-     /tmp/ccRngTeS.s:236    .text.ADC_CfgTiming:00000000 $t
-     /tmp/ccRngTeS.s:242    .text.ADC_CfgTiming:00000000 ADC_CfgTiming
-     /tmp/ccRngTeS.s:260    .text.ADC_cfgFrequency:00000000 $t
-     /tmp/ccRngTeS.s:266    .text.ADC_cfgFrequency:00000000 ADC_cfgFrequency
-     /tmp/ccRngTeS.s:294    .text.ADC_CfgTrigering:00000000 $t
-     /tmp/ccRngTeS.s:300    .text.ADC_CfgTrigering:00000000 ADC_CfgTrigering
-     /tmp/ccRngTeS.s:340    .text.ADC_CfgLowRes:00000000 $t
-     /tmp/ccRngTeS.s:346    .text.ADC_CfgLowRes:00000000 ADC_CfgLowRes
-     /tmp/ccRngTeS.s:366    .text.ADC_CfgPowerSave:00000000 $t
-     /tmp/ccRngTeS.s:372    .text.ADC_CfgPowerSave:00000000 ADC_CfgPowerSave
-     /tmp/ccRngTeS.s:400    .text.ADC_CfgChannelMode:00000000 $t
-     /tmp/ccRngTeS.s:406    .text.ADC_CfgChannelMode:00000000 ADC_CfgChannelMode
-     /tmp/ccRngTeS.s:424    .text.ADC_check:00000000 $t
-     /tmp/ccRngTeS.s:430    .text.ADC_check:00000000 ADC_check
-     /tmp/ccRngTeS.s:904    .rodata.str1.4:00000000 .LC0
-     /tmp/ccRngTeS.s:915    .rodata.str1.4:00000090 .LC3
-     /tmp/ccRngTeS.s:911    .rodata.str1.4:00000058 .LC2
-     /tmp/ccRngTeS.s:907    .rodata.str1.4:00000020 .LC1
-     /tmp/ccRngTeS.s:918    .rodata.str1.4:000000c0 .LC4
-     /tmp/ccRngTeS.s:609    .text.ADC_GetConvertedData:00000000 $t
-     /tmp/ccRngTeS.s:615    .text.ADC_GetConvertedData:00000000 ADC_GetConvertedData
-     /tmp/ccRngTeS.s:640    .text.ADC_SetCompareChannel:00000000 $t
-     /tmp/ccRngTeS.s:646    .text.ADC_SetCompareChannel:00000000 ADC_SetCompareChannel
-     /tmp/ccRngTeS.s:921    .rodata.str1.4:000000e4 .LC5
-     /tmp/ccRngTeS.s:897    .rodata.__func__.5994:00000000 .LANCHOR0
-     /tmp/ccRngTeS.s:925    .rodata.str1.4:00000124 .LC6
-     /tmp/ccRngTeS.s:703    .text.ADC_SetCompareMode:00000000 $t
-     /tmp/ccRngTeS.s:709    .text.ADC_SetCompareMode:00000000 ADC_SetCompareMode
-     /tmp/ccRngTeS.s:734    .text.ADC_SetComparisonWindow:00000000 $t
-     /tmp/ccRngTeS.s:740    .text.ADC_SetComparisonWindow:00000000 ADC_SetComparisonWindow
-     /tmp/ccRngTeS.s:755    .text.ADC_IsInterruptMasked:00000000 $t
-     /tmp/ccRngTeS.s:761    .text.ADC_IsInterruptMasked:00000000 ADC_IsInterruptMasked
-     /tmp/ccRngTeS.s:779    .text.ADC_IsStatusSet:00000000 $t
-     /tmp/ccRngTeS.s:785    .text.ADC_IsStatusSet:00000000 ADC_IsStatusSet
-     /tmp/ccRngTeS.s:803    .text.ADC_IsChannelInterruptStatusSet:00000000 $t
-     /tmp/ccRngTeS.s:809    .text.ADC_IsChannelInterruptStatusSet:00000000 ADC_IsChannelInterruptStatusSet
-     /tmp/ccRngTeS.s:832    .text.ADC_ReadBuffer:00000000 $t
-     /tmp/ccRngTeS.s:838    .text.ADC_ReadBuffer:00000000 ADC_ReadBuffer
-     /tmp/ccRngTeS.s:896    .rodata.__func__.5994:00000000 $d
-     /tmp/ccRngTeS.s:900    .rodata.__func__.5994:00000000 __func__.5994
-     /tmp/ccRngTeS.s:903    .rodata.str1.4:00000000 $d
+     /tmp/ccNQmvjm.s:19     .text.calcul_startup:00000000 $t
+     /tmp/ccNQmvjm.s:24     .text.calcul_startup:00000000 calcul_startup
+     /tmp/ccNQmvjm.s:183    .text.ADC_Initialize:00000000 $t
+     /tmp/ccNQmvjm.s:189    .text.ADC_Initialize:00000000 ADC_Initialize
+     /tmp/ccNQmvjm.s:236    .text.ADC_CfgTiming:00000000 $t
+     /tmp/ccNQmvjm.s:242    .text.ADC_CfgTiming:00000000 ADC_CfgTiming
+     /tmp/ccNQmvjm.s:260    .text.ADC_cfgFrequency:00000000 $t
+     /tmp/ccNQmvjm.s:266    .text.ADC_cfgFrequency:00000000 ADC_cfgFrequency
+     /tmp/ccNQmvjm.s:294    .text.ADC_CfgTrigering:00000000 $t
+     /tmp/ccNQmvjm.s:300    .text.ADC_CfgTrigering:00000000 ADC_CfgTrigering
+     /tmp/ccNQmvjm.s:340    .text.ADC_CfgLowRes:00000000 $t
+     /tmp/ccNQmvjm.s:346    .text.ADC_CfgLowRes:00000000 ADC_CfgLowRes
+     /tmp/ccNQmvjm.s:366    .text.ADC_CfgPowerSave:00000000 $t
+     /tmp/ccNQmvjm.s:372    .text.ADC_CfgPowerSave:00000000 ADC_CfgPowerSave
+     /tmp/ccNQmvjm.s:400    .text.ADC_CfgChannelMode:00000000 $t
+     /tmp/ccNQmvjm.s:406    .text.ADC_CfgChannelMode:00000000 ADC_CfgChannelMode
+     /tmp/ccNQmvjm.s:424    .text.ADC_check:00000000 $t
+     /tmp/ccNQmvjm.s:430    .text.ADC_check:00000000 ADC_check
+     /tmp/ccNQmvjm.s:904    .rodata.str1.4:00000000 .LC0
+     /tmp/ccNQmvjm.s:915    .rodata.str1.4:00000090 .LC3
+     /tmp/ccNQmvjm.s:911    .rodata.str1.4:00000058 .LC2
+     /tmp/ccNQmvjm.s:907    .rodata.str1.4:00000020 .LC1
+     /tmp/ccNQmvjm.s:918    .rodata.str1.4:000000c0 .LC4
+     /tmp/ccNQmvjm.s:609    .text.ADC_GetConvertedData:00000000 $t
+     /tmp/ccNQmvjm.s:615    .text.ADC_GetConvertedData:00000000 ADC_GetConvertedData
+     /tmp/ccNQmvjm.s:640    .text.ADC_SetCompareChannel:00000000 $t
+     /tmp/ccNQmvjm.s:646    .text.ADC_SetCompareChannel:00000000 ADC_SetCompareChannel
+     /tmp/ccNQmvjm.s:921    .rodata.str1.4:000000e4 .LC5
+     /tmp/ccNQmvjm.s:897    .rodata.__func__.5994:00000000 .LANCHOR0
+     /tmp/ccNQmvjm.s:925    .rodata.str1.4:00000124 .LC6
+     /tmp/ccNQmvjm.s:703    .text.ADC_SetCompareMode:00000000 $t
+     /tmp/ccNQmvjm.s:709    .text.ADC_SetCompareMode:00000000 ADC_SetCompareMode
+     /tmp/ccNQmvjm.s:734    .text.ADC_SetComparisonWindow:00000000 $t
+     /tmp/ccNQmvjm.s:740    .text.ADC_SetComparisonWindow:00000000 ADC_SetComparisonWindow
+     /tmp/ccNQmvjm.s:755    .text.ADC_IsInterruptMasked:00000000 $t
+     /tmp/ccNQmvjm.s:761    .text.ADC_IsInterruptMasked:00000000 ADC_IsInterruptMasked
+     /tmp/ccNQmvjm.s:779    .text.ADC_IsStatusSet:00000000 $t
+     /tmp/ccNQmvjm.s:785    .text.ADC_IsStatusSet:00000000 ADC_IsStatusSet
+     /tmp/ccNQmvjm.s:803    .text.ADC_IsChannelInterruptStatusSet:00000000 $t
+     /tmp/ccNQmvjm.s:809    .text.ADC_IsChannelInterruptStatusSet:00000000 ADC_IsChannelInterruptStatusSet
+     /tmp/ccNQmvjm.s:832    .text.ADC_ReadBuffer:00000000 $t
+     /tmp/ccNQmvjm.s:838    .text.ADC_ReadBuffer:00000000 ADC_ReadBuffer
+     /tmp/ccNQmvjm.s:896    .rodata.__func__.5994:00000000 $d
+     /tmp/ccNQmvjm.s:900    .rodata.__func__.5994:00000000 __func__.5994
+     /tmp/ccNQmvjm.s:903    .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

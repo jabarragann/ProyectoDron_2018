@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccfGPxGC.s 			page 1
+ARM GAS  /tmp/ccEeVv1g.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
   55              		.loc 1 73 0
   56 0030 0021     		movs	r1, #0
   57              		.loc 1 74 0
-ARM GAS  /tmp/ccfGPxGC.s 			page 2
+ARM GAS  /tmp/ccEeVv1g.s 			page 2
 
 
   58 0032 0722     		movs	r2, #7
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  110 0026 04       		.byte	0x4
  111 0027 05       		.byte	0x5
  112 0028 696E7400 		.ascii	"int\000"
-ARM GAS  /tmp/ccfGPxGC.s 			page 3
+ARM GAS  /tmp/ccEeVv1g.s 			page 3
 
 
  113 002c 03       		.uleb128 0x3
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  167 008f 10       		.byte	0x10
  168 0090 02       		.byte	0x2
  169 0091 6D01     		.2byte	0x16d
-ARM GAS  /tmp/ccfGPxGC.s 			page 4
+ARM GAS  /tmp/ccEeVv1g.s 			page 4
 
 
  170 0093 CC000000 		.4byte	0xcc
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  224 0107 01       		.uleb128 0x1
  225 0108 3B       		.byte	0x3b
  226 0109 00       		.byte	0
-ARM GAS  /tmp/ccfGPxGC.s 			page 5
+ARM GAS  /tmp/ccEeVv1g.s 			page 5
 
 
  227 010a 00       		.byte	0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  281 0007 03       		.uleb128 0x3
  282 0008 0E       		.uleb128 0xe
  283 0009 1B       		.uleb128 0x1b
-ARM GAS  /tmp/ccfGPxGC.s 			page 6
+ARM GAS  /tmp/ccEeVv1g.s 			page 6
 
 
  284 000a 0E       		.uleb128 0xe
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  338 0040 49       		.uleb128 0x49
  339 0041 13       		.uleb128 0x13
  340 0042 00       		.byte	0
-ARM GAS  /tmp/ccfGPxGC.s 			page 7
+ARM GAS  /tmp/ccEeVv1g.s 			page 7
 
 
  341 0043 00       		.byte	0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  395 0079 13       		.uleb128 0x13
  396 007a 00       		.byte	0
  397 007b 00       		.byte	0
-ARM GAS  /tmp/ccfGPxGC.s 			page 8
+ARM GAS  /tmp/ccEeVv1g.s 			page 8
 
 
  398 007c 0B       		.uleb128 0xb
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  452 00bc 00       		.byte	0
  453 00bd 11       		.uleb128 0x11
  454 00be 01       		.uleb128 0x1
-ARM GAS  /tmp/ccfGPxGC.s 			page 9
+ARM GAS  /tmp/ccEeVv1g.s 			page 9
 
 
  455 00bf 9542     		.uleb128 0x2115
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  509 00f6 19       		.uleb128 0x19
  510 00f7 00       		.byte	0
  511 00f8 00       		.byte	0
-ARM GAS  /tmp/ccfGPxGC.s 			page 10
+ARM GAS  /tmp/ccEeVv1g.s 			page 10
 
 
  512 00f9 13       		.uleb128 0x13
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  563      FB0E0D00 
  563      01010101 
  564              	.LASF7:
-ARM GAS  /tmp/ccfGPxGC.s 			page 11
+ARM GAS  /tmp/ccEeVv1g.s 			page 11
 
 
  565 0000 6C6F6E67 		.ascii	"long long int\000"
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  585      6E697400 
  586              	.LASF4:
  587 00e9 73686F72 		.ascii	"short unsigned int\000"
-ARM GAS  /tmp/ccfGPxGC.s 			page 12
+ARM GAS  /tmp/ccEeVv1g.s 			page 12
 
 
  587      7420756E 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  611 0186 7369676E 		.ascii	"signed char\000"
  611      65642063 
  611      68617200 
-ARM GAS  /tmp/ccfGPxGC.s 			page 13
+ARM GAS  /tmp/ccEeVv1g.s 			page 13
 
 
  612              	.LASF22:
@@ -750,15 +750,15 @@ ARM GAS  /tmp/ccfGPxGC.s 			page 1
  620      74797065 
  620      00
  621              		.ident	"GCC: (Sourcery CodeBench Lite 2013.11-24) 4.8.1"
-ARM GAS  /tmp/ccfGPxGC.s 			page 14
+ARM GAS  /tmp/ccEeVv1g.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 hal_lld.c
-     /tmp/ccfGPxGC.s:19     .text.hal_lld_init:00000000 $t
-     /tmp/ccfGPxGC.s:25     .text.hal_lld_init:00000000 hal_lld_init
-     /tmp/ccfGPxGC.s:70     .text.at91sam3_clock_init:00000000 $t
-     /tmp/ccfGPxGC.s:76     .text.at91sam3_clock_init:00000000 at91sam3_clock_init
+     /tmp/ccEeVv1g.s:19     .text.hal_lld_init:00000000 $t
+     /tmp/ccEeVv1g.s:25     .text.hal_lld_init:00000000 hal_lld_init
+     /tmp/ccEeVv1g.s:70     .text.at91sam3_clock_init:00000000 $t
+     /tmp/ccEeVv1g.s:76     .text.at91sam3_clock_init:00000000 at91sam3_clock_init
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

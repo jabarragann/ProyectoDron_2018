@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccGBL5Ma.s 			page 1
+ARM GAS  /tmp/cchyFaGS.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
   55 001a 2363     		str	r3, [r4, #48]
   56              		.loc 1 41 0
   57 001c C4F20E02 		movt	r2, 16398
-ARM GAS  /tmp/ccGBL5Ma.s 			page 2
+ARM GAS  /tmp/cchyFaGS.s 			page 2
 
 
   58              		.loc 1 25 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  109 003b 02       		.byte	0x2
  110 003c 07       		.byte	0x7
  111 003d 8A000000 		.4byte	.LASF3
-ARM GAS  /tmp/ccGBL5Ma.s 			page 3
+ARM GAS  /tmp/cchyFaGS.s 			page 3
 
 
  112 0041 02       		.uleb128 0x2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  166 00ad 07       		.uleb128 0x7
  167 00ae 9B000000 		.4byte	0x9b
  168 00b2 BD000000 		.4byte	0xbd
-ARM GAS  /tmp/ccGBL5Ma.s 			page 4
+ARM GAS  /tmp/cchyFaGS.s 			page 4
 
 
  169 00b6 08       		.uleb128 0x8
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  223 0125 89010000 		.4byte	0x189
  224 0129 50       		.byte	0x50
  225 012a 0A       		.uleb128 0xa
-ARM GAS  /tmp/ccGBL5Ma.s 			page 5
+ARM GAS  /tmp/cchyFaGS.s 			page 5
 
 
  226 012b 81000000 		.4byte	.LASF21
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  280 01a3 0C       		.uleb128 0xc
  281 01a4 536D6300 		.ascii	"Smc\000"
  282 01a8 03       		.byte	0x3
-ARM GAS  /tmp/ccGBL5Ma.s 			page 6
+ARM GAS  /tmp/cchyFaGS.s 			page 6
 
 
  283 01a9 F111     		.2byte	0x11f1
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  337 0001 11       		.uleb128 0x11
  338 0002 01       		.byte	0x1
  339 0003 25       		.uleb128 0x25
-ARM GAS  /tmp/ccGBL5Ma.s 			page 7
+ARM GAS  /tmp/cchyFaGS.s 			page 7
 
 
  340 0004 0E       		.uleb128 0xe
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  394 003a 13       		.uleb128 0x13
  395 003b 00       		.byte	0
  396 003c 00       		.byte	0
-ARM GAS  /tmp/ccGBL5Ma.s 			page 8
+ARM GAS  /tmp/cchyFaGS.s 			page 8
 
 
  397 003d 06       		.uleb128 0x6
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  451 0073 16       		.uleb128 0x16
  452 0074 00       		.byte	0
  453 0075 03       		.uleb128 0x3
-ARM GAS  /tmp/ccGBL5Ma.s 			page 9
+ARM GAS  /tmp/cchyFaGS.s 			page 9
 
 
  454 0076 0E       		.uleb128 0xe
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  508 00ad 3B       		.uleb128 0x3b
  509 00ae 0B       		.uleb128 0xb
  510 00af 49       		.uleb128 0x49
-ARM GAS  /tmp/ccGBL5Ma.s 			page 10
+ARM GAS  /tmp/cchyFaGS.s 			page 10
 
 
  511 00b0 13       		.uleb128 0x13
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  565 00eb 3B       		.uleb128 0x3b
  566 00ec 05       		.uleb128 0x5
  567 00ed 49       		.uleb128 0x49
-ARM GAS  /tmp/ccGBL5Ma.s 			page 11
+ARM GAS  /tmp/cchyFaGS.s 			page 11
 
 
  568 00ee 13       		.uleb128 0x13
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  622 002e 9F       		.byte	0x9f
  623 002f 2A000000 		.4byte	.LVL4
  624 0033 2E000000 		.4byte	.LVL5
-ARM GAS  /tmp/ccGBL5Ma.s 			page 12
+ARM GAS  /tmp/cchyFaGS.s 			page 12
 
 
  625 0037 0100     		.2byte	0x1
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  662      4B455931 
  662      00
  663              	.LASF23:
-ARM GAS  /tmp/ccGBL5Ma.s 			page 13
+ARM GAS  /tmp/cchyFaGS.s 			page 13
 
 
  664 0065 534D435F 		.ascii	"SMC_KEY2\000"
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  687              	.LASF8:
  688 00f8 756E7369 		.ascii	"unsigned int\000"
  688      676E6564 
-ARM GAS  /tmp/ccGBL5Ma.s 			page 14
+ARM GAS  /tmp/cchyFaGS.s 			page 14
 
 
  688      20696E74 
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  709      5000
  710              	.LASF28:
  711 0204 2E2E2F74 		.ascii	"../third_party/ChibiOS/os/hal/platforms/AT91SAM3S/a"
-ARM GAS  /tmp/ccGBL5Ma.s 			page 15
+ARM GAS  /tmp/cchyFaGS.s 			page 15
 
 
  711      68697264 
@@ -876,13 +876,13 @@ ARM GAS  /tmp/ccGBL5Ma.s 			page 1
  724 0284 526F5265 		.ascii	"RoReg\000"
  724      6700
  725              		.ident	"GCC: (Sourcery CodeBench Lite 2013.11-24) 4.8.1"
-ARM GAS  /tmp/ccGBL5Ma.s 			page 16
+ARM GAS  /tmp/cchyFaGS.s 			page 16
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 atmel_psram.c
-     /tmp/ccGBL5Ma.s:19     .text.BOARD_ConfigurePSRAM:00000000 $t
-     /tmp/ccGBL5Ma.s:25     .text.BOARD_ConfigurePSRAM:00000000 BOARD_ConfigurePSRAM
+     /tmp/cchyFaGS.s:19     .text.BOARD_ConfigurePSRAM:00000000 $t
+     /tmp/cchyFaGS.s:25     .text.BOARD_ConfigurePSRAM:00000000 BOARD_ConfigurePSRAM
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
