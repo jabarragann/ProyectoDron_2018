@@ -35,6 +35,8 @@
 #include "./hts221.h"
 #include "./veml6070.h"
 
+#include "chprintf.h"
+
 extern "C" {
 #include "atmel_psram.h"
 }
@@ -142,9 +144,10 @@ static msg_t BlinkingThread(void *arg) {
  
   while (true) {
     palSetPad(IOPORT3, 17);
-    chThdSleepMilliseconds(100);
+    chThdSleepMilliseconds(250);
     palClearPad(IOPORT3, 17);
-		chThdSleepMilliseconds(100);
+		chThdSleepMilliseconds(250);
+		chprintf((BaseChannel *)&SD1, "Hello Juan\n\r" ) ;
   }
   return (0);
 }
@@ -153,9 +156,11 @@ static msg_t BlinkingThread(void *arg) {
  * Application entry point.
  */
 int main(void) {
-  halInit();
 
+  halInit();
   chSysInit();
+	/* Activates the serial driver 2 */ 
+	sdStart(&SD1, NULL);  
 
   /* Configure EBI I/O for psram connection*/
   PIO_Configure(pinPsram, PIO_LISTSIZE(pinPsram));

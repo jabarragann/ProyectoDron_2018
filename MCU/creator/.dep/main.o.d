@@ -78,7 +78,7 @@ build/obj/main.o: main.cpp ../third_party/ChibiOS/os/kernel/include/ch.h \
  ../third_party/ChibiOS/os/hal/platforms/AT91SAM3S/SAM3S.h \
  ../third_party/ChibiOS/os/hal/platforms/AT91SAM3S/async.h sensors_data.h \
  mpl3115a2.h i2c.h lsm9ds1.h lsm9ds1_types.h lsm9ds1_registers.h hts221.h \
- veml6070.h \
+ veml6070.h ../third_party/ChibiOS/os/various/chprintf.h \
  ../third_party/ChibiOS/os/hal/platforms/AT91SAM3S/atmel_psram.h \
  ../third_party/ChibiOS/os/hal/platforms/AT91SAM3S/atmel_pio.h
 
@@ -263,6 +263,8 @@ lsm9ds1_registers.h:
 hts221.h:
 
 veml6070.h:
+
+../third_party/ChibiOS/os/various/chprintf.h:
 
 ../third_party/ChibiOS/os/hal/platforms/AT91SAM3S/atmel_psram.h:
 
