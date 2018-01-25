@@ -141,13 +141,25 @@ static WORKING_AREA(waBlinkingThread, 64);
 static msg_t BlinkingThread(void *arg) {
 
   (void)arg;
+
+
+	float x= 12.141422;
+	char *float_pointer = (char *) &x;
+	uint8_t len = sizeof(x);
  
   while (true) {
     palSetPad(IOPORT3, 17);
-    chThdSleepMilliseconds(250);
+    chThdSleepMilliseconds(100);
     palClearPad(IOPORT3, 17);
-		chThdSleepMilliseconds(250);
-		chprintf((BaseChannel *)&SD1, "Hello Juan\n\r" ) ;
+		chThdSleepMilliseconds(100);
+		chprintf((BaseChannel *)&SD1, "Hello Juan\n\r" );
+
+		for ( int i=0; i<len;i++)
+		{
+			chprintf((BaseChannel *)&SD1, "%x",float_pointer[len-1-i] );
+		}
+		chprintf((BaseChannel *)&SD1, "\n\r" );
+		
   }
   return (0);
 }
