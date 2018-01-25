@@ -108,6 +108,12 @@ static msg_t IMUThread(void *arg) {
 
   IMUData data;
 
+	//Serial communication test
+	float x= 12.141422;
+	char *float_pointer = (char *) &x;
+	uint8_t len = sizeof(x);
+	chprintf((BaseChannel *)&SD1, "Init \n\r" );
+		
   while (true) {
     imu.readGyro();
     data.gyro_x = imu.calcGyro(imu.gx);
@@ -130,6 +136,23 @@ static msg_t IMUThread(void *arg) {
 
     psram_copy(mem_offset_imu, (char *)&data, sizeof(data));
 
+		
+		//////Send float with serial communication//////////////////
+		x=data.roll;
+		for ( int i=0; i<len;i++)
+		{
+			chprintf((BaseChannel *)&SD1, "%c",float_pointer[i] );
+		}
+	  chprintf((BaseChannel *)&SD1, "\n" );
+		
+		x=data.pitch;
+		for ( int i=0; i<len;i++)
+		{
+			chprintf((BaseChannel *)&SD1, "%c",float_pointer[i] );
+		}
+	  chprintf((BaseChannel *)&SD1, "\n" );
+		///////////////////////////////////////////////////////////
+
     chThdSleepMilliseconds(20);
 
     WDT_Restart( WDT ) ;
@@ -143,24 +166,11 @@ static msg_t BlinkingThread(void *arg) {
   (void)arg;
 
 
-	float x= 12.141422;
-	char *float_pointer = (char *) &x;
-	uint8_t len = sizeof(x);
- 
-	chprintf((BaseChannel *)&SD1, "Init \n\r" );
-		
   while (true) {
     palSetPad(IOPORT3, 17);
     chThdSleepMilliseconds(100);
     palClearPad(IOPORT3, 17);
 		chThdSleepMilliseconds(100);
-		//chprintf((BaseChannel *)&SD1, "Hello Juan\n\r" );
-
-		for ( int i=0; i<len;i++)
-		{
-			chprintf((BaseChannel *)&SD1, "%c",float_pointer[i] );
-		}
-	  chprintf((BaseChannel *)&SD1, "\n" );
 		
   }
   return (0);
