@@ -138,8 +138,8 @@ NET "gpio_io<2>" LOC="P80" | IOSTANDARD = LVCMOS33;
 #        ZIGBEE         #
 #########################
 
-NET "Z_RX"            LOC = "P34" | IOSTANDARD = LVCMOS33;      
-NET "Z_TX"            LOC = "P35" | IOSTANDARD = LVCMOS33;
+#NET "Z_RX"            LOC = "P34" | IOSTANDARD = LVCMOS33;      
+#NET "Z_TX"            LOC = "P35" | IOSTANDARD = LVCMOS33;
 #NET "ZnRTS"           LOC = "P33" | IOSTANDARD = LVCMOS33;
 #NET "ZnCTS"           LOC = "P32" | IOSTANDARD = LVCMOS33;
 

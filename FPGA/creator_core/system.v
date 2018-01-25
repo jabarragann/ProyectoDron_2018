@@ -74,8 +74,8 @@ module system
   inout [GPIO_WIDTH-1:0] gpio_io,
   
   //EM358 
-  input       Z_RX,        
-  output      Z_TX,
+  //input       Z_RX,        
+  //output      Z_TX,
 
   
   /* Debug */
@@ -86,16 +86,19 @@ module system
 assign laptop_RX = SAM_TX;
 assign SAM_RX = laptop_TX;
 
+assign UART_TX_PI =SAM_TX;
+
 //Set up IR
 assign TX_IR = TX_PI;
 assign RX_PI = RX_IR;
 assign IR_RING_EN = IR_RING_EN_PI;
 
-assign debug_led  = ~RX_IR;
+//assign debug_led  = ~RX_IR;
 
 //Set up UART-EM3588
-assign Z_TX   = UART_RX_PI;
-assign UART_TX_PI = Z_RX;
+//assign Z_TX   = UART_RX_PI;
+//assign UART_TX_PI = Z_RX;
+
 
 
 wire clk;
@@ -110,6 +113,17 @@ creator_dcm dcm
   .nclk_out_200(nclk),
   .clk_out_25()
 );
+
+// Blinking LED
+reg [25:0]  counter;
+always @(posedge clk) begin
+  if(~resetn) 
+    counter <= 0;
+  else 
+    counter <= counter + 1;
+end 
+assign debug_led = counter[25];    
+
     
 
 //------------------------------------------------------------------
