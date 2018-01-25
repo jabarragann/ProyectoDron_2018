@@ -147,18 +147,20 @@ static msg_t BlinkingThread(void *arg) {
 	char *float_pointer = (char *) &x;
 	uint8_t len = sizeof(x);
  
+	chprintf((BaseChannel *)&SD1, "Init \n\r" );
+		
   while (true) {
     palSetPad(IOPORT3, 17);
     chThdSleepMilliseconds(100);
     palClearPad(IOPORT3, 17);
 		chThdSleepMilliseconds(100);
-		chprintf((BaseChannel *)&SD1, "Hello Juan\n\r" );
+		//chprintf((BaseChannel *)&SD1, "Hello Juan\n\r" );
 
 		for ( int i=0; i<len;i++)
 		{
-			chprintf((BaseChannel *)&SD1, "%x",float_pointer[len-1-i] );
+			chprintf((BaseChannel *)&SD1, "%c",float_pointer[i] );
 		}
-		chprintf((BaseChannel *)&SD1, "\n\r" );
+	  chprintf((BaseChannel *)&SD1, "\n" );
 		
   }
   return (0);
