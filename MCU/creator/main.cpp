@@ -108,10 +108,12 @@ static msg_t IMUThread(void *arg) {
 
   IMUData data;
 
+	IMUDebugData debugData;
+
 	//Serial communication test
-	float x= 12.141422;
-	char *float_pointer = (char *) &x;
-	uint8_t len = sizeof(x);
+	char *float_pointer = (char *) &debugData;
+	uint8_t len = sizeof(debugData);
+
 	chprintf((BaseChannel *)&SD1, "Init \n\r" );
 		
   while (true) {
@@ -137,15 +139,16 @@ static msg_t IMUThread(void *arg) {
     psram_copy(mem_offset_imu, (char *)&data, sizeof(data));
 
 		
-		//////Send float with serial communication//////////////////
-		x=data.roll;
-		for ( int i=0; i<len;i++)
-		{
-			chprintf((BaseChannel *)&SD1, "%c",float_pointer[i] );
-		}
-	  chprintf((BaseChannel *)&SD1, "\n" );
-		
-		x=data.pitch;
+		//////Send IMU data through serial communication/////////////
+		//Fill debug data
+		debugData.gyro_x = data.gyro_x;
+    debugData.gyro_y = data.gyro_y;
+    debugData.gyro_z = data.gyro_z;
+
+    debugData.accel_x = data.accel_x;
+    debugData.accel_y = data.accel_y;
+    debugData.accel_z = data.accel_z;
+
 		for ( int i=0; i<len;i++)
 		{
 			chprintf((BaseChannel *)&SD1, "%c",float_pointer[i] );

@@ -14,6 +14,9 @@ const int16_t mem_offset_humidity = 0x20;
 const int16_t mem_offset_imu = 0x30;
 const int16_t mem_offset_mcu = 0x90;
 
+const int16_t mem_offset_mcu_debug = 0x150;
+
+
 struct UVData {
   float UV;
 };
@@ -42,6 +45,15 @@ struct IMUData {
   float mag_x;
   float mag_y;
   float mag_z;
+};
+
+struct IMUDebugData {
+  float accel_x;
+  float accel_y;
+  float accel_z;
+  float gyro_x;
+  float gyro_y;
+  float gyro_z;
 };
 
 struct MCUData {
