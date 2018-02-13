@@ -129,6 +129,8 @@ class SubplotAnimation(animation.TimedAnimation):
         
         #print("Buffer size: ", self.ser.inWaiting())
         
+		#Wait until 6 floats has been received. The sixth floats correspond to:
+		#acc_x, acc_y, acc_z, gyr_x, gyr_y and gyr_z.
         if self.ser.inWaiting() >= 6*4:
             
             global t3
@@ -163,11 +165,6 @@ class SubplotAnimation(animation.TimedAnimation):
             t2=time.time()
             #print("Elapsed time:",i,":" ,(t2-t1)*1000)
             
-            '''
-            self.accLine1.set_data(self.model.time[:i], self.model.IMU_data[:i,0])
-            self.accLine2.set_data(self.model.time[:i], self.model.IMU_data[:i,1])
-            self.accLine3.set_data(self.model.time[:i], self.model.IMU_data[:i,2])
-            '''
             
             #Calculate attitude
             self.model.calculateAttitudeGyro(self.model.IMU_data[i,3],\
@@ -181,32 +178,43 @@ class SubplotAnimation(animation.TimedAnimation):
                               i)
             
             self.model.calculateComplementaryFilter(0.6,i)
-        
+			
+			'''
+			#Plot Accelerometer Values
+            self.accLine1.set_data(self.model.time[:i], self.model.IMU_data[:i,0])
+            self.accLine2.set_data(self.model.time[:i], self.model.IMU_data[:i,1])
+            self.accLine3.set_data(self.model.time[:i], self.model.IMU_data[:i,2])
             '''
-            #Euler gyro
+			
+            '''
+            #Plot Euler angles (gyro)
             self.accLine1.set_data(self.model.time[:i], self.model.yawn_gyro_deg[:i])
             self.accLine2.set_data(self.model.time[:i], self.model.pitch_gyro_deg[:i])
             self.accLine3.set_data(self.model.time[:i], self.model.roll_gyro_deg[:i])
-           '''
+            '''
            
             '''
-            #Euler accel
+            #Plot Euler angles (accelerometer)
             self.accLine1.set_data(self.model.time[:i], self.model.yawn_gyro_deg[:i])
             self.accLine2.set_data(self.model.time[:i], self.model.pitch_accel_deg[:i])
             self.accLine3.set_data(self.model.time[:i], self.model.roll_accel_deg[:i])
             '''
-           #Euler complementary filter
+			
+            #Plot Euler angles complementary filter
             self.accLine1.set_data(self.model.time[:i], self.model.yawn[:i])
             self.accLine2.set_data(self.model.time[:i], self.model.pitch[:i])
             self.accLine3.set_data(self.model.time[:i], self.model.roll[:i])
-           
+			
+			#Plot Gyroscope values
             self.gyrLine1.set_data(self.model.time[:i], self.model.IMU_data[:i,3])
             self.gyrLine2.set_data(self.model.time[:i], self.model.IMU_data[:i,4])
             self.gyrLine3.set_data(self.model.time[:i], self.model.IMU_data[:i,5])
             
+			#self.lines is an iterable that has the lines that are going to be dynamically updated in the graphs 
             self.lines=[self.accLine1,self.accLine2,self.accLine3,self.gyrLine1,
                     self.gyrLine2, self.gyrLine3]
-            self._drawn_artists = self.lines
+            
+			self._drawn_artists = self.lines
             
             #self.ser.readline()
             self.model.index+=1

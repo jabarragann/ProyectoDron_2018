@@ -57,18 +57,29 @@ class Model():
         
         derivate= np.zeros((3,1))
         
+		'''
+		Angle Convention
+		
+		Roll  --> Phi
+		Pitch --> Theta
+		Yaw   --> Psi
+		'''
+		#Roll Derivative
         derivate[0]= gyr_x+gyr_y*sin(self.roll_gyro[index-1])*tan(self.pitch_gyro[index-1]) \
                             +gyr_z*cos(self.roll_gyro[index-1])*tan(self.pitch_gyro[index-1])
-                            
+                      
+		#Pitch Derivative			  
         derivate[1]= gyr_y*cos(self.roll_gyro[index-1])-gyr_z*sin(self.roll_gyro[index-1])
         
+		
+		#Yawn Derivative
         derivate[2]= gyr_y*sin(self.roll_gyro[index-1])/cos(self.pitch_gyro[index-1])     \
                         +gyr_z*cos(self.roll_gyro[index-1])/cos(self.pitch_gyro[index-1])
                         
-        
-        self.pitch_gyro[index]=self.pitch_gyro[index-1] +samplingTime*derivate[0]
-        self.roll_gyro[index]=self.roll_gyro[index-1] +samplingTime*derivate[1]
-        self.yawn_gyro[index]=self.yawn_gyro[index-1] +samplingTime*derivate[2]
+        #Update angles
+        self.roll_gyro[index] = self.roll_gyro[index-1]  +samplingTime*derivate[0]
+		self.pitch_gyro[index]= self.pitch_gyro[index-1] +samplingTime*derivate[1]
+        self.yawn_gyro[index] = self.yawn_gyro[index-1]  +samplingTime*derivate[2]
         
         
         self.yawn_gyro_deg[index]=self.yawn_gyro[index]*180/np.pi
@@ -78,6 +89,7 @@ class Model():
     def calculateAttitudeAccel(self,accel_x,accel_y,accel_z,index):
 
         t1=accel_x/1.07
+		
         if abs(t1)<1:
             accel_x=t1
         elif accel_x<0:
