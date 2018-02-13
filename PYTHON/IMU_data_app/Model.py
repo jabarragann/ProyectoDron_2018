@@ -58,12 +58,11 @@ class Model():
         Yaw   --> Psi
         '''
         
-        '''
         #convert to rad/sec
         gyr_x=gyr_x * np.pi/180
         gyr_y=gyr_y * np.pi/180
         gyr_z=gyr_z * np.pi/180
-        '''
+        
         
         derivate= np.zeros((3,1))
        
@@ -100,8 +99,8 @@ class Model():
         else:
             accel_x=1
         
-        self.roll_accel[index]=arcsin(accel_x)
-        self.pitch_accel[index]=arctan(accel_y/accel_z)
+        self.pitch_accel[index]=arcsin(accel_x)
+        self.roll_accel[index]=arctan(accel_y/accel_z)
         
         self.pitch_accel_deg[index]=self.pitch_accel[index]*180/np.pi
         self.roll_accel_deg[index]=self.roll_accel[index]*180/np.pi
