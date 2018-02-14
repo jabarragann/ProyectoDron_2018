@@ -6,6 +6,9 @@
 /FPGA/creator_core/build/
 ./FPGA/creator_core/build/
 
+/__pycache__/
+./__pycache__/
+
 # Compiled source #
 ###################
 *.com
