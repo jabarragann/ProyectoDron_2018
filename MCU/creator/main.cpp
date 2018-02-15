@@ -106,21 +106,52 @@ static msg_t IMUThread(void *arg) {
 
   imu.begin();
 
-  IMUData data;
+ 	IMUData data;
 
 	IMUDebugData debugData;
 
 	//Serial communication test
 	char *float_pointer = (char *) &debugData;
 	uint8_t len = sizeof(debugData);
+	
+	//Gyro offset 
+	float gyrX_offset=0;
+	float gyrY_offset=0;
+	float gyrZ_offset=0;
+	
+	float pitch_acc=0;
+	float roll_acc=0;
+	
+	float roll_an=0;
+	float pitch_an=0;
+	
+	float samplingTime=20E-3;
 
-	chprintf((BaseChannel *)&SD1, "Init \n\r" );
+	//chprintf((BaseChannel *)&SD1, "\n" );
+	
+	//Fix init offset
+	int n=1000;
+	for (int i=0;i<n;i++)
+	{
+		imu.readGyro();
+		data.gyro_x = imu.calcGyro(imu.gx);
+		data.gyro_y = imu.calcGyro(imu.gy);
+		data.gyro_z = imu.calcGyro(imu.gz);
 		
+		gyrX_offset += data.gyro_x;
+		gyrY_offset += data.gyro_y;
+		gyrZ_offset += data.gyro_z;
+	}
+	gyrX_offset /= n;
+	gyrY_offset /= n;
+	gyrZ_offset /= n;
+	
+	
   while (true) {
     imu.readGyro();
-    data.gyro_x = imu.calcGyro(imu.gx);
-    data.gyro_y = imu.calcGyro(imu.gy);
-    data.gyro_z = imu.calcGyro(imu.gz);
+    data.gyro_x = (imu.calcGyro(imu.gx) - gyrX_offset) * M_PI/180;
+    data.gyro_y = (imu.calcGyro(imu.gy) - gyrY_offset) * M_PI/180;
+    data.gyro_z = (imu.calcGyro(imu.gz) - gyrZ_offset) * M_PI/180;
 
     imu.readMag();
     data.mag_x = imu.calcMag(imu.mx);
@@ -131,29 +162,45 @@ static msg_t IMUThread(void *arg) {
     data.accel_x = imu.calcAccel(imu.ax);
     data.accel_y = imu.calcAccel(imu.ay);
     data.accel_z = imu.calcAccel(imu.az);
+    
+    roll_acc = atan2(-1*(data.accel_x),sqrt(pow((data.accel_y),2) + pow((data.accel_z),2)))*180/M_PI;
+    pitch_acc = atan2((data.accel_y),sqrt(pow((data.accel_x),2) + pow((data.accel_z),2)))*180/M_PI;
+    
+    pitch_an= data.pitch;
+    roll_an= data.roll;
+    
+    data.pitch = 0.94 *(pitch_an+data.gyro_x*samplingTime) + 0.06 * pitch_acc;
+    data.roll = 0.94 *(roll_an+data.gyro_y*samplingTime) + 0.06 * roll_acc;
+    data.yaw = 0;    
 
-    data.yaw = atan2(data.mag_y, -data.mag_x) * 180.0 / M_PI;
-    data.roll = atan2(data.accel_y, data.accel_z) * 180.0 / M_PI;
-    data.pitch = atan2(-data.accel_x, sqrt(data.accel_y * data.accel_y + data.accel_z * data.accel_z)) * 180.0 / M_PI;
+//    data.yaw = atan2(data.mag_y, -data.mag_x) * 180.0 / M_PI;
+//    data.roll = atan2(data.accel_y, data.accel_z) * 180.0 / M_PI;
+//    data.pitch = atan2(-data.accel_x, sqrt(data.accel_y * data.accel_y + data.accel_z * data.accel_z)) * 180.0 / M_PI;
 
     psram_copy(mem_offset_imu, (char *)&data, sizeof(data));
 
 		
 		//////Send IMU data through serial communication/////////////
 		//Fill debug data
-		debugData.gyro_x = data.gyro_x;
-    debugData.gyro_y = data.gyro_y;
-    debugData.gyro_z = data.gyro_z;
+//	debugData.gyro_x = data.gyro_x;
+//    debugData.gyro_y = data.gyro_y;
+//    debugData.gyro_z = data.gyro_z;
 
-    debugData.accel_x = data.accel_x;
-    debugData.accel_y = data.accel_y;
-    debugData.accel_z = data.accel_z;
+	debugData.accel_x = data.pitch;
+	debugData.accel_y = data.roll;
+	debugData.accel_z = data.yaw;
+    
+    debugData.gyro_x = data.gyro_x - gyrX_offset;
+    debugData.gyro_y = data.gyro_y - gyrY_offset;
+    debugData.gyro_z = data.gyro_z - gyrZ_offset;
+    
 
 		for ( int i=0; i<len;i++)
 		{
-			chprintf((BaseChannel *)&SD1, "%c",float_pointer[i] );
-		}
-	  chprintf((BaseChannel *)&SD1, "\n" );
+			chprintf((BaseChannel *)&SD1, "%c",float_pointer[i]);
+			//chprintf((BaseChannel *)&SD1, "\n\r" );
+		} 
+	  //chprintf((BaseChannel *)&SD1, "\n" );
 		///////////////////////////////////////////////////////////
 
     chThdSleepMilliseconds(20);
@@ -171,9 +218,9 @@ static msg_t BlinkingThread(void *arg) {
 
   while (true) {
     palSetPad(IOPORT3, 17);
-    chThdSleepMilliseconds(100);
+    chThdSleepMilliseconds(50);
     palClearPad(IOPORT3, 17);
-		chThdSleepMilliseconds(100);
+		chThdSleepMilliseconds(50);
 		
   }
   return (0);
@@ -204,7 +251,7 @@ int main(void) {
   //chThdCreateStatic(waEnvThread, sizeof(waEnvThread), NORMALPRIO, EnvThread,NULL);
 
 	/* Creates the blinking thread.*/
-	chThdCreateStatic(waBlinkingThread, sizeof(waBlinkingThread), NORMALPRIO, BlinkingThread,NULL);
+  chThdCreateStatic(waBlinkingThread, sizeof(waBlinkingThread), NORMALPRIO, BlinkingThread,NULL);
 	
 
 	
