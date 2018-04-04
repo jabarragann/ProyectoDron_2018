@@ -1,4 +1,4 @@
-#include<Servo.h>
+#include <Servo.h>
 #include <SoftwareSerial.h>
  
 Servo ESC; 
@@ -37,11 +37,11 @@ void calculatePeriod()
   current_time=micros();
   half_period = current_time-previous_time;
 
-  velocity = 3.1416 * 1000000 / (half_period);
+  //velocity = 3.1416 * 1000000 / (half_period);
 
   Serial.println(half_period);
-  char *c_data = ( char* ) &velocity;
-  for( char c_Index = 0 ; c_Index < sizeof( float ) ; mySerial.write( c_data[ c_Index++ ] ) );
+  //char *c_data = ( char* ) &velocity;
+  //for( char c_Index = 0 ; c_Index < sizeof( float ) ; mySerial.write( c_data[ c_Index++ ] ) );
   
   previous_time= current_time;
   

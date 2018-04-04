@@ -13,8 +13,10 @@ volatile boolean triggered;
 volatile long current_time = 0; 
 volatile long previous_time = 0;
 volatile long half_period = 0;
-volatile float velocity = 0; 
+volatile float velocity = 0;
 
+
+///ANALOG COMPARATORS PINS 7-6
 ISR (ANALOG_COMP_vect)
 {
   current_time=micros();
@@ -43,10 +45,10 @@ void setup ()
     
     Serial.setTimeout(10);
 
-    ADCSRB = 0;           // (Disable) ACME: Analog Comparator Multiplexer Enable
-    ACSR =  bit (ACI)     // (Clear) Analog Comparator Interrupt Flag
-          | bit (ACIE)    // Analog Comparator Interrupt Enable
-          | bit (ACIS1);  // ACIS1, ACIS0: Analog Comparator Interrupt Mode Select (trigger on falling edge)
+    ADCSRB = 0;            // (Disable) ACME: Analog Comparator Multiplexer Enable
+    ACSR =   bit (ACI)      // (Clear) Analog Comparator Interrupt Flag
+           | bit (ACIE)     // Analog Comparator Interrupt Enable
+           | bit (ACIS1);   // ACIS1, ACIS0: Analog Comparator Interrupt Mode Select (trigger on falling edge)
 }  // end of setup
 
 void loop ()
