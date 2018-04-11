@@ -7,6 +7,14 @@ Created on Wed Apr 11 10:30:34 2018
 
 """
 
+"""
+First Order Low Pass Yk+1 = Xk * alpha + Yk * (1 - alpha)
+
+https://en.wikipedia.org/wiki/Low-pass_filter#Discrete-time_realization https://en.wikipedia.org/wiki/Kalman_filter
+
+You don't want to be doing a sum and divide on a big data window so you should be looking at iterative methods.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt 
 
@@ -38,4 +46,6 @@ ax[1].plot(n,signal)
 ax[1].plot(n,y2)
 ax[1].set_ylim((0,3))
 ax[1].grid()
+
+plt.show()
  
